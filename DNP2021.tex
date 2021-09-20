@@ -36,7 +36,7 @@
 	%\usetheme{Dresden}
 	%\usetheme{Frankfurt}
 	%\usetheme{Goettingen}
-	%\usetheme{Hannover}
+	\usetheme{Hannover}
 	%\usetheme{Ilmenau}
 	%\usetheme{JuanLesPins}
 	%\usetheme{Luebeck}
@@ -83,7 +83,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Short title]{Monte Carlo simulation of the CUPID array} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[CUPID array]{Monte Carlo simulation of the CUPID array} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Joe Camilleri} % Your name
 \institute[Virginia Tech] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -101,7 +101,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Electron Phonon Interaction} % Table of contents slide, comment this block out to remove it
+		\frametitle{Table of contents} % Table of contents slide, comment this block out to remove it
 		%\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 	\end{frame}
 	
@@ -113,11 +113,11 @@
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
-			\textbf{Heading}
+			%\textbf{Heading}
 			\begin{itemize}
-				\item Statement
-				\item Explanation
-				\item Example
+				\item Proposed $0\nu\beta\beta$ experiment using bolometric array of 1596 lithium molybdate crystals, repurposing the CUORE cryostat.
+				\item Aims to eliminate dominant background of alpha particles
+				\item We would like to check before deploying the detector that no other backgrounds may be added to our idealized scenario.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
@@ -130,6 +130,36 @@
 	\end{frame}
 	
 	%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{test frame for copying}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\item guy
+				\item man
+				\item dude
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{figure}
+			\includegraphics[width=\linewidth]{~/research/figures/DNP/cupid_array.png}
+			\caption{gnarly}
+			\end{figure}
+
+	%------------------------------------------------
+			
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{CUORE and alpha particles}
+			
+		CUORE is a massive bolometric detector searching for $0\nu\beta\beta$ decay in $^{130}$Te.
+	
+	\end{frame}
 	%----------------------------------------------------------------------------------------
 	%	PRESENTATION SLIDES
 	%----------------------------------------------------------------------------------------
@@ -140,52 +170,15 @@
 	
 %	\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 	
-	\begin{frame}
-		\frametitle{Context}
-		Superconductivity was discovered in 1911 by Kammerlingh Onnes at the University of Leiden. It has held physicists' interest both in experiment and theory because of its remarkable features: near dissipationless conduction, magnetic field rejection, and macroscopically observable quantum variables. It would then take nearly \textit{half of a century} for the first microscopic description of superconductivity to be devised, the Bardeen-Cooper-Schrieffer theory (1957). This theory is based on very clever assumptions regarding the ground state wavefunction of the electrons in a weakly attractive potential. \\~\\
-		 
-		As early as 1950, physicists had strong reasons to believe that this attractive potential was driven by the interaction of electrons with vibrations in the metallic lattice (phonons). \\~\\
-		
-		Simultaneous with the formulation of the BCS theory, several russian physicists would lay the ground work for an alternative microscopic description of superconductivity in the language of a quantum field theory. 
-	\end{frame}
+	
 	
 	%------------------------------------------------
 	
-	\begin{frame}
-		\frametitle{Field Operators}
-		\begin{equation}
-			\hat{\Psi}_{\alpha} = \sum_{q,\sigma} \hat{a}_{q,\sigma} u_{q,\sigma} e^{-iq\cdot x}
-		\end{equation}
-		\begin{equation}
-		\hat{\varphi} = \sum_{p < p_M} a_p \left(b_p e^{-ip\cdot x} + b_p^{\dagger} e^{+ip\cdot x} \right)
-		\end{equation}
-		\begin{itemize}
-			\item For superconductors, we only consider electrons as they are responsible for the interaction we are interested in
-			\item phonons have typical normal mode decomposition with cutoff due to the lattice spacing. This is just a real scalar field.
-			\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-			\item Nam cursus est eget velit posuere pellentesque
-			\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
-		\end{itemize}
-	\end{frame}
+
 
 	%------------------------------------------------
 
-\begin{frame}
-	\frametitle{Which Hamiltonian?}
-	\begin{equation}
-		\hat{H}_{BCS} = \sum_{q,\sigma} \hat{a}_{q,\sigma} u_{q,\sigma} e^{-iq\cdot x}
-	\end{equation}
-	\begin{equation}
-		\hat{H}_Frolich = \sum_{p < p_M} a_p \left(b_p e^{-ip\cdot x} + b_p^{\dagger} e^{+ip\cdot x} \right)
-	\end{equation}
-	\begin{itemize}
-		\item For superconductors, we only consider electrons as they are responsible for the interaction we are interested in
-		\item phonons have typical normal mode decomposition with cutoff due to the lattice spacing. This is just a real scalar field.
-		\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-		\item Nam cursus est eget velit posuere pellentesque
-		\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
-	\end{itemize}
-\end{frame}
+
 	
 	%------------------------------------------------
 	
