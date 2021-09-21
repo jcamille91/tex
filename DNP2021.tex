@@ -78,7 +78,8 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage{biblatex}
+\usepackage[backend=biber, style=authoryear, bibencoding=utf8]{biblatex}
+\addbibresource{~/research/tex/bib2.bib}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -116,7 +117,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 lithium molybdate crystals, deployed in the CUORE\fullcite{dude} cryostat.
+				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 lithium molybdate crystals, deployed in the CUORE\footnotemark cryostat.
 				\item Aims to eliminate dominant background of alpha particles present in CUORE.
 			\end{itemize}
 			
@@ -127,6 +128,7 @@
 			\end{figure}
 			
 		\end{columns}
+		\footcitetext{squid}
 	\end{frame}
 	
 	%------------------------------------------------
@@ -267,7 +269,7 @@
 	\end{frame}
 	
 	%------------------------------------------------
-	\section{Second Section}
+	%\section{Second Section}
 	%------------------------------------------------
 	
 	\begin{frame}
