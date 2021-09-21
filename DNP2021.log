@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  20 SEP 2021 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  21 SEP 2021 02:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,6 +732,7 @@ Package: amsthm 2020/05/29 v2.20.6
 )
 (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeseahorse.sty)
 (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty))
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewolverine.sty)
 (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen286
@@ -752,9 +753,232 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count325
 \@thisrulewidth=\dimen298
 )
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count326
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count327
+\c@listtotal=\count328
+\c@listcount=\count329
+\c@liststart=\count330
+\c@liststop=\count331
+\c@citecount=\count332
+\c@citetotal=\count333
+\c@multicitecount=\count334
+\c@multicitetotal=\count335
+\c@instcount=\count336
+\c@maxnames=\count337
+\c@minnames=\count338
+\c@maxitems=\count339
+\c@minitems=\count340
+\c@citecounter=\count341
+\c@maxcitecounter=\count342
+\c@savedcitecounter=\count343
+\c@uniquelist=\count344
+\c@uniquename=\count345
+\c@refsection=\count346
+\c@refsegment=\count347
+\c@maxextratitle=\count348
+\c@maxextratitleyear=\count349
+\c@maxextraname=\count350
+\c@maxextradate=\count351
+\c@maxextraalpha=\count352
+\c@abbrvpenalty=\count353
+\c@highnamepenalty=\count354
+\c@lownamepenalty=\count355
+\c@maxparens=\count356
+\c@parenlevel=\count357
+\blx@tempcnta=\count358
+\blx@tempcntb=\count359
+\blx@tempcntc=\count360
+\blx@maxsection=\count361
+\blx@maxsegment@0=\count362
+\blx@notetype=\count363
+\blx@parenlevel@text=\count364
+\blx@parenlevel@foot=\count365
+\blx@sectionciteorder@0=\count366
+\blx@entrysetcounter=\count367
+\blx@biblioinstance=\count368
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language87
+\c@mincomprange=\count369
+\c@maxcomprange=\count370
+\c@mincompwidth=\count371
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count372
+\c@savedafterword=\count373
+\c@annotator=\count374
+\c@savedannotator=\count375
+\c@author=\count376
+\c@savedauthor=\count377
+\c@bookauthor=\count378
+\c@savedbookauthor=\count379
+\c@commentator=\count380
+\c@savedcommentator=\count381
+\c@editor=\count382
+\c@savededitor=\count383
+\c@editora=\count384
+\c@savededitora=\count385
+\c@editorb=\count386
+\c@savededitorb=\count387
+\c@editorc=\count388
+\c@savededitorc=\count389
+\c@foreword=\count390
+\c@savedforeword=\count391
+\c@holder=\count392
+\c@savedholder=\count393
+\c@introduction=\count394
+\c@savedintroduction=\count395
+\c@namea=\count396
+\c@savednamea=\count397
+\c@nameb=\count398
+\c@savednameb=\count399
+\c@namec=\count400
+\c@savednamec=\count401
+\c@translator=\count402
+\c@savedtranslator=\count403
+\c@shortauthor=\count404
+\c@savedshortauthor=\count405
+\c@shorteditor=\count406
+\c@savedshorteditor=\count407
+\c@labelname=\count408
+\c@savedlabelname=\count409
+\c@institution=\count410
+\c@savedinstitution=\count411
+\c@lista=\count412
+\c@savedlista=\count413
+\c@listb=\count414
+\c@savedlistb=\count415
+\c@listc=\count416
+\c@savedlistc=\count417
+\c@listd=\count418
+\c@savedlistd=\count419
+\c@liste=\count420
+\c@savedliste=\count421
+\c@listf=\count422
+\c@savedlistf=\count423
+\c@location=\count424
+\c@savedlocation=\count425
+\c@organization=\count426
+\c@savedorganization=\count427
+\c@origlocation=\count428
+\c@savedoriglocation=\count429
+\c@origpublisher=\count430
+\c@savedorigpublisher=\count431
+\c@publisher=\count432
+\c@savedpublisher=\count433
+\c@language=\count434
+\c@savedlanguage=\count435
+\c@origlanguage=\count436
+\c@savedoriglanguage=\count437
+\c@pageref=\count438
+\c@savedpageref=\count439
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count440
+\c@textcitetotal=\count441
+\c@textcitemaxnames=\count442
+\c@biburlbigbreakpenalty=\count443
+\c@biburlbreakpenalty=\count444
+\c@biburlnumpenalty=\count445
+\c@biburlucpenalty=\count446
+\c@biburllcpenalty=\count447
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count448
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count449
+\c@bbx:relatedtotal=\count450
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\@quotelevel=\count451
+\@quotereset=\count452
+
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count326
+\l__color_backend_stack_int=\count453
 \l__pdf_internal_box=\box72
 ) (./DNP2021.aux)
 \openout1 = `DNP2021.aux'.
@@ -814,16 +1038,16 @@ LaTeX Font Info:    ... okay on input line 97.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
+\scratchcounter=\count454
 \scratchdimen=\dimen299
 \scratchbox=\box73
-\nofMPsegments=\count328
-\nofMParguments=\count329
+\nofMPsegments=\count455
+\nofMParguments=\count456
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count330
+\MPscratchCnt=\count457
 \MPscratchDim=\dimen300
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -845,15 +1069,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count333
+\c@section@level=\count460
 )
 LaTeX Info: Redefining \ref on input line 97.
 LaTeX Info: Redefining \pageref on input line 97.
 LaTeX Info: Redefining \nameref on input line 97.
 
 (./DNP2021.out) (./DNP2021.out)
-\@outlinefile=\write5
-\openout5 = `DNP2021.out'.
+\@outlinefile=\write6
+\openout6 = `DNP2021.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 97.
@@ -931,69 +1155,96 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./DNP2021.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
 
-] [2
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 131
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout5 = `DNP2021.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'DNP2021.bbl' not found.
+
+No file DNP2021.bbl.
+Package biblatex Info: Reference section=0 on input line 97.
+Package biblatex Info: Reference segment=0 on input line 97.
+(./DNP2021.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 130
 .
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 131
+LaTeX Font Info:    Trying to load font information for U+msb on input line 130
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 131.
+ut line 130.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [3
+)
 
-]
+LaTeX Warning: Citation 'dude' on page 1 undefined on input line 130.
 
-LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
- found on input line 153.
+<~/research/figures/DNP/cupid_array.png, id=21, 863.47594pt x 557.83406pt>
+File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
+<use ~/research/figures/DNP/cupid_array.png>
+Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
+line 130.
+(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
+ </home/joey/research/figures/DNP/cupid_array.png (PNG copy)>]
+<~/research/figures/DNP/scintillation.png, id=39, 359.09157pt x 257.46187pt>
+File: ~/research/figures/DNP/scintillation.png Graphic file (type png)
+<use ~/research/figures/DNP/scintillation.png>
+Package pdftex.def Info: ~/research/figures/DNP/scintillation.png  used on inpu
+t line 152.
+(pdftex.def)             Requested size: 145.3713pt x 104.22826pt.
+ [2
 
-! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
-rch/figures/DNP/cupid_array.png' not found: using draft setting.
+ </home/joey/research/figures/DNP/scintillation.png (PNG copy)>]
+<~/research/figures/DNP/muon_veto.png, id=48, 415.5525pt x 245.41687pt>
+File: ~/research/figures/DNP/muon_veto.png Graphic file (type png)
+<use ~/research/figures/DNP/muon_veto.png>
+Package pdftex.def Info: ~/research/figures/DNP/muon_veto.png  used on input li
+ne 177.
+(pdftex.def)             Requested size: 145.3713pt x 85.85225pt.
+ [3
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 	\end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ </home/joey/research/figures/DNP/muon_veto.png (PNG copy)>]
+File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
+<use ~/research/figures/DNP/cupid_array.png>
+Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
+line 202.
+(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
+ [4
 
-[4
-
-]
-
-LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
- found on input line 178.
-
-
-! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
-rch/figures/DNP/cupid_array.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 	\end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5
+] [5
 
 ] [6
 
@@ -1003,62 +1254,73 @@ If that doesn't work, type  X <return>  to quit.
 
 ] [9
 
-] [10
+]
+\openout4 = `DNP2021.vrb'.
+
+ (./DNP2021.vrb) [10
+
+] [11
 
 ]
 \openout4 = `DNP2021.vrb'.
 
- (./DNP2021.vrb) [11
+ (./DNP2021.vrb
 
-] [12
+LaTeX Warning: Citation 'p1' on page 12 undefined on input line 4.
 
-]
-\openout4 = `DNP2021.vrb'.
+) [12
 
- (./DNP2021.vrb) [13
+] [13
 
-]
-[14
-
- </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [15
+] [14
 
 ]
-\tf@nav=\write6
-\openout6 = `DNP2021.nav'.
+\tf@nav=\write7
+\openout7 = `DNP2021.nav'.
 
-\tf@toc=\write7
-\openout7 = `DNP2021.toc'.
+\tf@toc=\write8
+\openout8 = `DNP2021.toc'.
 
-\tf@snm=\write8
-\openout8 = `DNP2021.snm'.
+\tf@snm=\write9
+\openout9 = `DNP2021.snm'.
 
+ (./DNP2021.aux)
 
-(./DNP2021.aux)
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `DNP2021.out' has not changed.
 (rerunfilecheck)             Checksum: 75675F34D81665098ADD83D5896D8012;184.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                DNP2021
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'DNP2021.run.xml'.
+\openout1 = `DNP2021.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 20774 strings out of 478994
- 383355 string characters out of 5864752
- 667130 words of memory out of 5000000
- 37748 multiletter control sequences out of 15000+600000
- 412930 words of font info for 60 fonts, out of 8000000 for 9000
+ 27592 strings out of 478994
+ 519845 string characters out of 5864751
+ 1219477 words of memory out of 5000000
+ 44516 multiletter control sequences out of 15000+600000
+ 417718 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,15n,132p,411b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,15n,132p,740b,1472s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/am
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on DNP2021.pdf (15 pages, 149077 bytes).
+Output written on DNP2021.pdf (14 pages, 317782 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 34 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,2 +1,5 @@
-\beamer@sectionintoc {1}{CUPID}{3}{0}{1}
-\beamer@sectionintoc {2}{Second Section}{9}{0}{2}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{CUPID}{1}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Second Section}{8}{0}{2}

@@ -68,17 +68,17 @@
 	%\usecolortheme{seagull}
 	%\usecolortheme{seahorse}
 	%\usecolortheme{whale}
-	%\usecolortheme{wolverine}
+	\usecolortheme{wolverine}
 	
 	%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
-	%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+	\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 	
-	%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+	\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-
+\usepackage{biblatex}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -96,15 +96,15 @@
 
 \begin{document}
 	
-	\begin{frame}
-		\titlepage % Print the title page as the first slide
-	\end{frame}
-	
-	\begin{frame}
-		\frametitle{Table of contents} % Table of contents slide, comment this block out to remove it
-		%\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
-	\end{frame}
-	
+%	\begin{frame}
+%		\titlepage % Print the title page as the first slide
+%	\end{frame}
+%	
+%	\begin{frame}
+%		\frametitle{Table of contents} % Table of contents slide, comment this block out to remove it
+%		%\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+%	\end{frame}
+%	
 	
 	%------------------------------------------------
 	\section{CUPID}
@@ -116,15 +116,14 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
-				\item Proposed $0\nu\beta\beta$ experiment using bolometric array of 1596 lithium molybdate crystals, repurposing the CUORE cryostat.
-				\item Aims to eliminate dominant background of alpha particles
-				\item We would like to check before deploying the detector that no other backgrounds may be added to our idealized scenario.
+				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 lithium molybdate crystals, deployed in the CUORE\fullcite{dude} cryostat.
+				\item Aims to eliminate dominant background of alpha particles present in CUORE.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{figure}
-			%\includegraphics[width=\linewidth]{~/research/figures/DNP/cupid_array.png}
-			%\caption{rendering of proposed CUPID array of Li$_2$MoO$_4$}
+			\includegraphics[width=\linewidth]{~/research/figures/DNP/cupid_array.png}
+			\caption{rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
 			\end{figure}
 			
 		\end{columns}
@@ -139,14 +138,14 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
-				\item Li$_2$MoO$_4$ crystals allow for discrimination of alpha backgrounds from $\beta\beta$ events (Q=).
-				\item relatively high isotopic abundance of $^100$Mo (10%)
-				\item enrichment above 95 already demonstrated in CUPID-Mo
+				\item Li$_2$MoO$_4$ crystals allow for discrimination of $\alpha$ backgrounds from $\beta\beta$ events (Q=3034keV) via high-light yield scintillation signals.
+				\item relatively high isotopic abundance of $^{100}$Mo (10\%)
+				\item enrichment above 95\% already demonstrated in CUPID-Mo \cite{}
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{figure}
-			\includegraphics[width=\linewidth]{~/research/figures/DNP/cupid_array.png}
+			\includegraphics[width=\linewidth]{~/research/figures/DNP/scintillation.png}
 			\caption{gnarly}
 			\end{figure}
 		\end{columns}
@@ -155,6 +154,31 @@
 	%------------------------------------------------	
 	
 	%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{2$\nu$ events and muons}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\item guy
+				\item man
+				\item dude
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{figure}
+			\includegraphics[width=\linewidth]{~/research/figures/DNP/muon_veto.png}
+			\caption{gnarly}
+			\end{figure}
+			
+		\end{columns}
+	\end{frame}
+
+	%------------------------------------------------
+
+%------------------------------------------------
 
 	\begin{frame}
 		\frametitle{test frame for copying}
@@ -178,7 +202,6 @@
 	\end{frame}
 
 	%------------------------------------------------
-
 
 	\begin{frame}
 		\frametitle{CUORE and alpha particles}
