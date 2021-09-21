@@ -1,1 +1,2 @@
-\beamer@sectionintoc {1}{Second Section}{8}{0}{1}
+\beamer@sectionintoc {1}{CUPID}{3}{0}{1}
+\beamer@sectionintoc {2}{Second Section}{9}{0}{2}

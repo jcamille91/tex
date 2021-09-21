@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  20 SEP 2021 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  20 SEP 2021 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -936,41 +936,64 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 130
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131
 .
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 130
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 130.
+ut line 131.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-<~/research/figures/DNP/cupid_array.png, id=80, 863.47594pt x 557.83406pt>
-File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
-line 130.
-(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
- [3
+) [3
 
- </home/joey/research/figures/DNP/cupid_array.png (PNG copy)>]
-File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
-line 155.
-(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
- [4
+]
 
-] [5
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
+ found on input line 153.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/cupid_array.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4
+
+]
+
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
+ found on input line 178.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/cupid_array.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5
 
 ] [6
 
@@ -978,24 +1001,26 @@ line 155.
 
 ] [8
 
-]
-[9
+] [9
+
+] [10
 
 ]
 \openout4 = `DNP2021.vrb'.
 
- (./DNP2021.vrb) [10
+ (./DNP2021.vrb) [11
 
-] [11
+] [12
 
 ]
 \openout4 = `DNP2021.vrb'.
 
- (./DNP2021.vrb) [12
+ (./DNP2021.vrb) [13
 
-] [13
+]
+[14
 
- </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [14
+ </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [15
 
 ]
 \tf@nav=\write6
@@ -1007,16 +1032,17 @@ line 155.
 \tf@snm=\write8
 \openout8 = `DNP2021.snm'.
 
- (./DNP2021.aux)
+
+(./DNP2021.aux)
 Package rerunfilecheck Info: File `DNP2021.out' has not changed.
-(rerunfilecheck)             Checksum: F4EF35277C3BD643682D31974C8BBB1A;116.
+(rerunfilecheck)             Checksum: 75675F34D81665098ADD83D5896D8012;184.
  ) 
 Here is how much of TeX's memory you used:
- 20757 strings out of 478994
- 382380 string characters out of 5864751
- 667129 words of memory out of 5000000
- 37745 multiletter control sequences out of 15000+600000
- 416419 words of font info for 73 fonts, out of 8000000 for 9000
+ 20774 strings out of 478994
+ 383355 string characters out of 5864752
+ 667130 words of memory out of 5000000
+ 37748 multiletter control sequences out of 15000+600000
+ 412930 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,411b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -1029,10 +1055,10 @@ cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr
 ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on DNP2021.pdf (14 pages, 219128 bytes).
+Output written on DNP2021.pdf (15 pages, 149077 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 429 compressed objects within 5 object streams
- 31 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 474 compressed objects within 5 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
