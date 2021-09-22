@@ -1,0 +1,59 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{squid}{book}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc84cabc5b9484d22f1299e0b8eb6cdb}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a81e34858f55f8d83cd74827459dbb21}{%
+           family={Braginski},
+           familyi={B\bibinitperiod},
+           given={Alex\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {WILEY-VCH}%
+      }
+      \strng{namehash}{d31bff86aac649b55c42a9d95fa1f935}
+      \strng{fullhash}{d31bff86aac649b55c42a9d95fa1f935}
+      \strng{bibnamehash}{d31bff86aac649b55c42a9d95fa1f935}
+      \strng{editorbibnamehash}{d31bff86aac649b55c42a9d95fa1f935}
+      \strng{editornamehash}{d31bff86aac649b55c42a9d95fa1f935}
+      \strng{editorfullhash}{d31bff86aac649b55c42a9d95fa1f935}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{The Squid Handbook}
+      \field{year}{2004}
+    \endentry
+  \enddatalist
+  \missing{p1}
+\endrefsection
+\endinput
+
