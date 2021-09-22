@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  21 SEP 2021 03:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  21 SEP 2021 04:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,10 +1202,13 @@ Package biblatex Warning: The following entry could not be found
 )
 Package biblatex Info: Reference section=0 on input line 98.
 Package biblatex Info: Reference segment=0 on input line 98.
- (./DNP2021.nav)
+ (./DNP2021.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 132
 .
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 132
@@ -1221,68 +1224,33 @@ ut line 132.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<~/research/figures/DNP/cupid_array.png, id=17, 863.47594pt x 557.83406pt>
+<~/research/figures/DNP/cupid_array.png, id=31, 863.47594pt x 557.83406pt>
 File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
 <use ~/research/figures/DNP/cupid_array.png>
 Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
 line 132.
 (pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [2
 
  </home/joey/research/figures/DNP/cupid_array.png (PNG copy)>]
-<~/research/figures/DNP/scintillation.png, id=35, 359.09157pt x 257.46187pt>
+<~/research/figures/DNP/scintillation.png, id=43, 359.09157pt x 257.46187pt>
 File: ~/research/figures/DNP/scintillation.png Graphic file (type png)
 <use ~/research/figures/DNP/scintillation.png>
 Package pdftex.def Info: ~/research/figures/DNP/scintillation.png  used on inpu
 t line 154.
 (pdftex.def)             Requested size: 145.3713pt x 104.22826pt.
- [2
+ [3
 
  </home/joey/research/figures/DNP/scintillation.png (PNG copy)>]
-<~/research/figures/DNP/muon_veto.png, id=43, 415.5525pt x 245.41687pt>
+<~/research/figures/DNP/muon_veto.png, id=51, 415.5525pt x 245.41687pt>
 File: ~/research/figures/DNP/muon_veto.png Graphic file (type png)
 <use ~/research/figures/DNP/muon_veto.png>
 Package pdftex.def Info: ~/research/figures/DNP/muon_veto.png  used on input li
 ne 179.
 (pdftex.def)             Requested size: 145.3713pt x 85.85225pt.
- [3
+ [4
 
  </home/joey/research/figures/DNP/muon_veto.png (PNG copy)>]
-File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
-line 204.
-(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
-
-[4
-
-] [5
-
-] [6
-
-] [7
-
-] [8
-
-] [9
-
-]
-\openout4 = `DNP2021.vrb'.
-
- (./DNP2021.vrb) [10
-
-] [11
-
-]
-\openout4 = `DNP2021.vrb'.
-
- (./DNP2021.vrb) [12
-
-] [13
-
- </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [14
-
-]
 \tf@nav=\write7
 \openout7 = `DNP2021.nav'.
 
@@ -1308,30 +1276,30 @@ Package logreq Info: Writing requests to 'DNP2021.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27676 strings out of 478994
- 521786 string characters out of 5864751
+ 27572 strings out of 478994
+ 518777 string characters out of 5864751
  1223138 words of memory out of 5000000
- 44589 multiletter control sequences out of 15000+600000
- 419365 words of font info for 84 fonts, out of 8000000 for 9000
+ 44514 multiletter control sequences out of 15000+600000
+ 417928 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,740b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.0@squid} has been referenced but does not ex
 ist, replaced by a fixed one
 
+pdfTeX warning (dest): name{Navigation15} has been referenced but does not exis
+t, replaced by a fixed one
+
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on DNP2021.pdf (14 pages, 318458 bytes).
+ss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on DNP2021.pdf (4 pages, 265618 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
