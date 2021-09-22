@@ -1,0 +1,193 @@
+\begin{thebibliography}{10}
+
+\bibitem{Irwin_TES}
+K.D. Irwin and G.C. Hilton.
+\newblock Transition-edge sensors.
+\newblock {\em Topics in Applied Physics}, 99, 2005.
+
+\bibitem{mkidjpl}
+A.~Vayonakis, C.~Luo, H.~G. Leduc, R.~Schoelkopf, and J.~Zmuidzinas.
+\newblock The millimeter-wave properties of superconducting microstrip lines.
+\newblock {\em AIP Conference Proceedings}, 605(1):539--542, 2002.
+
+\bibitem{Clarke}
+John Clarke and Frank Wilhelm.
+\newblock Superconducting quantum bits.
+\newblock {\em Nature}, 453:1031--42, 07 2008.
+
+\bibitem{Leggett}
+A.~J. Leggett.
+\newblock {Macroscopic Quantum Systems and the Quantum Theory of Measurement}.
+\newblock {\em Progress of Theoretical Physics Supplement}, 69:80--100, 03
+  1980.
+
+\bibitem{josephson}
+B.D. Josephson.
+\newblock Possible new effects in superconductive tunnelling.
+\newblock {\em Physics Letters}, 1(7):251 -- 253, 1962.
+
+\bibitem{bcs}
+J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer.
+\newblock Microscopic theory of superconductivity.
+\newblock {\em Phys. Rev.}, 106:162--164, Apr 1957.
+
+\bibitem{squid}
+John Clarke and Alex~I. Braginski, editors.
+\newblock {\em The Squid Handbook}.
+\newblock WILEY-VCH, 2004.
+
+\bibitem{Nakamura_1999}
+Y.~Nakamura, Yu.~A. Pashkin, and J.~S. Tsai.
+\newblock Coherent control of macroscopic quantum states in a
+  single-cooper-pair box.
+\newblock {\em Nature}, 398(6730):786?788, Apr 1999.
+
+\bibitem{bishop}
+Lev~S. Bishop.
+\newblock {\em Circuit Quantum Electrodynamics}.
+\newblock PhD thesis, Yale University, 2010.
+
+\bibitem{Transmon}
+Jens Koch, Terri~M. Yu, Jay Gambetta, A.~A. Houck, D.~I. Schuster, J.~Majer,
+  Alexandre Blais, M.~H. Devoret, S.~M. Girvin, and R.~J. Schoelkopf.
+\newblock Charge-insensitive qubit design derived from the cooper pair box.
+\newblock {\em Physical Review A}, 76(4), Oct 2007.
+
+\bibitem{jaynescummings}
+E.~T. {Jaynes} and F.~W. {Cummings}.
+\newblock Comparison of quantum and semiclassical radiation theories with
+  application to the beam maser.
+\newblock {\em Proceedings of the IEEE}, 51(1):89--109, 1963.
+
+\bibitem{fluxqubit}
+T.~P. Orlando, J.~E. Mooij, Lin Tian, Caspar~H. van~der Wal, L.~S. Levitov,
+  Seth Lloyd, and J.~J. Mazo.
+\newblock Superconducting persistent-current qubit.
+\newblock {\em Physical Review B}, 60(22):15398?15413, Dec 1999.
+
+\bibitem{scqb_intro}
+Philip Krantz, Morten Kjaergaard, Fei Yan, Terry~P. Orlando, Simon Gustavsson,
+  and William~D. Oliver.
+\newblock A quantum engineer's guide to superconducting qubits, 2019.
+
+\bibitem{Wilhelm}
+F~Wilhelm, Caspar van~der Wal, A~Haar, R~Schouten, C~Harmans, J~Mooij,
+  T~Orlando, and Seth Lloyd.
+\newblock Macroscopic quantum superposition of current states in a
+  josephson-junction loop.
+\newblock {\em Physics-Uspekhi}, 44:117, 10 2007.
+
+\bibitem{birenbaum}
+J.~Birenbaum.
+\newblock {\em The C-shunt Flux Qubit: A New Generation of Superconducting Flux
+  Qubit.}
+\newblock PhD thesis, UC Berkeley, 2014.
+
+\bibitem{microsecond_fluxqubit}
+I.~Chiorescu, Y.~Nakamura, C.~J. P.~M. Harmans, and J.~E. Mooij.
+\newblock Coherent quantum dynamics of a superconducting flux qubit.
+\newblock {\em Science}, 299(5614):1869--1871, 2003.
+
+\bibitem{PhaseQubit}
+John~M. Martinis, S.~Nam, J.~Aumentado, and C.~Urbina.
+\newblock Rabi oscillations in a large josephson-junction qubit.
+\newblock {\em Phys. Rev. Lett.}, 89:117901, Aug 2002.
+
+\bibitem{TLS_phasequbit}
+Matthias Steffen, M.~Ansmann, R.~McDermott, N.~Katz, Radoslaw~C. Bialczak, Erik
+  Lucero, Matthew Neeley, E.~M. Weig, A.~N. Cleland, and John~M. Martinis.
+\newblock State tomography of capacitively shunted phase qubits with high
+  fidelity.
+\newblock {\em Phys. Rev. Lett.}, 97:050502, Aug 2006.
+
+\bibitem{Astafiev_2004}
+O.~Astafiev, Yu. Pashkin, Y.~Nakamura, T.~Yamamoto, and J.~Tsai.
+\newblock Quantum noise in the josephson charge qubit.
+\newblock {\em Physical Review Letters}, 93(26), Dec 2004.
+
+\bibitem{zmuidzinas}
+Jonas Zmuidzinas.
+\newblock Superconducting microresonators: Physics and applications.
+\newblock {\em Annual Review of Condensed Matter Physics}, 3(1):169--214, 2012.
+
+\bibitem{Mahklin_TLS}
+Alexander Shnirman, Gerd Schon, Ivar Martin, and Yuriy Makhlin.
+\newblock Low- and high-frequency noise from coherent two-level systems.
+\newblock {\em Physical Review Letters}, 94(12), Apr 2005.
+
+\bibitem{Martinis_2005}
+John~M. Martinis, K.~B. Cooper, R.~McDermott, Matthias Steffen, Markus Ansmann,
+  K.~D. Osborn, K.~Cicak, Seongshik Oh, D.~P. Pappas, R.~W. Simmonds, et~al.
+\newblock Decoherence in josephson qubits from dielectric loss.
+\newblock {\em Physical Review Letters}, 95(21), Nov 2005.
+
+\bibitem{MBE}
+M.~Naruse, Y.~Sekimoto, T.~Noguchi, A.~Miyachi, T.~Nitta, and Y.~Uzawa.
+\newblock Development of crystal al mkids by molecular beam epitaxy.
+\newblock {\em Journal of Low Temperature Physics}, 167(3):373--378, May 2012.
+
+\bibitem{UCSB2015_decoherence}
+John~M. Martinis and A.~Megrant.
+\newblock Ucsb final report for the csq program: Review of decoherence and
+  materials physics for superconducting qubits, 2014.
+
+\bibitem{xmon}
+R.~Barends, J.~Kelly, A.~Megrant, D.~Sank, E.~Jeffrey, Y.~Chen, Y.~Yin,
+  B.~Chiaro, J.~Mutus, C.~Neill, et~al.
+\newblock Coherent josephson qubit suitable for scalable quantum integrated
+  circuits.
+\newblock {\em Physical Review Letters}, 111(8), Aug 2013.
+
+\bibitem{3dtransmon}
+C.~Wang, C.~Axline, Y.~Y. Gao, T.~Brecht, Y.~Chu, L.~Frunzio, M.~H. Devoret,
+  and R.~J. Schoelkopf.
+\newblock Surface participation and dielectric loss in superconducting qubits.
+\newblock {\em Applied Physics Letters}, 107(16):162601, Oct 2015.
+
+\bibitem{google}
+Frank Arute, Kunal Arya, Ryan Babbush, Dave Bacon, Joseph~C. Bardin, Rami
+  Barends, Rupak Biswas, Sergio Boixo, Fernando G. S.~L. Brandao, David~A.
+  Buell, Brian Burkett, Yu~Chen, Zijun Chen, Ben Chiaro, Roberto Collins,
+  William Courtney, Andrew Dunsworth, Edward Farhi, Brooks Foxen, Austin
+  Fowler, Craig Gidney, Marissa Giustina, Rob Graff, Keith Guerin, Steve
+  Habegger, Matthew~P. Harrigan, Michael~J. Hartmann, Alan Ho, Markus Hoffmann,
+  Trent Huang, Travis~S. Humble, Sergei~V. Isakov, Evan Jeffrey, Zhang Jiang,
+  Dvir Kafri, Kostyantyn Kechedzhi, Julian Kelly, Paul~V. Klimov, Sergey Knysh,
+  Alexander Korotkov, Fedor Kostritsa, David Landhuis, Mike Lindmark, Erik
+  Lucero, Dmitry Lyakh, Salvatore Mandr{\`a}, Jarrod~R. McClean, Matthew
+  McEwen, Anthony Megrant, Xiao Mi, Kristel Michielsen, Masoud Mohseni, Josh
+  Mutus, Ofer Naaman, Matthew Neeley, Charles Neill, Murphy~Yuezhen Niu, Eric
+  Ostby, Andre Petukhov, John~C. Platt, Chris Quintana, Eleanor~G. Rieffel,
+  Pedram Roushan, Nicholas~C. Rubin, Daniel Sank, Kevin~J. Satzinger, Vadim
+  Smelyanskiy, Kevin~J. Sung, Matthew~D. Trevithick, Amit Vainsencher, Benjamin
+  Villalonga, Theodore White, Z.~Jamie Yao, Ping Yeh, Adam Zalcman, Hartmut
+  Neven, and John~M. Martinis.
+\newblock Quantum supremacy using a programmable superconducting processor.
+\newblock {\em Nature}, 574(7779):505--510, Oct 2019.
+
+\bibitem{CSFQ}
+Fei Yan, Simon Gustavsson, Archana Kamal, Jeffrey Birenbaum, Adam~P. Sears,
+  David Hover, Ted~J. Gudmundsen, Danna Rosenberg, Gabriel Samach, S.~Weber,
+  Jonilyn~L. Yoder, Terry~P. Orlando, John Clarke, Andrew~J. Kerman, and
+  William~D. Oliver.
+\newblock The flux qubit revisited to enhance coherence and reproducibility.
+\newblock {\em Nature Communications}, 7(1):12964, Nov 2016.
+
+\bibitem{fluxoniumtheory}
+Jens Koch, V.~Manucharyan, M.~H. Devoret, and L.~I. Glazman.
+\newblock Charging effects in the inductively shunted josephson junction.
+\newblock {\em Physical Review Letters}, 103(21), Nov 2009.
+
+\bibitem{fluxonium_quasiparticle}
+Ioan~M. Pop, Kurtis Geerlings, Gianluigi Catelani, Robert~J. Schoelkopf,
+  Leonid~I. Glazman, and Michel~H. Devoret.
+\newblock Coherent suppression of electromagnetic dissipation due to
+  superconducting quasiparticles.
+\newblock {\em Nature}, 508(7496):369--372, Apr 2014.
+
+\bibitem{non_gaussian_noise}
+Leigh~M. Norris, Gerardo~A. Paz-Silva, and Lorenza Viola.
+\newblock Qubit noise spectroscopy for non-gaussian dephasing environments.
+\newblock {\em Physical Review Letters}, 116(15), Apr 2016.
+
+\end{thebibliography}

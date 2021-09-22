@@ -1,0 +1,190 @@
+
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.1 distribution.
+%   Version 4.1r of REVTeX, August 2010
+%
+%   Copyright (c) 2009, 2010 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+showpacs,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+longbibliography,
+]{revtex4-1}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{multirow}
+\usepackage{bm}% bold math
+\usepackage{hyperref}% add hypertext capabilities
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+\begin{document}
+
+\preprint{qoqp}
+
+\title{Superconducting Qubits: Progress Report 4}% Force line breaks with \\
+%\thanks{A footnote to the article title}%
+
+% All people from 1st institution
+\author{Joseph Camilleri}
+%\homepage{http://www.first.institution.edu/~Charlie.Author}
+%\altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+\affiliation{Physics Department, Virginia Tech}%
+%\collaboration{SuperCDMS}%\noaffiliation
+
+%
+%\collaboration{SuperCDMS}%\noaffiliation
+
+\date{10/5/2020}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+
+
+This is the second half of chapter 2 of Bishop's thesis on cQED for transmon qubits
+Revisit the notes or ask Sophia since she did this lecture, how does this Hamiltonian relate to tunneling of cooper pair bound states across the insulating junction?
+\begin{equation*}
+H = 4E_c \Sigma_{j=-N}^{j=N} \left(j-n_g\right)^2 |j> <j| - \dfrac{E_j}{2} \Sigma_{j=-N}^{j=N-1} \left(|j+1> <j| + |j> <j+1|\right)
+\end{equation*}
+
+I have some nomenclature confusion. The Cooper-pair number operator is *not* a number operator in the sense of raising and lowering operators (typically, n = adagger a). rather, it's like a position/momentum canonical conjugate variable that can be expressed in terms of raising and lowering operators. These raising and lowering operators, b and bdagger, raise lower the energy eigenstates of our duffing oscillator.
+
+\begin{eqnarray*}
+H = 4E_c n^2 - E_J + \dfrac{E_J\varphi^2}{2} - \dfrac{E_J\varphi^4}{24} \langle dude \rangle
+\end{eqnarray*}
+Flux tuning and the split transmon. Two Josephson junctons in parallel have a Hamiltonian as follows
+
+\begin{equation*}
+H = 
+\end{equation*}
+
+
+This is the section on dielectric loss modeled as a continuum statistical fermionic bath of TLS.
+
+For cavity-qubit coupled systems, we generally consider loss due to a bosonic bath (e.g. photons and bosons / light and vibration).
+Dissipation in dielectrics presents a new dissipation mechanism - an equivalent loss to a fermionic bath.
+This can be understood physically as a power dissipated in a two level system (TLS). These TLS losses occur in two different dielectric boundaries in superconducting micro resonators: the insulating junction for the Josephson junction and the interface between the superconducting film / crystalline substrate interface.
+
+how does the loss tangent relate to the quality factor for a generic resonator? Q is the narrowness of the pass band. This is also all related to decoherence times.
+
+Losses to the fermionic bath are quantified by the \textit{loss tangent}
+
+\begin{equation*}
+tan(\delta) = \dfrac{Im(\epsilon)}{Re(\epsilon)}
+\end{equation*}
+
+where a smaller value indicates a smaller imaginary dielectric component, and hence less loss (wave vector \textit{k} will also be complex).
+
+For a perfect supercodnductor / crystal interface the dielectric losses at low temperatures are totally negligible.
+However, in practice, and further insulating layer of amorphous silicon, SiO2, is necessary for crossover wiring needed in circuit design (what is crossover wiring?).
+What other reasons are there for amorphous silicon in microfabrication?
+
+At low temperatures and driving frequencies $k_B T \ll \hbar \omega $
+
+The dielectric loss exhibits behavior inconsistent with a bosonic bath model: it varies strongly with driving amplitude and scales inversely with the resonator power in frequency space 
+
+\begin{equation*}
+\tan(\delta) \simeq \dfrac{1}{\sqrt{<V^2 >}}
+\end{equation*}
+
+until it reaches its maximum value at small amplitudes. 
+
+Explain why a resistor is modelled as a bosonic bath. Macroscopically, resistors are linear with voltage, so this non-linear behavior doesn't agree with a resistor model. something with random walks? maybe ask tauber about this, or does it come in from stat mech II? what does resistance have to do with 'transport properties'?
+
+Additionally, at higher temperatures we observe LESS loss in the dielectric (this is weird, it must have something to do with fermi-dirac statistics).
+
+The physical mechanism resposible for this loss: the resonant absorption of radiation by a bath of TLS possessing electric dipole moments.
+
+
+
+
+
+\begin{eqnarray*}
+\delta = \dfrac{\pi\rho (ed)^2}{3\epsilon}\dfrac{tanh(\dfrac{\hbar\omega}{2k_B T})}{1+\omega_{Rabi}T_1 T_2} \\ _
+\hbar\omega_Rabi = \dfrac{(eVd)}{x}
+\end{eqnarray*}
+
+\textbf{this is from page 13 of zmuidzinas}
+\textit{TLS arise due to the random structure of amorphous materials, because occa-
+sionally it is possible for an atom or group of atoms to move between two local minima of the
+potential energy landscape by quantum tunneling over a barrier. The random nature of the
+amorphous material implies that the potential energy minima and the barrier height are also
+random, leading to a random, uniform distribution of TLS energy splittings. In general, the TLS
+are electrically active because the moving atoms carry a dipole moment, and therefore the TLS
+make a contribution e TLS (o, T) to both the real (reactive) and imaginary (dissipative) parts of
+the dielectric constant e. In weak fields the loss tangent due to TLS is given by
+}
+
+The microwave loss is dominated by TLS with energies ħo; the familiar hyperbolic tangent
+factor arises from the thermal occupation probabilities of the two quantum states. For k B T <<
+ħo, the TLS only occupy the ground state, so d TLS (o, T ) ! d 0 . The value of d 0 is proportional to
+the density of TLS per unit volume and energy. The earliest models (68, 69) suggested that the
+low-temperature loss tangent is independent of frequency because the TLS are uniformly
+distributed in energy; later studies (70) indicate that the distribution function is slowly increas-
+ing with energy in the RF and microwave range. In the opposite limit k B T << ħo, the upper
+state is well populated and stimulated emission cancels much of the absorption, leading to
+d TLS (o,T) /ħo/k B T.
+The corresponding behavior of Re e TLS (o, T) can be found by applying the Kramers-Kronig
+transform, and causes the resonator frequency to shift by an amount (71, 72)
+
+\end{abstract}
+
+%\pacs{29.40.Wk, 95.55.Vj, 95.35.+d}% PACS, the Physics and Astronomy
+                             				% Classification Scheme.
+%\keywords{Suggested keywords}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+%\tableofcontents
+
+
+
+%\bibliographystyle{IEEEtranN}
+\bibliographystyle{aipnum4-1}
+%\bibliographystyle{unsrt}
+\bibliography{Bib_SCQB}
+
+\end{document}
+
+

@@ -1,0 +1,204 @@
+
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.1 distribution.
+%   Version 4.1r of REVTeX, August 2010
+%
+%   Copyright (c) 2009, 2010 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+showpacs,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+longbibliography,
+]{revtex4-1}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{amsmath}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{multirow}
+\usepackage{bm}% bold math
+\usepackage{hyperref}% add hypertext capabilities
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+\begin{document}
+
+\preprint{qoqp}
+
+\title{Superconducting Qubits: Progress Report 4}% Force line breaks with \\
+%\thanks{A footnote to the article title}%
+
+% All people from 1st institution
+\author{Joseph Camilleri}
+%\homepage{http://www.first.institution.edu/~Charlie.Author}
+%\altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+\affiliation{Physics Department, Virginia Tech}%
+%\collaboration{SuperCDMS}%\noaffiliation
+
+%
+%\collaboration{SuperCDMS}%\noaffiliation
+
+\date{10/5/2020}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+
+This report focuses on pages 23-33 on a thesis \cite{bishop} regarding cQED and transmon qubits.
+
+For a circuit generally we consider the flux and charge defined for lumped circuit elements \textit{b}, in place of typical voltage and current. From Maxwell's equations, we have the relations for \textit{flux} and \textit{charge}
+
+\begin{eqnarray*}
+^{238}U \xrightarrow{\alpha} \ ^{234}Th \xrightarrow{\alpha ,\beta ,\gamma} \ ... \\
+\rightarrow \ ^{214}Bi \xrightarrow{\beta} \ ^{214}Po \ \xrightarrow{\alpha} \ ^{210}Pb \rightarrow ... 
+\end{eqnarray*}
+
+The \textit{node flux} $\phi_n (t)$ is defined as the summation of fluxes, as just defined, for each circuit element between the node \textit{n} and the circuit ground. \textbf{This is essentially a kirchoff voltage law analog to fluxes?} The node fluxes of a given circuit, along with their time derivatives, constitute a set of generalized coordinates and velocities to form a Lagrangian.
+
+\begin{equation*}
+L\left[\phi_i (t), \dot{\phi}_i (t)\right]
+\end{equation*}
+
+The \textit{node charge} $q_n (t)$ is a conjugate variable to the flux as is normal in Lagrangian mechanics. If we promote the generalized coordinates to quantum mechanical operators, the pair of conjugate variables also obey the canonical commutation relation
+
+
+\begin{eqnarray*}
+\frac{\partial L}{\partial \dot{\phi}_n (t)} = q_n (t) \\
+\left[\phi_n (t), q_n (t)\right] = i\hbar
+\end{eqnarray*}
+
+\begin{equation*}
+\left[e^{i\kappa_n \phi_n (t)}, q_n (t)\right] = -\hbar\kappa_n e^{i\kappa_n \phi_n (t)}
+\end{equation*}
+A simple LC oscillator has only one node flux to consider (the node joining the two elements in parallel). Then the Lagrangian and Hamiltonian of the LC oscillator in terms of the node fluxes in this simple case are
+\begin{eqnarray*}
+L\left(\phi,\dot{\phi}\right) = \dfrac{C\dot{\phi}^2}{2} - \dfrac{\phi^2}{2L} \\
+H\left(q,\phi\right) = \dot{\phi}q - L\left(\phi,\dot{\phi}\right)\\
+H\left(q,\phi\right) = \frac{q^2}{2C} + \frac{\phi^2}{2L} 
+\end{eqnarray*}
+Then introducing creation and annihilation operators replacing the momentum and position, we have
+\begin{eqnarray*}
+ H= \hbar\omega\left(a^{\dagger}a + 1/2 \right) \\
+\phi = \sqrt{\dfrac{\hbar Z}{2}}\left(a + a^{\dagger}\right) \\
+q = -i\sqrt{\dfrac{\hbar}{2Z}}\left(a - a^{\dagger}\right)
+\end{eqnarray*}
+
+Where $\omega = \sqrt{\dfrac{1}{LC}}$ and the impedance $Z = \sqrt{\dfrac{L}{C}}$ take on the usual values.
+
+
+
+A transmission line can be viewed as an infinite cascade of LC circuits. This follows from the lossless case of the telegrapher's equations (which should apply well to a \textit{superconducting} transmission line). If we define node fluxes of the infinite cascade and take the infinitesimal limit, the resulting Lagrangian is an infinite summation of uncoupled harmonic oscillators.
+Then engineering the right transmission line, we can have an effective quantum harmonic oscillator by just fabricating a transmission line. It is more practical on a microscopic/mesoscopic scale to build strips of superconductor than actual lumped element inductances and capacitances as we usually think of these objects macroscopically: parallel plates with a dielectric material and 3 dimensional loops of wire.
+
+\textit{Charge} qubits are implemented as quantum LC oscillators we just discussed, except the inductance is replaced by a Josephson junction. This non-linearity leads to anharmonicity, an important feature for better separating a desired 2 level system's energy scale from other energies of the system. In the regime where anharmonicity is large, these devices are referred to as Cooper Pair Boxes. In the small anharmonicity regime (here the anharmonicity can be treated perturbatively) the devices are known as \textit{transmon} qubits.
+The Hamiltonian for a general charge qubit is
+\begin{equation*}
+H = \dfrac{q^2}{2C} -E_J \textrm{cos}\left(\dfrac{2e}{\hbar}\phi\right)
+\end{equation*}
+
+Here, the potential energy of the system is periodic with the node flux we define as our conjugate momentum.
+The macroscopic (\textbf{I think mesoscopic? the circuits can have $\mu m$ or $nm$ length scales}) circuit quanta $q$ and $\phi$ can also be related to fundamental physical quantities.
+The \textit{gauge invariant phase} $\varphi = \dfrac{2e}{\hbar}\phi$ is the phase difference of the wavefunction of the superconducting Bose-Einstein Condensate across the oscillator junction. The number operator for Cooper pairs having crossed the junction is given by $n=-\dfrac{q}{2e}$. We also define the charging energy $E_c = \dfrac{e^2}{2C}$ which is just the energy associated with maintaining an elementary charge (electron) across the capacitance in our circuit.
+
+Then, rewriting the charge qubit Hamiltonian, we have
+
+\begin{equation*}
+H = 4E_c \left(n-n_g\right)^2 - E_J \textrm{cos}(\varphi)
+\end{equation*}
+
+Where $n_g$ accounts for any offset in the DC bias of the circuit, e.g. gate charge. This term can represent disturbances to the Cooper pair population due to charge noise, a common feature in semiconducting electronics.
+
+Original charge qubits operated in the regime $E_J/E_C \simeq 1$  had transition frequencies with significant sensitivity to changes in $n_g$. As the ratio of the Josephson energy and the charging energy increases, the dependence on the transition frequencies due to charge noise is reduced. The \textit{charge dispersion} $\epsilon_m$, the difference in min$/$max energies of the \textit{m}th level, quantifies the dependence of the transitions on the gate charge population $n_g$. When $E_J/E_C \gg 1$  $\epsilon_m$ decreases exponentially with $\sqrt{E_J/E_C}$.
+
+For the transmon qubit Hamiltonian, the eigenvalue problem can be treated pertubatively where $E_C$ must be the small parameter.
+First expanding the Josephson term's cosine to 4th order, the Hamiltonian is
+
+\begin{equation*}
+H = 4E_c n^2 -E_J + \dfrac{E_J\varphi^2}{2} -\dfrac{E_J\varphi^4}{24}
+\end{equation*}
+
+In terms of creation and annihilation operators $b$ and $b^{\dagger}$, the Hamiltonian is
+
+\begin{equation*}
+H = 8\sqrt{E_cE_J}\left(b^{\dagger}b + 1/2\right) - E_J-\dfrac{E_C}{12}\left(b+b^{\dagger}\right)^4
+\end{equation*}
+
+therefore the quartic term with the charging energy can be handled perturbatively.
+
+
+\textbf{For this specific Hamiltonian, do these raising and lowering operators still have the interpretation introduced before? for the general charge qubit, the number operator represented Cooper pairs crossing the junction, do these operators still create/destroy these same excitations?}
+
+The anharmonicity relative to the ground state/excited state transition energy $\alpha_m^{rel} = \alpha_m/\omega_o$ to first order in the charging energy is
+
+\begin{equation*}
+\alpha_m^{rel} \simeq \dfrac{1}{\sqrt{8E_J/E_C}}
+\end{equation*}
+
+
+
+
+
+
+
+%\begin{equation}
+%\Gamma_1 = \dfrac{1}{\hbar^2} <0|\dfrac{\partial \hat{H_q}}{\partial \lambda}|1> \bra{dude}
+%\end{equation}
+
+\end{abstract}
+
+%\pacs{29.40.Wk, 95.55.Vj, 95.35.+d}% PACS, the Physics and Astronomy
+                             				% Classification Scheme.
+%\keywords{Suggested keywords}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+%\tableofcontents
+
+
+
+%\bibliographystyle{IEEEtranN}
+\bibliographystyle{aipnum4-1}
+%\bibliographystyle{unsrt}
+\bibliography{Bib_SCQB}
+
+\end{document}
+
+
