@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  21 SEP 2021 04:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  30 SEP 2021 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,33 +1224,129 @@ ut line 132.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<~/research/figures/DNP/cupid_array.png, id=31, 863.47594pt x 557.83406pt>
-File: ~/research/figures/DNP/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP/cupid_array.png  used on input 
-line 132.
-(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
- [2
 
- </home/joey/research/figures/DNP/cupid_array.png (PNG copy)>]
-<~/research/figures/DNP/scintillation.png, id=43, 359.09157pt x 257.46187pt>
-File: ~/research/figures/DNP/scintillation.png Graphic file (type png)
-<use ~/research/figures/DNP/scintillation.png>
-Package pdftex.def Info: ~/research/figures/DNP/scintillation.png  used on inpu
-t line 154.
-(pdftex.def)             Requested size: 145.3713pt x 104.22826pt.
- [3
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
+ found on input line 132.
 
- </home/joey/research/figures/DNP/scintillation.png (PNG copy)>]
-<~/research/figures/DNP/muon_veto.png, id=51, 415.5525pt x 245.41687pt>
-File: ~/research/figures/DNP/muon_veto.png Graphic file (type png)
-<use ~/research/figures/DNP/muon_veto.png>
-Package pdftex.def Info: ~/research/figures/DNP/muon_veto.png  used on input li
-ne 179.
-(pdftex.def)             Requested size: 145.3713pt x 85.85225pt.
- [4
 
- </home/joey/research/figures/DNP/muon_veto.png (PNG copy)>]
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/cupid_array.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2
+
+]
+
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/scintillation.png' n
+ot found on input line 154.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/scintillation.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3
+
+]
+
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/muon_veto.png' not f
+ound on input line 179.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/muon_veto.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4
+
+]
+<~/research/figures/DNP2021/compton_2pt6MeV.png, id=58, 1001.7425pt x 979.66pt>
+
+File: ~/research/figures/DNP2021/compton_2pt6MeV.png Graphic file (type png)
+<use ~/research/figures/DNP2021/compton_2pt6MeV.png>
+Package pdftex.def Info: ~/research/figures/DNP2021/compton_2pt6MeV.png  used o
+n input line 204.
+(pdftex.def)             Requested size: 145.3713pt x 142.15916pt.
+
+
+! LaTeX Error: \caption outside figure or table.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 	\end{frame}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5
+
+ </home/joey/research/figures/DNP2021/compton_2pt6MeV.png>]
+
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
+ found on input line 229.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/cupid_array.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6
+
+]
+
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
+ found on input line 254.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/cupid_array.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 	\end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7
+
+]
 \tf@nav=\write7
 \openout7 = `DNP2021.nav'.
 
@@ -1276,18 +1372,15 @@ Package logreq Info: Writing requests to 'DNP2021.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27572 strings out of 478994
- 518777 string characters out of 5864751
- 1223138 words of memory out of 5000000
- 44514 multiletter control sequences out of 15000+600000
- 417928 words of font info for 79 fonts, out of 8000000 for 9000
+ 27611 strings out of 478994
+ 522086 string characters out of 5864752
+ 1223102 words of memory out of 5000000
+ 44530 multiletter control sequences out of 15000+600000
+ 418096 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,740b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.0@squid} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation15} has been referenced but does not exis
-t, replaced by a fixed one
 
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
@@ -1295,11 +1388,12 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
 amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on DNP2021.pdf (4 pages, 265618 bytes).
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb>
+Output written on DNP2021.pdf (7 pages, 139821 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
