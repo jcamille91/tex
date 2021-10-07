@@ -62,13 +62,13 @@
 	%\usecolortheme{dolphin}
 	%\usecolortheme{dove}
 	%\usecolortheme{fly}
-	%\usecolortheme{lily}
+	\usecolortheme{lily}
 	%\usecolortheme{orchid}
 	%\usecolortheme{rose}
 	%\usecolortheme{seagull}
 	%\usecolortheme{seahorse}
 	%\usecolortheme{whale}
-	\usecolortheme{wolverine}
+	%\usecolortheme{wolverine}
 	
 	%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 	\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
@@ -239,15 +239,44 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
-%				\item guy
-%				\item man
-%				\item dude
+				\item sensitivity studies expect on the order of 90% efficiency for 2$\nu\beta\beta$ efficiency
+				\item large distance cut, random coincidences (more variation with integration time)
+				\item is there a paper i can cite. 0vbb expect closer to 80% (higher energy, higher likelihood of escaping detector) \footcite{cupid_precdr}
+				
+				\item find operating point relative to muon background, parameter of interest -> at which distance cut do random coincidences play role in integration time affecting efficiency
+				
+				bremstrallung, escape, random coincidences -> 3 ways we lose efficiency
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{figure}
 			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/2vbb.jpg}
 %			\caption{gnarly}
+			\end{figure}
+			
+		\end{columns}
+	\end{frame}
+
+	%------------------------------------------------
+
+%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{muon background}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\item muon flux LNGS
+				\item planned muon veto , ~ 90% efficient
+				\item muon track + showers induced by the muon. muon background suppression vs efficiency
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{figure}
+			\includegraphics[width=\linewidth]{~/research/figures/DNP/cupid_array.png}
+			\caption{gnarly}
 			\end{figure}
 			
 		\end{columns}
