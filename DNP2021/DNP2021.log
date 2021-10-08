@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  6 OCT 2021 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  8 OCT 2021 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,34 +1243,26 @@ input line 154.
  [3
 
  </home/joey/research/figures/DNP2021/scintillation.png (PNG copy)>]
-<~/research/figures/DNP2021/muon_veto.png, id=51, 415.5525pt x 245.41687pt>
+<~/research/figures/DNP2021/muon_veto.png, id=51, 754.31813pt x 469.755pt>
 File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
 <use ~/research/figures/DNP2021/muon_veto.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 179.
-(pdftex.def)             Requested size: 145.3713pt x 85.85225pt.
- [4
+t line 180.
+(pdftex.def)             Requested size: 145.3713pt x 90.53026pt.
+
+
+LaTeX Warning: Citation 'chernyak' on page 4 undefined on input line 180.
+
+[4
 
  </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 	\end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<~/research/figures/DNP2021/gamma2.jpg, id=60, 1001.7425pt x 979.66pt>
+<~/research/figures/DNP2021/gamma2.jpg, id=61, 1001.7425pt x 979.66pt>
 File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/gamma2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
-ine 204.
+ine 205.
 (pdftex.def)             Requested size: 145.3713pt x 142.15916pt.
-[5
+ [5
 
  </home/joey/research/figures/DNP2021/gamma2.jpg>]
 
@@ -1280,41 +1272,53 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 	\end{frame}
+l.230 	\end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<~/research/figures/DNP2021/u238_2.jpg, id=68, 1401.235pt x 979.66pt>
+<~/research/figures/DNP2021/u238_2.jpg, id=69, 1401.235pt x 979.66pt>
 File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/u238_2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
-ine 229.
+ine 230.
 (pdftex.def)             Requested size: 145.3713pt x 101.6341pt.
 [6
 
  </home/joey/research/figures/DNP2021/u238_2.jpg>]
+<~/research/figures/DNP2021/2vbb.jpg, id=77, 1645.14626pt x 979.66pt>
+File: ~/research/figures/DNP2021/2vbb.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/2vbb.jpg  used on input lin
+e 259.
+(pdftex.def)             Requested size: 145.3713pt x 86.56612pt.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Overfull \vbox (86.01482pt too high) detected at line 259
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
+[7
+
+ </home/joey/research/figures/DNP2021/2vbb.jpg>]
+
+LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
+ found on input line 284.
+
+
+! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
+rch/figures/DNP/cupid_array.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 	\end{frame}
+l.284 	\end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<~/research/figures/DNP2021/2vbb.jpg, id=76, 1645.14626pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/2vbb.jpg  used on input lin
-e 254.
-(pdftex.def)             Requested size: 145.3713pt x 86.56612pt.
-[7
+[8
 
- </home/joey/research/figures/DNP2021/2vbb.jpg>]
+]
 \tf@nav=\write7
 \openout7 = `DNP2021.nav'.
 
@@ -1340,11 +1344,11 @@ Package logreq Info: Writing requests to 'DNP2021.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27589 strings out of 478994
- 519648 string characters out of 5864752
- 1222983 words of memory out of 5000000
- 44522 multiletter control sequences out of 15000+600000
- 417928 words of font info for 79 fonts, out of 8000000 for 9000
+ 27626 strings out of 478994
+ 521067 string characters out of 5864752
+ 1223001 words of memory out of 5000000
+ 44542 multiletter control sequences out of 15000+600000
+ 418390 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,740b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.0@squid} has been referenced but does not ex
@@ -1355,12 +1359,14 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on DNP2021.pdf (7 pages, 458679 bytes).
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on DNP2021.pdf (8 pages, 520851 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
