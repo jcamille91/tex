@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  8 OCT 2021 19:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  9 OCT 2021 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,24 +981,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (./DNP2021.aux)
 \openout1 = `DNP2021.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1064,7 +1064,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 98.
+Package hyperref Info: Link coloring OFF on input line 102.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1077,66 +1077,66 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count460
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
-LaTeX Info: Redefining \nameref on input line 98.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
 
 (./DNP2021.out) (./DNP2021.out)
 \@outlinefile=\write6
 \openout6 = `DNP2021.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 98.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 98.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 102.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 98.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 98.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 98.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 98.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 98.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 98.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 98.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 98.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 98.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 98.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 98.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 98.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 98.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 98.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 98.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 98.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 98.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 102.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 102.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 9
-8.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
+02.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 9
-8.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
+02.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 98.
+ut line 102.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -1200,25 +1200,25 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 98.
-Package biblatex Info: Reference segment=0 on input line 98.
+Package biblatex Info: Reference section=0 on input line 102.
+Package biblatex Info: Reference segment=0 on input line 102.
  (./DNP2021.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132
+LaTeX Font Info:    Trying to load font information for U+msa on input line 137
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132
+LaTeX Font Info:    Trying to load font information for U+msb on input line 137
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 132.
+ut line 137.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1228,9 +1228,22 @@ thkerncmss.
 File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
 <use ~/research/figures/DNP2021/cupid_array.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 132.
+put line 137.
 (pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
- [2
+
+
+! LaTeX Error: \caption outside figure or table.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 	\end{frame}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2
 
  </home/joey/research/figures/DNP2021/cupid_array.png (PNG copy)>]
 <~/research/figures/DNP2021/scintillation.png, id=43, 359.09157pt x 257.46187pt
@@ -1238,7 +1251,7 @@ put line 132.
 File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
 <use ~/research/figures/DNP2021/scintillation.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 154.
+input line 159.
 (pdftex.def)             Requested size: 145.3713pt x 104.22826pt.
  [3
 
@@ -1247,76 +1260,52 @@ input line 154.
 File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
 <use ~/research/figures/DNP2021/muon_veto.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 180.
+t line 186.
 (pdftex.def)             Requested size: 145.3713pt x 90.53026pt.
 
 
-LaTeX Warning: Citation 'chernyak' on page 4 undefined on input line 180.
+LaTeX Warning: Citation 'chernyak' on page 4 undefined on input line 186.
 
 [4
 
  </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
-<~/research/figures/DNP2021/gamma2.jpg, id=61, 1001.7425pt x 979.66pt>
+<~/research/figures/DNP2021/gamma2.jpg, id=62, 1001.7425pt x 979.66pt>
 File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/gamma2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
-ine 205.
+ine 211.
 (pdftex.def)             Requested size: 145.3713pt x 142.15916pt.
  [5
 
  </home/joey/research/figures/DNP2021/gamma2.jpg>]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 	\end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<~/research/figures/DNP2021/u238_2.jpg, id=69, 1401.235pt x 979.66pt>
+<~/research/figures/DNP2021/u238_2.jpg, id=70, 1401.235pt x 979.66pt>
 File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/u238_2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
-ine 230.
+ine 238.
 (pdftex.def)             Requested size: 145.3713pt x 101.6341pt.
-[6
+ [6
 
  </home/joey/research/figures/DNP2021/u238_2.jpg>]
-<~/research/figures/DNP2021/2vbb.jpg, id=77, 1645.14626pt x 979.66pt>
+<~/research/figures/DNP2021/2vbb.jpg, id=78, 1645.14626pt x 979.66pt>
 File: ~/research/figures/DNP2021/2vbb.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/2vbb.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/2vbb.jpg  used on input lin
-e 259.
+e 267.
 (pdftex.def)             Requested size: 145.3713pt x 86.56612pt.
 
-Overfull \vbox (86.01482pt too high) detected at line 259
+Overfull \vbox (86.01482pt too high) detected at line 267
  []
 
 [7
 
  </home/joey/research/figures/DNP2021/2vbb.jpg>]
-
-LaTeX Warning: File `\nobreakspace {}/research/figures/DNP/cupid_array.png' not
- found on input line 284.
-
-
-! Package pdftex.def Error: File `protectunhboxvoidb@xprotectpenalty@M {}/resea
-rch/figures/DNP/cupid_array.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 	\end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8
+File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
+<use ~/research/figures/DNP2021/cupid_array.png>
+Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
+put line 292.
+(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
+ [8
 
 ]
 \tf@nav=\write7
@@ -1344,26 +1333,26 @@ Package logreq Info: Writing requests to 'DNP2021.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27626 strings out of 478994
- 521067 string characters out of 5864752
- 1223001 words of memory out of 5000000
- 44542 multiletter control sequences out of 15000+600000
- 418390 words of font info for 81 fonts, out of 8000000 for 9000
+ 27601 strings out of 478994
+ 519918 string characters out of 5864751
+ 1224385 words of memory out of 5000000
+ 44532 multiletter control sequences out of 15000+600000
+ 418459 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,15n,132p,740b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,20n,132p,740b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.0@squid} has been referenced but does not ex
 ist, replaced by a fixed one
 
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb>
-Output written on DNP2021.pdf (8 pages, 520851 bytes).
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+s12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb>
+Output written on DNP2021.pdf (8 pages, 521523 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
