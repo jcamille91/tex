@@ -74,14 +74,15 @@
 	\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 	
 	\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
-%	\setbeamertemplate{itemize/enumerate body begin}{\large}
-	\setbeamertemplate{itemize/enumerate subbody begin}{\tiny}
+	\setbeamertemplate{itemize/enumerate body begin}{\scriptsize} % this controls the size of the text in the enumerated lists
 }
-
+%\usepackage{enumitem} % for formatting itemized lists (/enumerate for example is used a lot here)
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage[backend=biber, style=authoryear, bibencoding=utf8]{biblatex}
 \addbibresource{~/research/tex/bib2.bib}
+
+
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -91,16 +92,18 @@
 \author{Joe Camilleri} % Your name
 \institute[Virginia Tech] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
-	DNP October 2021 \\ % Your institution for the title page
+	Virginia Tech \\ % Your institution for the title page
+	\medskip
+	DNP October 2021 \\
 	\medskip
 %	\textit{jcamilleri@vt.edu} % Your email address
 	\textbf{Mini-Symposium: Neutrinos and Nuclei XII: Double Beta Decay Analysis Techniques}
 }
 
-%\date{\today} % Date, can be changed to a custom date
+\date{} % Date, can be changed to a custom date
 
 \begin{document}
-	
+
 	\begin{frame}
 		\titlepage % Print the title page as the first slide
 	\end{frame}
@@ -121,6 +124,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}
 				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 lithium molybdate crystals, deployed in the CUORE\footnotemark cryostat.
 				\item Aims to eliminate dominant background of alpha particles present in CUORE.
 				\item \textbf{Are new backgrounds introduced with a using a new element for the bolometers?}
@@ -129,7 +133,7 @@
 			\column{.5\textwidth} % Right column and width
 %			\begin{figure}
 			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
-			\caption{Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+			Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals
 %			\end{figure}
 			
 		\end{columns}
@@ -145,6 +149,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}
 				\item Li$_2$MoO$_4$ crystals allow for discrimination of $\alpha$ backgrounds from $\beta\beta$ events (Q=3034keV) via high-light yield scintillation signals.
 				\item relatively high isotopic abundance of $^{100}$Mo (10\%)
 				\item enrichment above 95\% already demonstrated in CUPID-Mo \cite{}
@@ -169,6 +174,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}				
 				\item With respect to coincidences, the rate of $2\nu\beta\beta$ events is not negligible in CUPID array\footnotemark
 				\item Minimizing the distance cut helps avoid mis-labelling random $2\nu\beta\beta$ coincidences as multiplicity 2.
 				\item Assuming a simple muon veto geometry, increasing the distance cut rejects more muon events.
@@ -196,6 +202,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}
 				\item monte-carlo simulation of 1 million 2.6MeV gamma rays in the crystal volume.
 				\item With this energy, we expect multiple scattering events in the crystals (cite scattering length)
 				\item multiplicity $2>$ events are discarded
@@ -221,6 +228,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}
 				\item 100000 uranium 238 events (full chain)
 %				\item dude
 			\end{itemize}
@@ -248,6 +256,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}
 				\item sensitivity studies expect on the order of 90% efficiency for 2$\nu\beta\beta$ efficiency
 				\item large distance cut, random coincidences (more variation with integration time)
 				\item is there a paper i can cite. 0vbb expect closer to 80% (higher energy, higher likelihood of escaping detector) \footcite{cupid_precdr}
@@ -277,6 +286,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
+				\setlength\itemsep{2em}
 				\item muon flux LNGS
 				\item planned muon veto , ~ 90% efficient
 				\item muon track + showers induced by the muon. muon background suppression vs efficiency
