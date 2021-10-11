@@ -62,13 +62,13 @@
 	%\usecolortheme{dolphin}
 	%\usecolortheme{dove}
 	%\usecolortheme{fly}
-	\usecolortheme{lily}
+	%\usecolortheme{lily}
 	%\usecolortheme{orchid}
 	%\usecolortheme{rose}
 	%\usecolortheme{seagull}
 	%\usecolortheme{seahorse}
 	%\usecolortheme{whale}
-	%\usecolortheme{wolverine}
+	\usecolortheme{wolverine}
 	
 	%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 	\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
@@ -125,16 +125,14 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 lithium molybdate crystals, deployed in the CUORE\footnotemark cryostat.
+				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, deployed in the CUORE\footnotemark cryostat.
 				\item Aims to eliminate dominant background of alpha particles present in CUORE.
 				\item \textbf{Are new backgrounds introduced with a using a new element for the bolometers?}
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-%			\begin{figure}
 			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
-			Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals
-%			\end{figure}
+			{\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
 			
 		\end{columns}
 		\footcitetext{squid}
@@ -143,23 +141,20 @@
 	%------------------------------------------------
 
 	\begin{frame}
-		\frametitle{lithium molybdate}
+		\frametitle{Lithium molybdate}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item Li$_2$MoO$_4$ crystals allow for discrimination of $\alpha$ backgrounds from $\beta\beta$ events (Q=3034keV) via high-light yield scintillation signals.
+				\item Li$_2$MoO$_4$ crystals allow for discrimination of $\alpha$ backgrounds from $\beta\beta$ events (Q=3034keV) via thermal + scintillation signals.
 				\item relatively high isotopic abundance of $^{100}$Mo (10\%)
 				\item enrichment above 95\% already demonstrated in CUPID-Mo \cite{}
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{figure}
 			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/scintillation.png}
-			\caption{CUPID bolometer and rejection scheme}
-			\end{figure}
 		\end{columns}
 	\end{frame}
 
@@ -168,20 +163,24 @@
 	%------------------------------------------------
 
 	\begin{frame}
-		\frametitle{2$\nu$ events and muons}
+		\frametitle{2$\nu\beta\beta$ events and muons}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}				
-				\item With respect to coincidences, the rate of $2\nu\beta\beta$ events is not negligible in CUPID array\footnotemark
+				\item The rate of $2\nu\beta\beta$ events is not negligible in CUPID array\footnotemark
 				\item Minimizing the distance cut helps avoid mis-labelling random $2\nu\beta\beta$ coincidences as multiplicity 2.
 				\item Assuming a simple muon veto geometry, increasing the distance cut rejects more muon events.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			$T_{1/2} = 7.1* 10^8 yr \rightarrow A \sim 3mHz$
+			\begin{eqnarray*}
+			T_{1/2} = 7.1* 10^{18} yr \\ 
+			\rightarrow \text{rate} \sim 3mHz
+			\end{eqnarray*}			
+			
 			\begin{figure}
 			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/muon_veto.png}
 			%\caption{gnarly}
@@ -196,7 +195,7 @@
 	%------------------------------------------------
 
 	\begin{frame}
-		\frametitle{distance cut in the CUPID array}
+		\frametitle{Distance cut in the CUPID array}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
@@ -222,22 +221,22 @@
 	%------------------------------------------------
 
 	\begin{frame}
-		\frametitle{integration time in the CUPID array}
+		\frametitle{Integration time in the CUPID array}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
+			\begin{eqnarray*}
+			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb ...
+			\end{eqnarray*}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item 100000 uranium 238 events (full chain)
+				\item 100000 uranium-238 events (full chain)
 %				\item dude
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{figure}
-			\begin{eqnarray*}
-			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow{\alpha ,\beta ,\gamma} \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} ^{210}Pb ...
-			\end{eqnarray*}
 			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/u238_2.jpg}
 %			\caption{gnarly}
 			\end{figure}
