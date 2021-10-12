@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  11 OCT 2021 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  11 OCT 2021 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,21 +1294,21 @@ P2021/u238_2.jpg>]
 File: ~/research/figures/DNP2021/2vbb_3.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/2vbb_3.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_3.jpg  used on input l
-ine 298.
+ine 299.
 (pdftex.def)             Requested size: 962.5939pt x 497.3569pt.
 <~/research/figures/DNP2021/2vbb_2.jpg, id=71, 1925.1925pt x 994.71625pt>
 File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/2vbb_2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
-ine 298.
+ine 299.
 (pdftex.def)             Requested size: 962.5939pt x 497.3569pt.
 
-Overfull \hbox (11.10849pt too wide) in paragraph at lines 298--298
+Overfull \hbox (11.10849pt too wide) in paragraph at lines 299--299
 []| [] 
  []
 
 
-Overfull \hbox (11.10849pt too wide) in paragraph at lines 298--298
+Overfull \hbox (11.10849pt too wide) in paragraph at lines 299--299
 | []  
  []
 
@@ -1320,7 +1320,7 @@ DNP2021/2vbb_2.jpg>]
 File: ~/research/figures/DNP2021/cupid_w_veto.jpeg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/cupid_w_veto.jpeg>
 Package pdftex.def Info: ~/research/figures/DNP2021/cupid_w_veto.jpeg  used on 
-input line 322.
+input line 323.
 (pdftex.def)             Requested size: 131.28816pt x 158.99118pt.
  [8
 
@@ -1370,7 +1370,7 @@ si10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb>
-Output written on DNP2021.pdf (8 pages, 807176 bytes).
+Output written on DNP2021.pdf (8 pages, 807218 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
