@@ -115,8 +115,30 @@
 	
 	
 	%------------------------------------------------
-	\section{CUPID}
+%	\section{CUPID}
 	% ----------------------------------------------
+	
+%	\begin{frame}
+%		\frametitle{CUPID experiment}
+%		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+%			
+%			\column{.45\textwidth} % Left column and width
+%			%\textbf{Heading}
+%			\begin{itemize}
+%				\setlength\itemsep{2em}
+%				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, deployed in the CUORE\footnotemark cryostat.
+%				\item Aims to eliminate dominant background of alpha particles present in CUORE.
+%				\item \textbf{Are new backgrounds introduced with a using a new element for the bolometers?}
+%			\end{itemize}
+%			
+%			\column{.5\textwidth} % Right column and width
+%			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
+%			{\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+%			
+%		\end{columns}
+%		\footcitetext{squid}
+%	\end{frame}
+	
 	\begin{frame}
 		\frametitle{CUPID experiment}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
@@ -125,9 +147,9 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, deployed in the CUORE\footnotemark cryostat.
+				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, deployed in the CUORE cryostat.
 				\item Aims to eliminate dominant background of alpha particles present in CUORE.
-				\item \textbf{Are new backgrounds introduced with a using a new element for the bolometers?}
+				\item \textbf{Are new backgrounds introduced with using a new element for the bolometers?}
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
@@ -135,7 +157,7 @@
 			{\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
 			
 		\end{columns}
-		\footcitetext{squid}
+%		\footcitetext{squid}
 	\end{frame}
 	
 	%------------------------------------------------
@@ -170,7 +192,7 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}				
-				\item The rate of $2\nu\beta\beta$ events is not negligible in CUPID array\footnotemark
+				\item The rate of $2\nu\beta\beta$ events is not negligible in CUPID array
 				\item Minimizing the distance cut helps avoid mis-labelling random $2\nu\beta\beta$ coincidences as multiplicity 2.
 				\item Assuming a simple muon veto geometry, increasing the distance cut rejects more muon events.
 			\end{itemize}
@@ -187,7 +209,7 @@
 			\end{figure}
 			
 		\end{columns}
-		\footcitetext{chernyak}
+%		\footcitetext{chernyak}
 	\end{frame}
 
 	%------------------------------------------------
@@ -204,7 +226,7 @@
 				\setlength\itemsep{2em}
 				\item monte-carlo simulation of 1 million 2.6MeV gamma rays in the crystal volume.
 				\item With this energy, we expect multiple scattering events in the crystals (cite scattering length)
-				\item multiplicity $2>$ events are discarded
+				\item $2>$ multiplicity events are discarded
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
@@ -227,20 +249,22 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{eqnarray*}
-			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb ...
+			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb \ ...
 			\end{eqnarray*}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item 100000 uranium-238 events (full chain)
+				\item 100,000 uranium-238 events (full chain)
 				\item $T_{1/2} \ ^{214}$Po $\sim$ 160$\mu$s
 				\item $T_{1/2} \ ^{214}$Bi $\sim$ 20 minutes
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{figure}
-			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/u238_2.jpg}
+%			\begin{figure}
+			\hspace*{0.3cm}\includegraphics[width=5cm, scale=0.20]{~/research/figures/DNP2021/u238.jpg}
+			\medskip\medskip
+			\hspace*{0.3cm}\includegraphics[width=5cm, scale=0.20]{~/research/figures/DNP2021/u238_2.jpg}
 %			\caption{gnarly}
-			\end{figure}
+%			\end{figure}
 			
 		\end{columns}
 	\end{frame}
@@ -257,17 +281,18 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item sensitivity studies expect on the order of 90% efficiency for 2$\nu\beta\beta$ efficiency
+				\item sensitivity studies expect on the order of 90$\%$ efficiency for 2$\nu\beta\beta$ efficiency
 				\item larger distance cut causes more random coincidences and more variation with integration time
-				\item Explain LD+CRYS data points
-				\item bremsstrahlung, escape, random coincidences
+				\item bremsstrahlung, escape, random coincidences are primary contributors
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{figure}
-			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/2vbb.jpg}
+%			\begin{figure}
+			\hspace*{0.5cm}\includegraphics[width=5cm, scale=0.5]{~/research/figures/DNP2021/2vbb_3.jpg}
+			\medskip
+			\hspace*{0.5cm}\includegraphics[width=5cm, scale=0.5]{~/research/figures/DNP2021/2vbb_2.jpg}
 %			\caption{gnarly}
-			\end{figure}
+%			\end{figure}
 			
 		\end{columns}
 	\end{frame}
@@ -277,23 +302,21 @@
 %------------------------------------------------
 
 	\begin{frame}
-		\frametitle{muon background}
+		\frametitle{future work and the muon background}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item muon flux LNGS
-				\item planned muon veto , ~ 90% efficient
-				\item muon track + showers induced by the muon. muon background suppression vs efficiency
+				\item incorporate scintillating muon veto geometry into monte-carlo simulations
+				\item muon flux at LNGS is $3\cdot 10^{-8} \ \text{muons} \ / \left(s\cdot cm^2\right)$
+				\item muon suppression versus distance cut optimization.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{figure}
-			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
-			\caption{}
-			\end{figure}
+			\includegraphics[scale=0.2]{~/research/figures/DNP2021/cupid_w_veto.jpeg}
+
 			
 		\end{columns}
 	\end{frame}

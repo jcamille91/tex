@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  11 OCT 2021 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  11 OCT 2021 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1204,96 +1204,127 @@ Package biblatex Info: Reference segment=0 on input line 105.
  (./DNP2021.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 139
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 139
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 139.
+ut line 161.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<~/research/figures/DNP2021/cupid_array.png, id=31, 863.47594pt x 557.83406pt>
+<~/research/figures/DNP2021/cupid_array.png, id=25, 863.47594pt x 557.83406pt>
 File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
 <use ~/research/figures/DNP2021/cupid_array.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 139.
+put line 161.
 (pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
  [2
 
  </home/joey/research/figures/DNP2021/cupid_array.png (PNG copy)>]
-<~/research/figures/DNP2021/scintillation.png, id=43, 359.09157pt x 257.46187pt
+<~/research/figures/DNP2021/scintillation.png, id=35, 359.09157pt x 257.46187pt
 >
 File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
 <use ~/research/figures/DNP2021/scintillation.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 159.
+input line 181.
 (pdftex.def)             Requested size: 145.3713pt x 104.22826pt.
  [3
 
  </home/joey/research/figures/DNP2021/scintillation.png (PNG copy)>]
-<~/research/figures/DNP2021/muon_veto.png, id=51, 754.31813pt x 469.755pt>
+<~/research/figures/DNP2021/muon_veto.png, id=42, 754.31813pt x 469.755pt>
 File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
 <use ~/research/figures/DNP2021/muon_veto.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 191.
+t line 213.
 (pdftex.def)             Requested size: 145.3713pt x 90.53026pt.
-
-
-LaTeX Warning: Citation 'chernyak' on page 4 undefined on input line 191.
-
-[4
+ [4
 
  </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
-<~/research/figures/DNP2021/gamma2.jpg, id=63, 1001.7425pt x 979.66pt>
+<~/research/figures/DNP2021/gamma2.jpg, id=53, 1776.6375pt x 979.66pt>
 File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/gamma2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
-ine 217.
-(pdftex.def)             Requested size: 145.3713pt x 142.15916pt.
+ine 239.
+(pdftex.def)             Requested size: 145.3713pt x 80.15326pt.
  [5
 
  </home/joey/research/figures/DNP2021/gamma2.jpg>]
-Overfull \hbox (18.22989pt too wide) in alignment at lines 246--246
+Overfull \hbox (21.87988pt too wide) in alignment at lines 270--270
  [][][] []
  []
 
-<~/research/figures/DNP2021/u238_2.jpg, id=71, 1401.235pt x 979.66pt>
+<~/research/figures/DNP2021/u238.jpg, id=60, 1660.2025pt x 979.66pt>
+File: ~/research/figures/DNP2021/u238.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/u238.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/u238.jpg  used on input lin
+e 270.
+(pdftex.def)             Requested size: 332.03462pt x 195.92853pt.
+<~/research/figures/DNP2021/u238_2.jpg, id=61, 1660.2025pt x 979.66pt>
 File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/u238_2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
-ine 246.
-(pdftex.def)             Requested size: 145.3713pt x 101.6341pt.
+ine 270.
+(pdftex.def)             Requested size: 332.03462pt x 195.92853pt.
+
+Overfull \hbox (5.42534pt too wide) in paragraph at lines 270--270
+[]| [] 
+ []
+
+
+Overfull \hbox (5.42534pt too wide) in paragraph at lines 270--270
+| []  
+ []
+
 [6
 
- </home/joey/research/figures/DNP2021/u238_2.jpg>]
-<~/research/figures/DNP2021/2vbb.jpg, id=81, 1645.14626pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/2vbb.jpg  used on input lin
-e 273.
-(pdftex.def)             Requested size: 145.3713pt x 86.56612pt.
- [7
+ </home/joey/research/figures/DNP2021/u238.jpg> </home/joey/research/figures/DN
+P2021/u238_2.jpg>]
+<~/research/figures/DNP2021/2vbb_3.jpg, id=70, 1925.1925pt x 994.71625pt>
+File: ~/research/figures/DNP2021/2vbb_3.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb_3.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_3.jpg  used on input l
+ine 298.
+(pdftex.def)             Requested size: 962.5939pt x 497.3569pt.
+<~/research/figures/DNP2021/2vbb_2.jpg, id=71, 1925.1925pt x 994.71625pt>
+File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb_2.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
+ine 298.
+(pdftex.def)             Requested size: 962.5939pt x 497.3569pt.
 
- </home/joey/research/figures/DNP2021/2vbb.jpg>]
-File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP2021/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 299.
-(pdftex.def)             Requested size: 145.3713pt x 93.91125pt.
+Overfull \hbox (11.10849pt too wide) in paragraph at lines 298--298
+[]| [] 
+ []
+
+
+Overfull \hbox (11.10849pt too wide) in paragraph at lines 298--298
+| []  
+ []
+
+[7
+
+ </home/joey/research/figures/DNP2021/2vbb_3.jpg> </home/joey/research/figures/
+DNP2021/2vbb_2.jpg>]
+<~/research/figures/DNP2021/cupid_w_veto.jpeg, id=79, 656.4525pt x 794.97pt>
+File: ~/research/figures/DNP2021/cupid_w_veto.jpeg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/cupid_w_veto.jpeg>
+Package pdftex.def Info: ~/research/figures/DNP2021/cupid_w_veto.jpeg  used on 
+input line 322.
+(pdftex.def)             Requested size: 131.28816pt x 158.99118pt.
  [8
 
-]
+ </home/joey/research/figures/DNP2021/cupid_w_veto.jpeg>]
 \tf@nav=\write7
 \openout7 = `DNP2021.nav'.
 
@@ -1308,7 +1339,7 @@ put line 299.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DNP2021.out' has not changed.
-(rerunfilecheck)             Checksum: 7F40BF1E4F26F55275ED1BA54B64BF89;68.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                DNP2021
@@ -1319,31 +1350,30 @@ Package logreq Info: Writing requests to 'DNP2021.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27572 strings out of 478994
- 519065 string characters out of 5864751
- 1225224 words of memory out of 5000000
- 44506 multiletter control sequences out of 15000+600000
- 418165 words of font info for 80 fonts, out of 8000000 for 9000
+ 27519 strings out of 478994
+ 518001 string characters out of 5864752
+ 1226180 words of memory out of 5000000
+ 44451 multiletter control sequences out of 15000+600000
+ 417871 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,20n,132p,740b,1642s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.0@squid} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on DNP2021.pdf (8 pages, 542403 bytes).
+ 131i,20n,132p,740b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on DNP2021.pdf (8 pages, 807176 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
