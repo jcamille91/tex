@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  11 OCT 2021 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  12 OCT 2021 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1352,7 +1352,7 @@ Package logreq Info: Writing requests to 'DNP2021.run.xml'.
 Here is how much of TeX's memory you used:
  27519 strings out of 478994
  518001 string characters out of 5864752
- 1226180 words of memory out of 5000000
+ 1225180 words of memory out of 5000000
  44451 multiletter control sequences out of 15000+600000
  417871 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1370,7 +1370,7 @@ si10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb>
-Output written on DNP2021.pdf (8 pages, 807218 bytes).
+Output written on DNP2021.pdf (8 pages, 807193 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
