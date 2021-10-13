@@ -28,7 +28,7 @@
 	%\usetheme{Antibes}
 	%\usetheme{Bergen}
 	%\usetheme{Berkeley}
-	%\usetheme{Berlin}
+	\usetheme{Berlin}
 	%\usetheme{Boadilla}
 	%\usetheme{CambridgeUS}
 	%\usetheme{Copenhagen}
@@ -36,7 +36,7 @@
 	%\usetheme{Dresden}
 	%\usetheme{Frankfurt}
 	%\usetheme{Goettingen}
-	\usetheme{Hannover}
+	%\usetheme{Hannover}
 	%\usetheme{Ilmenau}
 	%\usetheme{JuanLesPins}
 	%\usetheme{Luebeck}
@@ -147,9 +147,9 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, deployed in the CUORE cryostat.
+				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE cryostat.
 				\item Aims to eliminate dominant background of alpha particles present in CUORE.
-				\item \textbf{Are new backgrounds introduced with using a new element for the bolometers?}
+				\item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
@@ -176,7 +176,8 @@
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/scintillation.png}
+			\includegraphics[width=5cm]{~/research/figures/DNP2021/scintillation.png}
+			\includegraphics[width=5cm]{~/research/figures/DNP2021/lightyield.jpg}
 		\end{columns}
 	\end{frame}
 
@@ -199,8 +200,8 @@
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{eqnarray*}
-			T_{1/2} = 7.1* 10^{18} yr \\ 
-			\rightarrow \text{rate} \sim 3mHz
+			T_{1/2}^{2\nu\beta\beta} > 7.1* 10^{18} yr \\ 
+			\rightarrow \text{single crystal rate} \sim 3mHz
 			\end{eqnarray*}			
 			
 			\begin{figure}
@@ -224,14 +225,14 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item monte-carlo simulation of 1 million 2.6MeV gamma rays in the crystal volume.
+				\item monte-carlo simulation of 1million 2.6MeV gamma rays in the crystal volume.
 				\item With this energy, we expect multiple scattering events in the crystals.
-				\item $2>$ multiplicity events are discarded
+				\item higher multiplicity events are discarded from counts
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			
-			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/gamma2.jpg}
+			\includegraphics[width=6.5cm]{~/research/figures/DNP2021/gamma2.jpg}
 %			\caption{gnarly}
 			
 			
@@ -253,7 +254,7 @@
 			\end{eqnarray*}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item 100,000 uranium-238 events (full chain)
+				\item 100,000 Uranium-238 events (full chain)
 				\item $T_{1/2} \ ^{214}$Po $\sim$ 160$\mu$s
 				\item $T_{1/2} \ ^{214}$Bi $\sim$ 20 minutes
 			\end{itemize}
@@ -291,7 +292,7 @@
 %			\begin{figure}
 			\hspace*{0.5cm}\includegraphics[width=5cm, scale=0.5]{~/research/figures/DNP2021/2vbb_3.jpg}
 			\medskip
-			\hspace*{0.5cm}\includegraphics[width=5cm, scale=0.5]{~/research/figures/DNP2021/2vbb_2.jpg}
+			\hspace*{0.5cm}\includegraphics[width=5.5cm, scale=1]{~/research/figures/DNP2021/2vbb_2.jpg}
 %			\caption{gnarly}
 %			\end{figure}
 			
@@ -303,14 +304,14 @@
 %------------------------------------------------
 
 	\begin{frame}
-		\frametitle{future work and the muon background}
+		\frametitle{implementation of muon background}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item incorporate scintillating muon veto geometry into monte-carlo simulations
+				\item incorporating scintillating muon veto geometry into monte-carlo simulations
 				\item muon flux at LNGS is $3\cdot 10^{-8} \ \text{muons} \ / \left(s\cdot cm^2\right)$
 				\item muon suppression versus distance cut optimization.
 			\end{itemize}
@@ -322,6 +323,26 @@
 		\end{columns}
 	\end{frame}
 
+
+	\begin{frame}
+		\frametitle{summary and future work}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item validation of distance cut and integration time
+				\item qualitative understanding of effect on 2$\nu\beta\beta$ events
+				\item optimize these parameters with the muon background, potential cosmogenics + in-situ reactions
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[scale=0.2]{~/research/figures/DNP2021/cupid_array.png}
+
+			
+		\end{columns}
+	\end{frame}
 	%------------------------------------------------
 
 	%------------------------------------------------
