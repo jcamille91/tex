@@ -79,7 +79,7 @@
       <file>DNP2021.bcf</file>
     </requires>
     <requires type="editable">
-      <file>~/research/tex/bib2.bib</file>
+      <file>mybib.bib</file>
     </requires>
   </external>
 </requests>

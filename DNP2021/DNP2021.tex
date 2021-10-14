@@ -16,7 +16,23 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{beamer}
+\usepackage{filecontents}
 
+\begin{filecontents}{mybib.bib}
+@article{cryostat,
+   title={The CUORE cryostat: An infrastructure for rare event searches at millikelvin temperatures},
+   volume={102},
+   ISSN={0011-2275},
+   url={http://dx.doi.org/10.1016/j.cryogenics.2019.06.011},
+   DOI={10.1016/j.cryogenics.2019.06.011},
+   journal={Cryogenics},
+   publisher={Elsevier BV},
+   author={Alduino, C. and Alessandria, F. and Balata, M. and Biare, D. and Biassoni, M. and Bucci, C. and Caminata, A. and Canonica, L. and Cappelli, L. and Ceruti, G. and et al.},
+   year={2019},
+   month={Sep},
+   pages={9–21}
+}
+\end{filecontents}
 \mode<presentation> {
 	
 	% The Beamer class comes with a number of default slide themes
@@ -79,9 +95,9 @@
 %\usepackage{enumitem} % for formatting itemized lists (/enumerate for example is used a lot here)
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage[backend=biber, style=authoryear, bibencoding=utf8]{biblatex}
-\addbibresource{~/research/tex/bib2.bib}
-
+\usepackage[backend=biber, style=authoryear, url=true, bibencoding=utf8]{biblatex}
+%\addbibresource{~/research/tex/bib2.bib}
+\bibliography{mybib}
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -147,7 +163,7 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE cryostat.
+				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat\footnotemark .
 				\item Aims to eliminate dominant background of alpha particles present in CUORE.
 				\item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
 			\end{itemize}
@@ -157,7 +173,7 @@
 			{\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
 			
 		\end{columns}
-%		\footcitetext{squid}
+		\footcitetext{arxiv.org/abs/1904.05745}
 	\end{frame}
 	
 	%------------------------------------------------
@@ -168,17 +184,18 @@
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
-			\begin{itemize}
+			\vspace{-2cm}\begin{itemize}
 				\setlength\itemsep{2em}
 				\item Li$_2$MoO$_4$ crystals allow for discrimination of $\alpha$ backgrounds from $\beta\beta$ events (Q=3034keV) via thermal + scintillation signals.
 				\item relatively high isotopic abundance of $^{100}$Mo (10\%)
-				\item enrichment above 95\% already demonstrated in CUPID-Mo \cite{}
+				\item enrichment above 95\% already demonstrated in CUPID-Mo\footnotemark .
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=5cm]{~/research/figures/DNP2021/scintillation.png}
-			\includegraphics[width=5cm]{~/research/figures/DNP2021/lightyield.jpg}
+			\includegraphics[width=4.5cm]{~/research/figures/DNP2021/scintillation.png}
+			\includegraphics[width=4.5cm]{~/research/figures/DNP2021/lightyield.jpg}
 		\end{columns}
+		\vspace{-2cm}\footcitetext{arxiv.org/abs/1909.02994}
 	\end{frame}
 
 	%------------------------------------------------	
@@ -193,14 +210,14 @@
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}				
-				\item The rate of $2\nu\beta\beta$ events is not negligible in CUPID array
+				\item The rate of $2\nu\beta\beta$ events is not negligible\footnotemark \ in the CUPID array
 				\item Minimizing the distance cut helps avoid mis-labelling random $2\nu\beta\beta$ coincidences as multiplicity 2.
 				\item Assuming a simple muon veto geometry, increasing the distance cut rejects more muon events.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{eqnarray*}
-			T_{1/2}^{2\nu\beta\beta} > 7.1* 10^{18} yr \\ 
+			T_{1/2}^{2\nu\beta\beta} = 7.1* 10^{18} yr \\ 
 			\rightarrow \text{single crystal rate} \sim 3mHz
 			\end{eqnarray*}			
 			
@@ -210,7 +227,7 @@
 			\end{figure}
 			
 		\end{columns}
-%		\footcitetext{chernyak}
+		\footcitetext{arxiv.org/abs/1912.07272}
 	\end{frame}
 
 	%------------------------------------------------
@@ -232,7 +249,7 @@
 			
 			\column{.5\textwidth} % Right column and width
 			
-			\includegraphics[width=6.5cm]{~/research/figures/DNP2021/gamma2.jpg}
+			\includegraphics[width=6.2cm]{~/research/figures/DNP2021/gamma2.jpg}
 %			\caption{gnarly}
 			
 			
@@ -275,7 +292,7 @@
 %------------------------------------------------
 
 	\begin{frame}
-		\frametitle{2$\nu\beta\beta$ efficiency simulation}
+		\frametitle{2$\nu\beta\beta$ tagging simulation}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
@@ -283,7 +300,7 @@
 			\begin{itemize}
 				\setlength\itemsep{2em}
 				\item 40 million events generated in crystal volume.
-				\item sensitivity studies expect on the order of 90$\%$ efficiency for 2$\nu\beta\beta$ efficiency
+				\item expect $\sim$ 90$\%$ efficiency for 2$\nu\beta\beta$ tagging, when using approximate CUORE parameters
 				\item larger distance cut causes more random coincidences and more variation with integration time
 				\item bremsstrahlung, escape, random coincidences are primary contributors
 			\end{itemize}
@@ -318,6 +335,7 @@
 			
 			\column{.5\textwidth} % Right column and width
 			\includegraphics[scale=0.2]{~/research/figures/DNP2021/cupid_w_veto.jpeg}
+			{\footnotesize preliminary muon veto geometry}
 
 			
 		\end{columns}
