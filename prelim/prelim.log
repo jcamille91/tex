@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  19 OCT 2021 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  24 OCT 2021 23:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,169 +1205,175 @@ Package biblatex Info: ... file 'prelim.bbl' not found.
 No file prelim.bbl.
 Package biblatex Info: Reference section=0 on input line 121.
 Package biblatex Info: Reference segment=0 on input line 121.
-(./prelim.nav) [1
+(./prelim.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 177
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 189
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 177
+LaTeX Font Info:    Trying to load font information for U+msb on input line 189
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 177.
+ut line 189.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<~/research/figures/DNP2021/cupid_array.png, id=23, 863.47594pt x 557.83406pt>
-File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP2021/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 177.
-(pdftex.def)             Requested size: 153.64493pt x 99.25668pt.
 
-
-LaTeX Warning: Citation 'arxiv.org/abs/1904.05745' on page 2 undefined on input
- line 177.
+LaTeX Warning: Citation 'squid' on page 2 undefined on input line 189.
 
 [2
 
+]
+<~/research/figures/DNP2021/cupid_array.png, id=83, 863.47594pt x 557.83406pt>
+File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
+<use ~/research/figures/DNP2021/cupid_array.png>
+Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
+put line 210.
+(pdftex.def)             Requested size: 153.64493pt x 99.25668pt.
+
+
+LaTeX Warning: Citation 'arxiv.org/abs/1904.05745' on page 3 undefined on input
+ line 210.
+
+[3
+
  </home/joey/research/figures/DNP2021/cupid_array.png (PNG copy)>]
-<~/research/figures/DNP2021/scintillation.png, id=31, 359.09157pt x 257.46187pt
+<~/research/figures/DNP2021/scintillation.png, id=99, 359.09157pt x 257.46187pt
 >
 File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
 <use ~/research/figures/DNP2021/scintillation.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 199.
+input line 234.
 (pdftex.def)             Requested size: 128.0374pt x 91.80226pt.
-<~/research/figures/DNP2021/lightyield.jpg, id=32, 437.38406pt x 347.79938pt>
+<~/research/figures/DNP2021/lightyield.jpg, id=100, 437.38406pt x 347.79938pt>
 File: ~/research/figures/DNP2021/lightyield.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/lightyield.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/lightyield.jpg  used on inp
-ut line 199.
+ut line 234.
 (pdftex.def)             Requested size: 128.0374pt x 101.81448pt.
 
 
-LaTeX Warning: Citation 'arxiv.org/abs/1909.02994' on page 3 undefined on input
- line 199.
-
-[3
-
- </home/joey/research/figures/DNP2021/scintillation.png (PNG copy)> </home/joey
-/research/figures/DNP2021/lightyield.jpg>]
-Overfull \hbox (2.83495pt too wide) in alignment at lines 231--231
- [][][] []
- []
-
-<~/research/figures/DNP2021/muon_veto.png, id=38, 754.31813pt x 469.755pt>
-File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
-<use ~/research/figures/DNP2021/muon_veto.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 231.
-(pdftex.def)             Requested size: 153.64493pt x 95.67679pt.
-
-LaTeX Warning: Citation 'arxiv.org/abs/1912.07272' on page 4 undefined on input
- line 231.
+LaTeX Warning: Citation 'arxiv.org/abs/1909.02994' on page 4 undefined on input
+ line 234.
 
 [4
 
- </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
-<~/research/figures/DNP2021/gamma2.jpg, id=48, 1322.9425pt x 979.66pt>
-File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/gamma2.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
-ine 257.
-(pdftex.def)             Requested size: 176.407pt x 130.61902pt.
-
-Overfull \hbox (22.76207pt too wide) in paragraph at lines 257--257
-[][]  
- []
-
-[5
-
- </home/joey/research/figures/DNP2021/gamma2.jpg>]
-Overfull \hbox (14.43367pt too wide) in alignment at lines 288--288
+ </home/joey/research/figures/DNP2021/scintillation.png (PNG copy)> </home/joey
+/research/figures/DNP2021/lightyield.jpg>]
+Overfull \hbox (2.83495pt too wide) in alignment at lines 266--266
  [][][] []
  []
 
-<~/research/figures/DNP2021/u238.jpg, id=54, 1275.76625pt x 979.66pt>
-File: ~/research/figures/DNP2021/u238.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/u238.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/u238.jpg  used on input lin
-e 288.
-(pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
-<~/research/figures/DNP2021/u238_2.jpg, id=55, 1275.76625pt x 979.66pt>
-File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/u238_2.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
-ine 288.
-(pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
+<~/research/figures/DNP2021/muon_veto.png, id=116, 754.31813pt x 469.755pt>
+File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
+<use ~/research/figures/DNP2021/muon_veto.png>
+Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
+t line 266.
+(pdftex.def)             Requested size: 153.64493pt x 95.67679pt.
 
-Overfull \vbox (24.42366pt too high) detected at line 288
+LaTeX Warning: Citation 'arxiv.org/abs/1912.07272' on page 5 undefined on input
+ line 266.
+
+[5
+
+ </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
+<~/research/figures/DNP2021/gamma2.jpg, id=134, 1322.9425pt x 979.66pt>
+File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/gamma2.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
+ine 292.
+(pdftex.def)             Requested size: 176.407pt x 130.61902pt.
+
+Overfull \hbox (22.76207pt too wide) in paragraph at lines 292--292
+[][]  
  []
 
 [6
 
- </home/joey/research/figures/DNP2021/u238.jpg> </home/joey/research/figures/DN
-P2021/u238_2.jpg>]
-<~/research/figures/DNP2021/2vbb_3.jpg, id=64, 1471.4975pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb_3.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb_3.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_3.jpg  used on input l
-ine 317.
-(pdftex.def)             Requested size: 735.74696pt x 489.82881pt.
-<~/research/figures/DNP2021/2vbb_2.jpg, id=65, 1421.31pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb_2.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
-ine 317.
-(pdftex.def)             Requested size: 1421.30655pt x 979.65762pt.
-
-Overfull \hbox (2.845pt too wide) in paragraph at lines 317--317
-[]| [] 
+ </home/joey/research/figures/DNP2021/gamma2.jpg>]
+Overfull \hbox (14.43367pt too wide) in alignment at lines 323--323
+ [][][] []
  []
 
+<~/research/figures/DNP2021/u238.jpg, id=150, 1275.76625pt x 979.66pt>
+File: ~/research/figures/DNP2021/u238.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/u238.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/u238.jpg  used on input lin
+e 323.
+(pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
+<~/research/figures/DNP2021/u238_2.jpg, id=151, 1275.76625pt x 979.66pt>
+File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/u238_2.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
+ine 323.
+(pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
 
-Overfull \hbox (17.05614pt too wide) in paragraph at lines 317--317
-| []  
- []
-
-
-Overfull \vbox (2.495pt too high) detected at line 317
+Overfull \vbox (28.6833pt too high) detected at line 323
  []
 
 [7
 
+ </home/joey/research/figures/DNP2021/u238.jpg> </home/joey/research/figures/DN
+P2021/u238_2.jpg>]
+<~/research/figures/DNP2021/2vbb_3.jpg, id=172, 1471.4975pt x 979.66pt>
+File: ~/research/figures/DNP2021/2vbb_3.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb_3.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_3.jpg  used on input l
+ine 352.
+(pdftex.def)             Requested size: 735.74696pt x 489.82881pt.
+<~/research/figures/DNP2021/2vbb_2.jpg, id=173, 1421.31pt x 979.66pt>
+File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb_2.jpg>
+Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
+ine 352.
+(pdftex.def)             Requested size: 1421.30655pt x 979.65762pt.
+
+Overfull \hbox (2.845pt too wide) in paragraph at lines 352--352
+[]| [] 
+ []
+
+
+Overfull \hbox (17.05614pt too wide) in paragraph at lines 352--352
+| []  
+ []
+
+
+Overfull \vbox (6.75464pt too high) detected at line 352
+ []
+
+[8
+
  </home/joey/research/figures/DNP2021/2vbb_3.jpg> </home/joey/research/figures/
 DNP2021/2vbb_2.jpg>]
-<~/research/figures/DNP2021/cupid_w_veto.jpeg, id=72, 656.4525pt x 794.97pt>
+<~/research/figures/DNP2021/cupid_w_veto.jpeg, id=189, 656.4525pt x 794.97pt>
 File: ~/research/figures/DNP2021/cupid_w_veto.jpeg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/cupid_w_veto.jpeg>
 Package pdftex.def Info: ~/research/figures/DNP2021/cupid_w_veto.jpeg  used on 
-input line 342.
+input line 377.
 (pdftex.def)             Requested size: 131.28816pt x 158.99118pt.
- [8
+ [9
 
  </home/joey/research/figures/DNP2021/cupid_w_veto.jpeg>]
 File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
 <use ~/research/figures/DNP2021/cupid_array.png>
 Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 363.
+put line 398.
 (pdftex.def)             Requested size: 172.69212pt x 111.56483pt.
 
-Overfull \hbox (19.0472pt too wide) in paragraph at lines 363--363
+Overfull \hbox (19.0472pt too wide) in paragraph at lines 398--398
 [][]  
  []
 
-[9
+[10
 
 ]
 \tf@nav=\write7
@@ -1384,7 +1390,7 @@ Overfull \hbox (19.0472pt too wide) in paragraph at lines 363--363
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `prelim.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: A91E879B6D3CFCD82AE9CBAE63A2A218;364.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                prelim
@@ -1395,30 +1401,31 @@ Package logreq Info: Writing requests to 'prelim.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27600 strings out of 478994
- 520318 string characters out of 5864752
- 1230424 words of memory out of 5000000
- 44520 multiletter control sequences out of 15000+600000
- 418165 words of font info for 80 fonts, out of 8000000 for 9000
+ 27649 strings out of 478994
+ 521331 string characters out of 5864751
+ 1235446 words of memory out of 5000000
+ 44563 multiletter control sequences out of 15000+600000
+ 419223 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,20n,132p,739b,1370s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on prelim.pdf (9 pages, 758986 bytes).
+ 131i,20n,132p,739b,1371s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
+x10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on prelim.pdf (10 pages, 775920 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
