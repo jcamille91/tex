@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  25 OCT 2021 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  26 OCT 2021 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,64 +1205,63 @@ Package biblatex Info: ... file 'prelim.bbl' not found.
 No file prelim.bbl.
 Package biblatex Info: Reference section=0 on input line 123.
 Package biblatex Info: Reference segment=0 on input line 123.
-(./prelim.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 190
+(./prelim.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 177
 .
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 190
+LaTeX Font Info:    Trying to load font information for U+msb on input line 177
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 190.
+ut line 177.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [2
+)
+
+pdfTeX warning: /usr/bin/pdflatex (file /home/joey/Downloads/140385-stackup.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<~/Downloads/140385-stackup.pdf, id=13, 794.96957pt x 614.29482pt>
+File: ~/Downloads/140385-stackup.pdf Graphic file (type pdf)
+<use ~/Downloads/140385-stackup.pdf>
+Package pdftex.def Info: ~/Downloads/140385-stackup.pdf  used on input line 177
+.
+(pdftex.def)             Requested size: 256.0748pt x 197.88124pt.
+
+Overfull \hbox (102.42987pt too wide) in paragraph at lines 177--177
+[][]  
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/joey/Downloads/14038
+5-stackup.pdf>] [2
 
 ]
-Overfull \hbox (40.43704pt too wide) in alignment at lines 213--213
+Overfull \hbox (40.43704pt too wide) in alignment at lines 232--232
  [][][] []
  []
 
 [3
 
 ]
-<~/research/figures/prelim/survival_probability.png, id=88, 485.56406pt x 352.3
+<~/research/figures/prelim/survival_probability.png, id=63, 485.56406pt x 352.3
 1625pt>
 File: ~/research/figures/prelim/survival_probability.png Graphic file (type png
 )
 <use ~/research/figures/prelim/survival_probability.png>
 Package pdftex.def Info: ~/research/figures/prelim/survival_probability.png  us
-ed on input line 234.
+ed on input line 255.
 (pdftex.def)             Requested size: 153.64493pt x 111.48016pt.
  [4
 
  </home/joey/research/figures/prelim/survival_probability.png (PNG copy)>]
-<~/research/figures/DNP2021/cupid_array.png, id=100, 863.47594pt x 557.83406pt>
-
-File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP2021/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 256.
-(pdftex.def)             Requested size: 153.64493pt x 99.25668pt.
-
-Overfull \vbox (0.28253pt too high) detected at line 256
- []
-
-[5
-
- </home/joey/research/figures/DNP2021/cupid_array.png (PNG copy)>] [6
-
-]
 \tf@nav=\write7
 \openout7 = `prelim.nav'.
 
@@ -1272,13 +1271,12 @@ Overfull \vbox (0.28253pt too high) detected at line 256
 \tf@snm=\write9
 \openout9 = `prelim.snm'.
 
-
-(./prelim.aux)
+ (./prelim.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `prelim.out' has not changed.
-(rerunfilecheck)             Checksum: A91E879B6D3CFCD82AE9CBAE63A2A218;364.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                prelim
@@ -1289,13 +1287,13 @@ Package logreq Info: Writing requests to 'prelim.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27374 strings out of 478994
- 515389 string characters out of 5864751
- 1233605 words of memory out of 5000000
- 44308 multiletter control sequences out of 15000+600000
- 415114 words of font info for 68 fonts, out of 8000000 for 9000
+ 27257 strings out of 478994
+ 512763 string characters out of 5864751
+ 1230600 words of memory out of 5000000
+ 44197 multiletter control sequences out of 15000+600000
+ 414820 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,19n,132p,739b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,18n,132p,739b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/p
@@ -1309,13 +1307,14 @@ pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on prelim.pdf (6 pages, 275296 bytes).
+s/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on prelim.pdf (4 pages, 266731 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -122,9 +122,9 @@
 
 \begin{document}
 
-	\begin{frame}
-		\titlepage % Print the title page as the first slide
-	\end{frame}
+%	\begin{frame}
+%		\titlepage % Print the title page as the first slide
+%	\end{frame}
 	
 %	\begin{frame}
 %		\frametitle{Table of contents} % Table of contents slide, comment this block out to remove it
@@ -133,7 +133,7 @@
 	
 	
 	%------------------------------------------------
-\section{Motivation and Background}
+%\section{Motivation and Background}
 	% ----------------------------------------------
 	
 %	\begin{frame}
@@ -157,6 +157,25 @@
 %		\footcitetext{squid}
 %	\end{frame}
 
+\begin{frame}
+		\frametitle{}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item analysis shifter material on DocDB
+				\item PCB stackup and material
+				\item MOXA drivers
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=9cm]{~/Downloads/140385-stackup.pdf}
+			
+		\end{columns}
+	\end{frame}
+
 	\begin{frame}
 		\frametitle{neutrinos in the Standard Model}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
@@ -166,7 +185,7 @@
 			\begin{itemize}
 				\setlength\itemsep{2em}
 				\item standard model leptons $\textit{e}, \mu,\tau$ each have associated neutrinos $\nu_e, \nu_{\mu}, \nu_{\tau}$. 
-				\item Neutrinos only exist as left handed particles, so via the Higgs Mechanism and the Yuakawa interaction term, the Standard model predicts they are \footnotesize{\textbf{massless}}.
+				\item Neutrinos only exist as left handed particles, so via the Higgs Mechanism and the Yuakawa interaction term, the Standard model predicts they are \footnotesize{\textbf{massless}}. \\ $\mathcal{L}_{mass} = m_{\ell} \bar{\ell_L} \ell_R$
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
@@ -219,15 +238,17 @@
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
-			neutrinoless double beta decay has characteristic decay - can resolve in gaseous TPC the tracks. the only irreducible background is 2vbb.
+%			neutrinoless double beta decay has characteristic decay - can resolve in gaseous TPC the tracks. the only irreducible background is 2vbb.
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CU
+				\item Homestake Mine and the solar neutrino anomaly $^{37}Cl+\nu_e \rightarrow \ ^{37}Ar + e^-$ observes factor of 3 discrepancy in $\nu_e$ flux.
+				\item Sudbury Neutrino Observatory (SNO) measures total neutrino flux: $\nu_{\mu}, \nu_{\tau}$ account for $\nu_e$ deficit.
+				\item KAMLAND, a reactor neutrino experiment shows survival probability of electron neutrinos (a function of the neutrino mass $P = 1 - sin^2 (2\theta)sin^2(\Delta m^2 L \ 4E)$
+				
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			\includegraphics[width=\linewidth]{~/research/figures/prelim/survival_probability.png}
-			Survival probability
 		
 			
 		\end{columns}
@@ -235,53 +256,53 @@
 	
 	%--------------------------------------------		
 	
-	\begin{frame}
-		\frametitle{neutrino less double beta decay}
-		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-			
-			\column{.45\textwidth} % Left column and width
-			neutrinoless double beta decay has characteristic decay - can resolve in gaseous TPC the tracks. the only irreducible background is 2vbb.
-			\begin{itemize}
-				\setlength\itemsep{2em}
-				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat\footnotemark .
-				\item Aims to eliminate dominant background of alpha particles present in CUORE.
-				\item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
-			\end{itemize}
-			
-			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
-			{\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
-			
-		\end{columns}
-	\end{frame}
-	
-	%--------------------------------------------	
-	
-\section{Status of the 0nbb searches}
-
-	%------------------------------------------------
-
-
-	\begin{frame}
-		\frametitle{detection techniques}
-		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-			
-			\column{.45\textwidth} % Left column and width
-			%\textbf{Heading}
-			\begin{itemize}
-				\item semiconductors
-				\item bolometers
-				\item time-projection chambers
-				\item organic scintillators
-			\end{itemize}
-			
-			\column{.5\textwidth} % Right column and width
-			\begin{figure}
-			
-			\end{figure}
-			
-		\end{columns}
-	\end{frame}
+%	\begin{frame}
+%		\frametitle{neutrino less double beta decay}
+%		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+%			
+%			\column{.45\textwidth} % Left column and width
+%			neutrinoless double beta decay has characteristic decay - can resolve in gaseous TPC the tracks. the only irreducible background is 2vbb.
+%			\begin{itemize}
+%				\setlength\itemsep{2em}
+%				\item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat\footnotemark .
+%				\item Aims to eliminate dominant background of alpha particles present in CUORE.
+%				\item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
+%			\end{itemize}
+%			
+%			\column{.5\textwidth} % Right column and width
+%			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
+%			{\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+%			
+%		\end{columns}
+%	\end{frame}
+%	
+%	%--------------------------------------------	
+%	
+%\section{Status of the 0nbb searches}
+%
+%	%------------------------------------------------
+%
+%
+%	\begin{frame}
+%		\frametitle{detection techniques}
+%		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+%			
+%			\column{.45\textwidth} % Left column and width
+%			%\textbf{Heading}
+%			\begin{itemize}
+%				\item semiconductors
+%				\item bolometers
+%				\item time-projection chambers
+%				\item organic scintillators
+%			\end{itemize}
+%			
+%			\column{.5\textwidth} % Right column and width
+%			\begin{figure}
+%			
+%			\end{figure}
+%			
+%		\end{columns}
+%	\end{frame}
 
 	%------------------------------------------------
 
