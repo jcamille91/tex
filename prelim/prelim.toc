@@ -2,4 +2,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Motivation and Background}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Status of the 0nbb searches}{4}{0}{2}
+\beamer@sectionintoc {2}{Status of the 0nbb searches}{6}{0}{2}
