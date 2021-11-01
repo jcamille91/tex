@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  30 OCT 2021 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  31 OCT 2021 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**prelim.tex
-(./prelim.tex
+**prelim2.tex
+(./prelim2.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
@@ -990,8 +990,8 @@ File: biblatex.cfg
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count453
 \l__pdf_internal_box=\box72
-) (./prelim.aux)
-\openout1 = `prelim.aux'.
+) (./prelim2.aux)
+\openout1 = `prelim2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
@@ -1011,6 +1011,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1092,9 +1093,9 @@ LaTeX Info: Redefining \ref on input line 121.
 LaTeX Info: Redefining \pageref on input line 121.
 LaTeX Info: Redefining \nameref on input line 121.
 
-(./prelim.out) (./prelim.out)
+(./prelim2.out) (./prelim2.out)
 \@outlinefile=\write6
-\openout6 = `prelim.out'.
+\openout6 = `prelim2.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 121.
@@ -1197,234 +1198,104 @@ Package biblatex Info: ... and expl3
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout5 = `prelim.bcf'.
+\openout5 = `prelim2.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'prelim.bbl' not found.
+Package biblatex Info: ... file 'prelim2.bbl' not found.
 
-No file prelim.bbl.
+No file prelim2.bbl.
 Package biblatex Info: Reference section=0 on input line 121.
 Package biblatex Info: Reference segment=0 on input line 121.
-(./prelim.nav) [1
+(./prelim2.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 177
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 162
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 177
+LaTeX Font Info:    Trying to load font information for U+msb on input line 162
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 177.
+ut line 162.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-<~/research/figures/DNP2021/cupid_array.png, id=23, 863.47594pt x 557.83406pt>
-File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP2021/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 177.
-(pdftex.def)             Requested size: 153.64493pt x 99.25668pt.
+) [2
 
-
-LaTeX Warning: Citation 'arxiv.org/abs/1904.05745' on page 2 undefined on input
- line 177.
-
-[2
-
- </home/joey/research/figures/DNP2021/cupid_array.png (PNG copy)>]
-<~/research/figures/DNP2021/scintillation.png, id=32, 359.09157pt x 257.46187pt
->
-File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
-<use ~/research/figures/DNP2021/scintillation.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 201.
-(pdftex.def)             Requested size: 128.0374pt x 91.80226pt.
-<~/research/figures/DNP2021/lightyield.jpg, id=33, 437.38406pt x 347.79938pt>
-File: ~/research/figures/DNP2021/lightyield.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/lightyield.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/lightyield.jpg  used on inp
-ut line 201.
-(pdftex.def)             Requested size: 128.0374pt x 101.81448pt.
-
-
-LaTeX Warning: Citation 'arxiv.org/abs/1909.02994' on page 3 undefined on input
- line 201.
-
+]
 [3
 
- </home/joey/research/figures/DNP2021/scintillation.png (PNG copy)> </home/joey
-/research/figures/DNP2021/lightyield.jpg>]
-Overfull \hbox (2.83495pt too wide) in alignment at lines 233--233
- [][][] []
+]
+Overfull \vbox (5.74509pt too high) detected at line 212
  []
-
-<~/research/figures/DNP2021/muon_veto.png, id=40, 754.31813pt x 469.755pt>
-File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
-<use ~/research/figures/DNP2021/muon_veto.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 233.
-(pdftex.def)             Requested size: 153.64493pt x 95.67679pt.
-
-LaTeX Warning: Citation 'arxiv.org/abs/1912.07272' on page 4 undefined on input
- line 233.
 
 [4
 
- </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
-<~/research/figures/DNP2021/gamma2.jpg, id=50, 1322.9425pt x 979.66pt>
-File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/gamma2.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
-ine 259.
-(pdftex.def)             Requested size: 176.407pt x 130.61902pt.
+] [5
 
-Overfull \hbox (22.76207pt too wide) in paragraph at lines 259--259
-[][]  
- []
-
-[5
-
- </home/joey/research/figures/DNP2021/gamma2.jpg>]
-Overfull \hbox (14.43367pt too wide) in alignment at lines 290--290
+]
+Overfull \hbox (17.59619pt too wide) in alignment at lines 263--263
  [][][] []
- []
-
-<~/research/figures/DNP2021/u238.jpg, id=56, 1275.76625pt x 979.66pt>
-File: ~/research/figures/DNP2021/u238.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/u238.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/u238.jpg  used on input lin
-e 290.
-(pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
-<~/research/figures/DNP2021/u238_2.jpg, id=57, 1275.76625pt x 979.66pt>
-File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/u238_2.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
-ine 290.
-(pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
-
-Overfull \vbox (24.42366pt too high) detected at line 290
  []
 
 [6
 
- </home/joey/research/figures/DNP2021/u238.jpg> </home/joey/research/figures/DN
-P2021/u238_2.jpg>]
-<~/research/figures/DNP2021/2vbb_3.jpg, id=66, 1471.4975pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb_3.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb_3.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_3.jpg  used on input l
-ine 319.
-(pdftex.def)             Requested size: 735.74696pt x 489.82881pt.
-<~/research/figures/DNP2021/2vbb_2.jpg, id=67, 1421.31pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb_2.jpg>
-Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
-ine 319.
-(pdftex.def)             Requested size: 1421.30655pt x 979.65762pt.
-
-Overfull \hbox (2.845pt too wide) in paragraph at lines 319--319
-[]| [] 
- []
-
-
-Overfull \hbox (17.05614pt too wide) in paragraph at lines 319--319
-| []  
- []
-
-
-Overfull \vbox (2.495pt too high) detected at line 319
+]
+Overfull \hbox (17.59619pt too wide) in alignment at lines 286--286
+ [][][] []
  []
 
 [7
 
- </home/joey/research/figures/DNP2021/2vbb_3.jpg> </home/joey/research/figures/
-DNP2021/2vbb_2.jpg>]
-<~/research/figures/DNP2021/cupid_w_veto.jpeg, id=74, 656.4525pt x 794.97pt>
-File: ~/research/figures/DNP2021/cupid_w_veto.jpeg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/cupid_w_veto.jpeg>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_w_veto.jpeg  used on 
-input line 344.
-(pdftex.def)             Requested size: 131.28816pt x 158.99118pt.
- [8
-
- </home/joey/research/figures/DNP2021/cupid_w_veto.jpeg>]
-File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP2021/cupid_array.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 365.
-(pdftex.def)             Requested size: 172.69212pt x 111.56483pt.
-
-Overfull \hbox (19.0472pt too wide) in paragraph at lines 365--365
-[][]  
- []
-
-[9
+] [8
 
 ]
 \tf@nav=\write7
-\openout7 = `prelim.nav'.
+\openout7 = `prelim2.nav'.
 
 \tf@toc=\write8
-\openout8 = `prelim.toc'.
+\openout8 = `prelim2.toc'.
 
 \tf@snm=\write9
-\openout9 = `prelim.snm'.
+\openout9 = `prelim2.snm'.
 
- (./prelim.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `prelim.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `prelim.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A91E879B6D3CFCD82AE9CBAE63A2A218;364.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                prelim
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'prelim.run.xml'.
-\openout1 = `prelim.run.xml'.
+ (./prelim2.aux)
+Package rerunfilecheck Info: File `prelim2.out' has not changed.
+(rerunfilecheck)             Checksum: DFFB8DCC6FABEC1DAB567FD07EDC61C4;174.
+Package logreq Info: Writing requests to 'prelim2.run.xml'.
+\openout1 = `prelim2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27592 strings out of 478994
- 520258 string characters out of 5864752
- 1230273 words of memory out of 5000000
- 44510 multiletter control sequences out of 15000+600000
- 418165 words of font info for 80 fonts, out of 8000000 for 9000
+ 27351 strings out of 478994
+ 514586 string characters out of 5864752
+ 1233283 words of memory out of 5000000
+ 44291 multiletter control sequences out of 15000+600000
+ 415918 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,20n,132p,739b,1370s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on prelim.pdf (9 pages, 759026 bytes).
+ 131i,19n,132p,740b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
+8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on prelim2.pdf (8 pages, 132802 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,307 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+\usepackage{filecontents}
+
+\begin{filecontents}{mybib.bib}
+@article{cryostat,
+   title={The CUORE cryostat: An infrastructure for rare event searches at millikelvin temperatures},
+   volume={102},
+   ISSN={0011-2275},
+   url={http://dx.doi.org/10.1016/j.cryogenics.2019.06.011},
+   DOI={10.1016/j.cryogenics.2019.06.011},
+   journal={Cryogenics},
+   publisher={Elsevier BV},
+   author={Alduino, C. and Alessandria, F. and Balata, M. and Biare, D. and Biassoni, M. and Bucci, C. and Caminata, A. and Canonica, L. and Cappelli, L. and Ceruti, G. and et al.},
+   year={2019},
+   month={Sep},
+   pages={9–21}
+}
+\end{filecontents}
+\mode<presentation> {
+	
+	% The Beamer class comes with a number of default slide themes
+	% which change the colors and layouts of slides. Below this is a list
+	% of all the themes, uncomment each in turn to see what they look like.
+	
+	%\usetheme{default}
+	%\usetheme{AnnArbor}
+	%\usetheme{Antibes}
+	%\usetheme{Bergen}
+	%\usetheme{Berkeley}
+	\usetheme{Berlin}
+	%\usetheme{Boadilla}
+	%\usetheme{CambridgeUS}
+	%\usetheme{Copenhagen}
+	%\usetheme{Darmstadt}
+	%\usetheme{Dresden}
+	%\usetheme{Frankfurt}
+	%\usetheme{Goettingen}
+	%\usetheme{Hannover}
+	%\usetheme{Ilmenau}
+	%\usetheme{JuanLesPins}
+	%\usetheme{Luebeck}
+	%\usetheme{Madrid}
+	%\usetheme{Malmoe}
+	%\usetheme{Marburg}
+	%\usetheme{Montpellier}
+	%\usetheme{PaloAlto}
+	%\usetheme{Pittsburgh}
+	%\usetheme{Rochester}
+	%\usetheme{Singapore}
+	%\usetheme{Szeged}
+	%\usetheme{Warsaw}
+	
+	% As well as themes, the Beamer class has a number of color themes
+	% for any slide theme. Uncomment each of these in turn to see how it
+	% changes the colors of your current slide theme.
+	
+	%\usecolortheme{albatross}
+	%\usecolortheme{beaver}
+	%\usecolortheme{beetle}
+	%\usecolortheme{crane}
+	%\usecolortheme{dolphin}
+	%\usecolortheme{dove}
+	%\usecolortheme{fly}
+	%\usecolortheme{lily}
+	%\usecolortheme{orchid}
+	%\usecolortheme{rose}
+	%\usecolortheme{seagull}
+	\usecolortheme{seahorse}
+	%\usecolortheme{whale}
+	%\usecolortheme{wolverine}
+	
+	%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+	\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+	
+	\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+	\setbeamertemplate{itemize/enumerate body begin}{\scriptsize} % this controls the size of the text in the enumerated lists
+}
+%\usepackage{enumitem} % for formatting itemized lists (/enumerate for example is used a lot here)
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[backend=biber, style=authoryear, url=true, bibencoding=utf8]{biblatex}
+%\addbibresource{~/research/tex/bib2.bib}
+\bibliography{mybib}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[CUPID array]{Preliminary Examination} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Joe Camilleri} % Your name
+\institute[Virginia Tech] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	Virginia Tech \\ % Your institution for the title page
+	\medskip
+	DNP October 2021 \\
+	\medskip
+%	\textit{jcamilleri@vt.edu} % Your email address
+	\textbf{Mini-Symposium: Neutrinos and Nuclei XII: Double Beta Decay Analysis Techniques}
+}
+
+\date{} % Date, can be changed to a custom date
+
+\begin{document}
+
+	\begin{frame}
+		\titlepage % Print the title page as the first slide
+	\end{frame}
+	
+%	\begin{frame}
+%		\frametitle{Table of contents} % Table of contents slide, comment this block out to remove it
+%		%\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+%	\end{frame}
+	
+	
+	%------------------------------------------------
+\section{Motivation and Background}
+	% ----------------------------------------------
+	
+	\begin{frame}
+		\frametitle{Dirac equation and charge conjugation}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item chirality
+				\item charge conjugation and the majorana neutrino
+				\item maybe some history on majorana's proposition.
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+				\begin{eqnarray*}
+				\hat{\psi} \rightarrow \hat{\psi}^C = C\gamma ^0 \hat{\psi}^*\\
+				C \ = \ 
+				\begin{pmatrix}
+				i\sigma_2 & 0 \\
+				0 & -i\sigma_2				
+				\end{pmatrix} \\
+				e^- \Longleftrightarrow \ e^+
+				\end{eqnarray*} 
+			
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{neutrinos and the standard model}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item in the GWS electroweak theory, the neutrino's mass should be generated by the higgs mechanism. left handed fields couple to right handed fields to generate mass, however the neutrino only presents as a left-handed particle.
+				\item therefore, for neutrinos to be massive, there must be some mechanism beyond the standard model that can give them mass.
+				\item three majorana light-neutrino mixing model
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{gather*}
+			m_{\nu} = U 
+			\begin{pmatrix} m_1 & 0 & 0 \\
+							0 & m_2 & 0 \\
+							0 & 0 & m_3
+			\end{pmatrix}
+			U^{T}
+			\end{gather*} 
+			\begin{equation*}
+			\langle m_{\beta\beta}\rangle = |U_{ij}^2 m_j|
+			\end{equation*}
+			
+		\end{columns}
+	\end{frame}
+	
+		
+	
+	\begin{frame}
+		\frametitle{neutrtinoless-double beta decay as a probe into the weak interaction}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item historically, experiments studying the weak interaction have yielded unexpected results with regards to what theory describes the leptons.
+				\item beta spectrum, charge / parity on their own not respected, (charge-parity is), what form does the weak interaction take in its coupling (V-A)
+				\item confirming or denying the existence of double beta decay would probe whether the chargeless lepton, the neutrino, has a majorana or dirac anti-particle.
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+		
+			
+		\end{columns}
+	\end{frame}
+	
+\begin{frame}
+		\frametitle{far reaching consequences of observing $0\nu\beta\beta$}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item baryogenesis through leptogenesis
+				\item charge parity violating process in the standard model
+				\item lepton number conservation (accidental symmetry of the standard model)
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{gather*}
+			m_{\nu} = U 
+			\begin{pmatrix} m_1 & 0 & 0 \\
+							0 & m_2 & 0 \\
+							0 & 0 & m_3
+			\end{pmatrix}
+			U^{T}
+			\end{gather*} 
+			\begin{equation*}
+			\langle m_{\beta\beta}\rangle = |U_{ij}^2 m_j|
+			\end{equation*}
+			
+		\end{columns}
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{$0\nu\beta\beta$ half-life and sensitivity}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item direct detection experiments typically characterize the half-life in terms of the effective neutrino mass $m_{\beta\beta}$
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{eqnarray*}
+			T_{1/2}^{0\nu\beta\beta} &=\left(G|\mathcal{M}|^2 \langle m_{\beta\beta}\rangle\right)^{-1} \\
+			& \simeq 10^{27-28} \left(\frac{0.01 \ eV}{\langle m_{\beta\beta}\rangle}\right)^2 \text{years}
+			\end{eqnarray*}
+			\begin{equation*}
+			F_{0\nu} = \tau_{1/2}^{bkg. fluct.} = \text{ln}(2)N_{\beta\beta}\epsilon \frac{t}{n_B}
+			\end{equation*}
+		\end{columns}
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{$0\nu\beta\beta$ half-life and sensitivity}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item to probe
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{eqnarray*}
+			T_{1/2}^{0\nu\beta\beta} &=\left(G|\mathcal{M}|^2 \langle m_{\beta\beta}\rangle\right)^{-1} \\
+			& \simeq 10^{27-28} \left(\frac{0.01 \ eV}{\langle m_{\beta\beta}\rangle}\right)^2 \text{years}
+			\end{eqnarray*}
+			\begin{equation*}
+			T_{1/2}^{0\nu\beta\beta} \sim \  \epsilon \sqrt{\frac{M_{iso} t}{b \Delta E}}
+			\end{equation*}
+			
+		\end{columns}
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{experimental signature and detection}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item mono-energetic peak with 2 electrons leaving the reaction.
+				\item tomography of electron tracks can help reduced backgrounds, except for the $2\nu\beta\beta$ irreducible background
+				\item compare to $\Sigma$ and $m_{\beta}$ from cosmology
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+	
+			
+		\end{columns}
+	\end{frame}		
+	
+\end{document}
