@@ -98,6 +98,18 @@
 \usepackage[backend=biber, style=authoryear, url=true, bibencoding=utf8]{biblatex}
 %\addbibresource{~/research/tex/bib2.bib}
 \bibliography{mybib}
+\usepackage{cancel} % for the slash symbol found through \cancel{} command
+\usepackage{tikz} % for circling stuff in mathmode
+\usepackage{mathtools}% also for circling stuff in mathmode.
+\usepackage{bm} % for \boldsymbol{}
+\makeatletter
+\newcommand\mathcircled[1]{%
+  \mathpalette\@mathcircled{#1}%
+}
+\newcommand\@mathcircled[2]{%
+  \tikz[baseline=(math.base)] \node[draw,circle,inner sep=1pt, color=red] (math) {$\m@th#1#2$};%
+}
+\makeatother
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -110,10 +122,9 @@
 {
 	Virginia Tech \\ % Your institution for the title page
 	\medskip
-	DNP October 2021 \\
 	\medskip
 %	\textit{jcamilleri@vt.edu} % Your email address
-	\textbf{Mini-Symposium: Neutrinos and Nuclei XII: Double Beta Decay Analysis Techniques}
+	\textbf{prelim exam}
 }
 
 \date{} % Date, can be changed to a custom date
@@ -140,52 +151,202 @@
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
-			\begin{itemize}
-				\setlength\itemsep{2em}
-				\item chirality
-				\item charge conjugation and the majorana neutrino
-				\item maybe some history on majorana's proposition.
-			\end{itemize}
+			\begin{eqnarray*}
+			\mathcal{L} = \frac{i}{2} \big[ \ \overline{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right) \\
+			- \left(\partial_{\mu}\overline{\psi}\right)\gamma^{\mu}\psi\big] - \mathcircled{ m\overline{\psi}\psi}
+			\end{eqnarray*}						
 			
-			\column{.5\textwidth} % Right column and width
 				\begin{eqnarray*}
+				\boldsymbol{e^- \Longleftrightarrow \ e^+} \\
 				\hat{\psi} \rightarrow \hat{\psi}^C = C\gamma ^0 \hat{\psi}^*\\
 				C \ = \ 
 				\begin{pmatrix}
 				i\sigma_2 & 0 \\
 				0 & -i\sigma_2				
-				\end{pmatrix} \\
-				e^- \Longleftrightarrow \ e^+
+				\end{pmatrix}
 				\end{eqnarray*} 
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{eqnarray*}
+			\left(i\cancel{\partial} - m\right)\psi = 0 \\
+			\psi = \begin{pmatrix}
+			 \varphi \\ 
+			 \chi 
+			 \end{pmatrix}
+			\end{eqnarray*}
+			\includegraphics[width=\textwidth]{~/research/figures/prelim/dirac1928.png}
 			
 		\end{columns}
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{neutrinos and the standard model}
+		\frametitle{Majorana fermions and neutrinos}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}					
+			\begin{itemize}
+			\item Majorana fermions can be seen as solutions to the Dirac equation with an extra constraint
+			\item $\psi = \psi^C$
+			\item implies these fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			{\footnotesize The left and right handed components of the spinor are no longer independent}
+			\begin{eqnarray*}
+			\Psi_{majorana} = \psi_L + \psi_R \\
+			\end{eqnarray*}
+			{\footnotesize \textbf{mass terms:}}
+			\begin{eqnarray*}
+			\left( \overline{\hat{\psi^C}}_L \hat{\psi}_L + \overline{\hat{\psi}}_L \hat{\psi}^C_L \right)_{Majorana} \\
+			 \left(\overline{\hat{\psi}}_L \hat{\psi}_R + \overline{\hat{\psi}}_R \hat{\psi}_L\right)_{Dirac}
+			\end{eqnarray*}
+			
+		\end{columns}
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{SM and BSM double-beta decay}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			\column{.45\textwidth} % Left column and width
+			{\footnotesize $\boldsymbol{2\nu\beta\beta}$: the neutrinos are Dirac fermions, and have distinct anti-particles $\nu$, $\overline{\nu}$} 
+			\medskip
+			\includegraphics[width=\textwidth]{~/research/figures/prelim/2vbb_feynman.png}
+			{\footnotesize extremely rare process, observed in direct detection experiments (CUORE-0, GERDA, XENON, EXO, NEMO) $T_{1/2}^{2\nu\beta\beta} \sim 10^{19}-10^{24} yr$}
+			
+			\column{.5\textwidth} % Right column and width
+			{\footnotesize $\boldsymbol{0\nu\beta\beta}$: the neutrinos are Majorana fermions and are absorbed as virtual particles}
+			\includegraphics[width=\textwidth]{~/research/figures/prelim/0vbb_feynman.png}
+			{\footnotesize Never before observed in any experiment:  $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$  (Lepton number violation)}
+			
+		\end{columns}
+	\end{frame}		
+	
+	\begin{frame}
+		\frametitle{experimental signature and detection}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item in the GWS electroweak theory, the neutrino's mass should be generated by the higgs mechanism. left handed fields couple to right handed fields to generate mass, however the neutrino only presents as a left-handed particle.
-				\item therefore, for neutrinos to be massive, there must be some mechanism beyond the standard model that can give them mass.
-				\item three majorana light-neutrino mixing model
+				\item mono-energetic peak with 2 electrons leaving the reaction.
+				\item tomography of electron tracks can help reduced backgrounds, except for the $2\nu\beta\beta$ irreducible background
+				\item experimental goal is to measure $T_{1/2}^{0\nu\beta\beta}$ to constrain the effective neutrino mass $m_{\beta\beta}$.
+				\item this measurement complements measurements of $\Sigma$ and $m_{\beta}$ from cosmology and kinematic experiments, respectively.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{gather*}
-			m_{\nu} = U 
-			\begin{pmatrix} m_1 & 0 & 0 \\
-							0 & m_2 & 0 \\
-							0 & 0 & m_3
-			\end{pmatrix}
-			U^{T}
-			\end{gather*} 
+			\includegraphics[width=5cm]{~/research/figures/prelim/0vbb_spectrum.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/0vbb_tracks.png}
+			
+		\end{columns}
+	\end{frame}			
+	
+	\begin{frame}
+		\frametitle{neutrino mass and oscillations}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+%			neutrinoless double beta decay has characteristic decay - can resolve in gaseous TPC the tracks. the only irreducible background is 2vbb.
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item Homestake Mine and the solar neutrino anomaly $^{37}Cl+\nu_e \rightarrow \ ^{37}Ar + e^-$ observes factor of 3 discrepancy in $\nu_e$ flux.
+				\item Sudbury Neutrino Observatory (SNO) measures total neutrino flux: $\nu_{\mu}, \nu_{\tau}$ account for $\nu_e$ deficit.
+				\item KAMLAND, a reactor neutrino experiment shows survival probability of electron neutrinos $P = 1 - sin^2 (2\theta)sin^2(\Delta m^2 L \slash 4E)$
+				
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=\linewidth]{~/research/figures/prelim/survival_probability.png}
+		
+			
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{mass scale}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+%			neutrinoless double beta decay has characteristic decay - can resolve in gaseous TPC the tracks. the only irreducible background is 2vbb.
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item Physicists  believed neutrinos to be massless for decades, due to Standard Model predictions (Higgs mechanism for leptons) and experimental data
+				\item Neutrinos are orders of magnitude lighter than any other fundamental particle. This in addition to them being chargeless, makes it hard to measure their presence in experiments.
+				\item The common model for describing BSM neutrino mass states is the light-neutrino mixing model (3 mass eigenstates)
+				
+				
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=\linewidth]{~/research/figures/prelim/mass_scale.png}
+		
+			
+		\end{columns}
+	\end{frame}
+		
+	\begin{frame}
+		\frametitle{neutrino mixing}
+			A given flavor eigenstate is a linear combination of mass eigenstates (PMNS-matrix)
 			\begin{equation*}
-			\langle m_{\beta\beta}\rangle = |U_{ij}^2 m_j|
+			|\nu_{\alpha}\rangle = \sum_{i=1}^{3} U_{\alpha i} |\nu_{i}\rangle
 			\end{equation*}
+			parameters: angles $\theta_{12},\theta_{13},\theta_{23}$ CP-violating phases $\delta_{CP}, \alpha_1, \alpha_2$, and neutrino masses $m_1, m_2, m_3$
+			\begin{eqnarray*}			
+			& U = \begin{pmatrix}
+			c_{12}c_{13} & s_{12}c_{13} & s_{13}e^{-i\delta_{CP}} \\
+			-s_{12}c_{23}-c_{12}s_{23}s_{13}e^{i\delta_{CP}} & c_{12}c_{23}-s_{12}s_{23}s_{13}e^{i\delta_{CP}}
+			& s_{23}c_{13} \\ s_{12}s_{23}-c_{12}c_{23}s_{13}e^{i\delta_{CP}} & 
+			-c_{12}s_{23}-s_{12}c_{23}s_{13}e^{i\delta_{CP}} & c_{23c_{13}}
+			\end{pmatrix} \\
+			& \times 
+			\begin{pmatrix}
+			e^{i\alpha_1 /2} & 0 & 0 \\
+			0 & e^{i\alpha_2 /2} & 0 \\
+			0 & 0 & 1
+			\end{pmatrix}
+			\end{eqnarray*}
+	\end{frame}
+	
+	%--------------------------------------------	
+	
+		
+	
+%	\begin{frame}
+%		\frametitle{why look for this hypothetical process?}
+%		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+%			\column{.45\textwidth} % Left column and width
+%			\begin{itemize}
+%				\setlength\itemsep{2em}
+%				\item Historically, the weak interaction has been an active sector for studying and testing the standard model. C and P symmetry violation $\rightarrow$ CP symmetry as established symmetry. V-A form of the weak interaction.
+%				\item therefore, for neutrinos to be massive, there must be some mechanism beyond the standard model that can give them mass.
+%				\item lepton number conservation is an 'accidental symmetry' of the standard model
+%				\item baryogenesis (matter / anti matter symmetry) can be explained by leptogenesis
+%			\end{itemize}
+%			
+%			\column{.5\textwidth} % Right column and width
+%			\includegraphics[width=\textwidth]{~/research/figures/prelim/0vbb_feynman.png}
+%			
+%		\end{columns}
+%	\end{frame}		
+	
+	\begin{frame}
+		\frametitle{effective neutrino mass}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			{\footnotesize\begin{equation*}
+			T_{1/2}^{0\nu\beta\beta} &=\left(G|\mathcal{M}|^2 \langle m_{\beta\beta}\rangle\right)^{-1}
+			\end{equation*}
+			\begin{equation*}
+			\langle m_{\beta\beta}\rangle = |U_{ej}^2 m_j|
+			\end{equation*}}
+			\includegraphics[width=9cm]{~/research/figures/prelim/lobster.png}
+			
+			\column{.5\textwidth} % Right column and width
+			
 			
 		\end{columns}
 	\end{frame}
@@ -193,7 +354,7 @@
 		
 	
 	\begin{frame}
-		\frametitle{neutrtinoless-double beta decay as a probe into the weak interaction}
+		\frametitle{neutrinoless-double beta decay as a probe into the weak interaction}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
@@ -285,23 +446,6 @@
 		\end{columns}
 	\end{frame}	
 	
-	\begin{frame}
-		\frametitle{experimental signature and detection}
-		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-			
-			\column{.45\textwidth} % Left column and width
-			%\textbf{Heading}
-			\begin{itemize}
-				\setlength\itemsep{2em}
-				\item mono-energetic peak with 2 electrons leaving the reaction.
-				\item tomography of electron tracks can help reduced backgrounds, except for the $2\nu\beta\beta$ irreducible background
-				\item compare to $\Sigma$ and $m_{\beta}$ from cosmology
-			\end{itemize}
-			
-			\column{.5\textwidth} % Right column and width
 	
-			
-		\end{columns}
-	\end{frame}		
 	
 \end{document}
