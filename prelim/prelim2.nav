@@ -40,6 +40,7 @@
 \headcommand {\slideentry {1}{0}{8}{9/9}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {9}{9}}
+<<<<<<< Updated upstream
 \defcounter {refsection}{0}\relax 
 \headcommand {\slideentry {1}{0}{9}{10/10}{}{0}}
 \defcounter {refsection}{0}\relax 
@@ -61,3 +62,10 @@
 \headcommand {\beamer@sectionpages {2}{13}}
 \headcommand {\beamer@documentpages {13}}
 \headcommand {\gdef \inserttotalframenumber {13}}
+=======
+\headcommand {\beamer@partpages {1}{9}}
+\headcommand {\beamer@subsectionpages {2}{9}}
+\headcommand {\beamer@sectionpages {2}{9}}
+\headcommand {\beamer@documentpages {9}}
+\headcommand {\gdef \inserttotalframenumber {9}}
+>>>>>>> Stashed changes

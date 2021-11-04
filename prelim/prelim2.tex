@@ -98,6 +98,7 @@
 \usepackage[backend=biber, style=authoryear, url=true, bibencoding=utf8]{biblatex}
 %\addbibresource{~/research/tex/bib2.bib}
 \bibliography{mybib}
+<<<<<<< Updated upstream
 \usepackage{cancel} % for the slash symbol found through \cancel{} command
 \usepackage{tikz} % for circling stuff in mathmode
 \usepackage{mathtools}% also for circling stuff in mathmode.
@@ -110,6 +111,9 @@
   \tikz[baseline=(math.base)] \node[draw,circle,inner sep=1pt, color=red] (math) {$\m@th#1#2$};%
 }
 \makeatother
+=======
+\usepackage{cancel}
+>>>>>>> Stashed changes
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -151,10 +155,19 @@
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
+<<<<<<< Updated upstream
 			\begin{eqnarray*}
 			\mathcal{L} = \frac{i}{2} \big[ \ \overline{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right) \\
 			- \left(\partial_{\mu}\overline{\psi}\right)\gamma^{\mu}\psi\big] - \mathcircled{ m\overline{\psi}\psi}
 			\end{eqnarray*}						
+=======
+			\begin{align*}
+			\mathcal{L} = \frac{i}{2} \big[\bar{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right) \\
+			- \left(\partial_{\mu}\bar{\psi}\right)\gamma^{\mu}\psi \big] - \text{m}\bar{\psi}\psi \\
+			 \left(i\cancel{\partial} - m\right)\psi = 0
+			\end{align*}
+			
+>>>>>>> Stashed changes
 			
 				\begin{eqnarray*}
 				\boldsymbol{e^- \Longleftrightarrow \ e^+} \\
@@ -180,6 +193,7 @@
 	\end{frame}
 	
 	\begin{frame}
+<<<<<<< Updated upstream
 		\frametitle{Majorana fermions and neutrinos}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
@@ -224,16 +238,55 @@
 	
 	\begin{frame}
 		\frametitle{experimental signature and detection}
+=======
+		\frametitle{Majorana fermions, chirality, and mass}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+		
+			\begin{itemize}
+				\setlength\itemsep{1em}
+				\item Majorana fermions can be understood as particles of the Dirac Equation with an extra constraint on the spinors
+				
+				\item implies that majorana particles are chargeless and are their own antiparticles.
+				\item 
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{equation*}
+			\hat{\psi} = 
+			\begin{pmatrix}
+			\varphi_{r} \\
+			\chi_{\ell}
+			\end{pmatrix}
+			\end{equation*}
+			\begin{eqnarray*}
+			hat{\psi} = \hat{\psi}^C \\
+			1/2\left(\overline{\hat{\psi}}_L^C\hat{\psi}_L\right)
+			\end{eqnarray*}
+			
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{neutrinos and the standard model}
+>>>>>>> Stashed changes
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
+<<<<<<< Updated upstream
 				\item mono-energetic peak with 2 electrons leaving the reaction.
 				\item tomography of electron tracks can help reduced backgrounds, except for the $2\nu\beta\beta$ irreducible background
 				\item experimental goal is to measure $T_{1/2}^{0\nu\beta\beta}$ to constrain the effective neutrino mass $m_{\beta\beta}$.
 				\item this measurement complements measurements of $\Sigma$ and $m_{\beta}$ from cosmology and kinematic experiments, respectively.
+=======
+				\item For neutrinos to be massive, there must be some mechanism beyond the standard model that can give them mass
+				\item three majorana light-neutrino mixing model
+>>>>>>> Stashed changes
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
@@ -410,7 +463,8 @@
 			\begin{itemize}
 				\setlength\itemsep{2em}
 				\item direct detection experiments typically characterize the half-life in terms of the effective neutrino mass $m_{\beta\beta}$
-			\end{itemize}
+				\item a figure of merit for $0\nu\beta\beta$ searches is the 'sensitivity'
+			\end{itemize} 
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{eqnarray*}
@@ -446,6 +500,27 @@
 		\end{columns}
 	\end{frame}	
 	
+<<<<<<< Updated upstream
 	
+=======
+	\begin{frame}
+		\frametitle{experimental signature and detection}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item mono-energetic peak with 2 electrons leaving the reaction.
+				\item tomography of electron tracks can help reduced backgrounds, except for the $2\nu\beta\beta$ irreducible background
+				\item compare to $\Sigma$ and $m_{\beta}$ from cosmology
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=\linewidth]{~/research/figures/prelim/2vbb_spectrum.png}
+			
+		\end{columns}
+	\end{frame}		
+>>>>>>> Stashed changes
 	
 \end{document}
