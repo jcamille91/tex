@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  2 NOV 2021 03:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  15 NOV 2021 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1352,7 +1352,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 180.
 
-<~/research/figures/prelim/dirac1928.png, id=65, 778.40813pt x 406.51875pt>
+<~/research/figures/prelim/dirac1928.png, id=71, 778.40813pt x 406.51875pt>
 File: ~/research/figures/prelim/dirac1928.png Graphic file (type png)
 <use ~/research/figures/prelim/dirac1928.png>
 Package pdftex.def Info: ~/research/figures/prelim/dirac1928.png  used on input
@@ -1369,14 +1369,14 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 223.
 
-<~/research/figures/prelim/2vbb_feynman.png, id=113, 488.57532pt x 335.00156pt>
+<~/research/figures/prelim/2vbb_feynman.png, id=123, 488.57532pt x 335.00156pt>
 
 File: ~/research/figures/prelim/2vbb_feynman.png Graphic file (type png)
 <use ~/research/figures/prelim/2vbb_feynman.png>
 Package pdftex.def Info: ~/research/figures/prelim/2vbb_feynman.png  used on in
 put line 223.
 (pdftex.def)             Requested size: 138.2795pt x 94.8119pt.
-<~/research/figures/prelim/0vbb_feynman.png, id=114, 509.65407pt x 335.75438pt>
+<~/research/figures/prelim/0vbb_feynman.png, id=124, 509.65407pt x 335.75438pt>
 
 File: ~/research/figures/prelim/0vbb_feynman.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_feynman.png>
@@ -1391,13 +1391,13 @@ Overfull \vbox (6.62103pt too high) detected at line 223
 
  </home/joey/research/figures/prelim/2vbb_feynman.png (PNG copy)> </home/joey/r
 esearch/figures/prelim/0vbb_feynman.png (PNG copy)>]
-<~/research/figures/prelim/0vbb_spectrum.png, id=137, 782.925pt x 542.025pt>
+<~/research/figures/prelim/0vbb_spectrum.png, id=149, 782.925pt x 542.025pt>
 File: ~/research/figures/prelim/0vbb_spectrum.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_spectrum.png>
 Package pdftex.def Info: ~/research/figures/prelim/0vbb_spectrum.png  used on i
 nput line 244.
 (pdftex.def)             Requested size: 142.26378pt x 98.48659pt.
-<~/research/figures/prelim/0vbb_tracks.png, id=138, 412.54124pt x 367.3725pt>
+<~/research/figures/prelim/0vbb_tracks.png, id=150, 412.54124pt x 367.3725pt>
 File: ~/research/figures/prelim/0vbb_tracks.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_tracks.png>
 Package pdftex.def Info: ~/research/figures/prelim/0vbb_tracks.png  used on inp
@@ -1407,7 +1407,7 @@ ut line 244.
 
  </home/joey/research/figures/prelim/0vbb_spectrum.png (PNG copy)> </home/joey/
 research/figures/prelim/0vbb_tracks.png (PNG copy)>]
-<~/research/figures/prelim/survival_probability.png, id=156, 485.56406pt x 352.
+<~/research/figures/prelim/survival_probability.png, id=170, 485.56406pt x 352.
 31625pt>
 File: ~/research/figures/prelim/survival_probability.png Graphic file (type png
 )
@@ -1418,7 +1418,7 @@ ed on input line 265.
  [6
 
  </home/joey/research/figures/prelim/survival_probability.png (PNG copy)>]
-<~/research/figures/prelim/mass_scale.png, id=176, 645.91313pt x 240.9pt>
+<~/research/figures/prelim/mass_scale.png, id=192, 645.91313pt x 240.9pt>
 File: ~/research/figures/prelim/mass_scale.png Graphic file (type png)
 <use ~/research/figures/prelim/mass_scale.png>
 Package pdftex.def Info: ~/research/figures/prelim/mass_scale.png  used on inpu
@@ -1434,52 +1434,78 @@ Overfull \hbox (40.43704pt too wide) in alignment at lines 310--310
 [8
 
 ]
-! Misplaced alignment tab character &.
-\beamer@doifinframe ...{1/2}^{0\nu \beta \beta } &
-                                                  =\left (G|\mathcal {M}|^2 ...
-l.352 	\end{frame}
-                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+<~/research/figures/prelim/hierarchy.png, id=232, 792.71156pt x 630.10406pt>
+File: ~/research/figures/prelim/hierarchy.png Graphic file (type png)
+<use ~/research/figures/prelim/hierarchy.png>
+Package pdftex.def Info: ~/research/figures/prelim/hierarchy.png  used on input
+ line 326.
+(pdftex.def)             Requested size: 170.71652pt x 135.69086pt.
 
-<~/research/figures/prelim/lobster.png, id=212, 805.50937pt x 472.01344pt>
-File: ~/research/figures/prelim/lobster.png Graphic file (type png)
-<use ~/research/figures/prelim/lobster.png>
-Package pdftex.def Info: ~/research/figures/prelim/lobster.png  used on input l
-ine 352.
-(pdftex.def)             Requested size: 256.0748pt x 150.05345pt.
-
-Overfull \hbox (120.22864pt too wide) in paragraph at lines 352--352
- []  
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 326--326
+[][]  
  []
 
 [9
 
- </home/joey/research/figures/prelim/lobster.png (PNG copy)>]
-Overfull \vbox (5.74509pt too high) detected at line 373
+ </home/joey/research/figures/prelim/hierarchy.png (PNG copy)>]
+<~/research/figures/prelim/mBB.png, id=252, 538.26094pt x 339.51843pt>
+File: ~/research/figures/prelim/mBB.png Graphic file (type png)
+<use ~/research/figures/prelim/mBB.png>
+Package pdftex.def Info: ~/research/figures/prelim/mBB.png  used on input line 
+368.
+(pdftex.def)             Requested size: 170.71652pt x 107.68451pt.
+
+Overfull \hbox (32.43703pt too wide) in paragraph at lines 368--368
+ [] 
  []
 
+<~/research/figures/prelim/majoranamass.png, id=254, 426.09187pt x 147.55125pt>
+
+File: ~/research/figures/prelim/majoranamass.png Graphic file (type png)
+<use ~/research/figures/prelim/majoranamass.png>
+Package pdftex.def Info: ~/research/figures/prelim/majoranamass.png  used on in
+put line 368.
+(pdftex.def)             Requested size: 113.81102pt x 39.41159pt.
+<~/research/figures/prelim/bsmparam.png, id=255, 234.1247pt x 258.9675pt>
+File: ~/research/figures/prelim/bsmparam.png Graphic file (type png)
+<use ~/research/figures/prelim/bsmparam.png>
+Package pdftex.def Info: ~/research/figures/prelim/bsmparam.png  used on input 
+line 368.
+(pdftex.def)             Requested size: 70.23795pt x 77.69084pt.
 [10
 
-] [11
+ </home/joey/research/figures/prelim/mBB.png> </home/joey/research/figures/prel
+im/majoranamass.png> </home/joey/research/figures/prelim/bsmparam.png>]
+<~/research/figures/prelim/lobster.png, id=278, 805.50937pt x 472.01344pt>
+File: ~/research/figures/prelim/lobster.png Graphic file (type png)
+<use ~/research/figures/prelim/lobster.png>
+Package pdftex.def Info: ~/research/figures/prelim/lobster.png  used on input l
+ine 381.
+(pdftex.def)             Requested size: 256.0748pt x 150.05345pt.
 
-]
-Overfull \hbox (17.59619pt too wide) in alignment at lines 424--424
- [][][] []
+[11
+
+ </home/joey/research/figures/prelim/lobster.png (PNG copy)>]
+Overfull \vbox (5.74509pt too high) detected at line 400
  []
 
 [12
 
+] [13
+
 ]
-Overfull \hbox (17.59619pt too wide) in alignment at lines 447--447
+Overfull \hbox (17.59619pt too wide) in alignment at lines 451--451
  [][][] []
  []
 
-[13
+[14
+
+]
+Overfull \hbox (17.59619pt too wide) in alignment at lines 474--474
+ [][][] []
+ []
+
+[15
 
 ]
 \tf@nav=\write7
@@ -1499,13 +1525,13 @@ Package logreq Info: Writing requests to 'prelim2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31159 strings out of 478994
- 599148 string characters out of 5864751
- 1320250 words of memory out of 5000000
- 47984 multiletter control sequences out of 15000+600000
+ 31191 strings out of 478994
+ 600102 string characters out of 5864752
+ 1321251 words of memory out of 5000000
+ 48008 multiletter control sequences out of 15000+600000
  433011 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,21n,132p,740b,1057s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,21n,132p,740b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texmf-dist/fonts/type1/
@@ -1528,10 +1554,10 @@ sfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-
 dist/fonts/type1/public/cm-super/sfso1000.pfb>
-Output written on prelim2.pdf (13 pages, 924047 bytes).
+Output written on prelim2.pdf (15 pages, 1042395 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 319 compressed objects within 4 object streams
- 28 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
