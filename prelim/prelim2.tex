@@ -100,6 +100,7 @@
 \bibliography{mybib}
 \usepackage{cancel} % for the slash symbol found through \cancel{} command
 \usepackage{tikz} % for circling stuff in mathmode
+%\usepackage{euler} % for script "o" \mathscr
 \usepackage{mathtools}% also for circling stuff in mathmode.
 \usepackage{bm} % for \boldsymbol{}
 \makeatletter
@@ -204,6 +205,33 @@
 			
 		\end{columns}
 	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{why is it still unknown if neutrinos are Dirac or Majorana fermions?}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}					
+			\begin{itemize}
+			\item Both types of fermions are compatible with observed features of neutrinos, \textit{including} neutrino oscillations. majorana neutrinos and their anti-matter partners are only distinguishable by their chirality.
+			\item In the ultra-relativistic limit, helicity and chirality (lepton number). we can never boost into a frame where the neutrino has right handed helicity. (does the goldhaber experiment measure helicity or chirality? chirality is the sign of the phase of the wavefunction for the dirac fermion. it describes which path it takes in the complex plane.
+			\item expand the fermionic propagator in the limit p>>m, and the second order term does not contribute
+			\item implies these fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			{\footnotesize The left and right handed components of the spinor are no longer independent}
+			\begin{eqnarray*}
+			\Psi_{majorana} = \psi_L + \psi_R \\
+			\end{eqnarray*}
+			{\footnotesize \textbf{mass terms:}}
+			\begin{eqnarray*}
+			\left( \overline{\hat{\psi^C}}_L \hat{\psi}_L + \overline{\hat{\psi}}_L \hat{\psi}^C_L \right)_{Majorana} \\
+			 \left(\overline{\hat{\psi}}_L \hat{\psi}_R + \overline{\hat{\psi}}_R \hat{\psi}_L\right)_{Dirac}
+			\end{eqnarray*}
+			
+		\end{columns}
+	\end{frame}		
 	
 	\begin{frame}
 		\frametitle{SM and BSM double-beta decay}
@@ -420,7 +448,30 @@
 		\end{columns}
 	\end{frame}
 	
-\begin{frame}
+	\begin{frame}
+		\frametitle{designing a direct-detection experiment}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\hspace*{-1.2cm}\includegraphics[width = 6cm]{~/research/figures/prelim/candidates2.png}
+			$Rate \left( \mathcal{O}_{majorana} \right) \propto \frac{m_{\nu}^2}{Q_{\beta\beta}}$
+			\column{.5\textwidth} % Right column and width
+			\begin{eqnarray*}
+			T_{1/2}^{0\nu\beta\beta} &=\left(G|\mathcal{M}|^2 \langle m_{\beta\beta}\rangle\right)^{-1} \\
+			& \simeq 10^{27-28} \left(\frac{0.01 \ eV}{\langle m_{\beta\beta}\rangle}\right)^2 \text{years}
+			\end{eqnarray*}
+			\begin{equation*}
+			F_{0\nu} = \tau_{1/2}^{bkg. fluct.} = \text{ln}(2)N_{\beta\beta}\epsilon \frac{t}{n_B}
+			\end{equation*}
+			
+		\end{columns}
+	\end{frame}
+	
+	
+		
+	
+	\begin{frame}
 		\frametitle{far reaching consequences of observing $0\nu\beta\beta$}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
