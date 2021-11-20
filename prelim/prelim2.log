@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  15 NOV 2021 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  19 NOV 2021 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,14 +1396,23 @@ File: ~/research/figures/prelim/0vbb_spectrum.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_spectrum.png>
 Package pdftex.def Info: ~/research/figures/prelim/0vbb_spectrum.png  used on i
 nput line 244.
-(pdftex.def)             Requested size: 142.26378pt x 98.48659pt.
+(pdftex.def)             Requested size: 162.18062pt x 112.27373pt.
 <~/research/figures/prelim/0vbb_tracks.png, id=150, 412.54124pt x 367.3725pt>
 File: ~/research/figures/prelim/0vbb_tracks.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_tracks.png>
 Package pdftex.def Info: ~/research/figures/prelim/0vbb_tracks.png  used on inp
 ut line 244.
 (pdftex.def)             Requested size: 113.81102pt x 101.35007pt.
- [5
+
+Overfull \hbox (8.53569pt too wide) in paragraph at lines 244--244
+[][] 
+ []
+
+
+Overfull \vbox (11.81284pt too high) detected at line 244
+ []
+
+[5
 
  </home/joey/research/figures/prelim/0vbb_spectrum.png (PNG copy)> </home/joey/
 research/figures/prelim/0vbb_tracks.png (PNG copy)>]
@@ -1427,8 +1436,8 @@ t line 287.
  [7
 
  </home/joey/research/figures/prelim/mass_scale.png (PNG copy)>]
-Overfull \hbox (40.43704pt too wide) in alignment at lines 310--310
- [][][] []
+Overfull \hbox (23.90565pt too wide) detected at line 330
+[]
  []
 
 [8
@@ -1438,10 +1447,10 @@ Overfull \hbox (40.43704pt too wide) in alignment at lines 310--310
 File: ~/research/figures/prelim/hierarchy.png Graphic file (type png)
 <use ~/research/figures/prelim/hierarchy.png>
 Package pdftex.def Info: ~/research/figures/prelim/hierarchy.png  used on input
- line 326.
+ line 346.
 (pdftex.def)             Requested size: 170.71652pt x 135.69086pt.
 
-Overfull \hbox (17.0716pt too wide) in paragraph at lines 326--326
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 346--346
 [][]  
  []
 
@@ -1452,10 +1461,10 @@ Overfull \hbox (17.0716pt too wide) in paragraph at lines 326--326
 File: ~/research/figures/prelim/mBB.png Graphic file (type png)
 <use ~/research/figures/prelim/mBB.png>
 Package pdftex.def Info: ~/research/figures/prelim/mBB.png  used on input line 
-368.
+388.
 (pdftex.def)             Requested size: 170.71652pt x 107.68451pt.
 
-Overfull \hbox (32.43703pt too wide) in paragraph at lines 368--368
+Overfull \hbox (32.43703pt too wide) in paragraph at lines 388--388
  [] 
  []
 
@@ -1464,13 +1473,13 @@ Overfull \hbox (32.43703pt too wide) in paragraph at lines 368--368
 File: ~/research/figures/prelim/majoranamass.png Graphic file (type png)
 <use ~/research/figures/prelim/majoranamass.png>
 Package pdftex.def Info: ~/research/figures/prelim/majoranamass.png  used on in
-put line 368.
+put line 388.
 (pdftex.def)             Requested size: 113.81102pt x 39.41159pt.
 <~/research/figures/prelim/bsmparam.png, id=255, 234.1247pt x 258.9675pt>
 File: ~/research/figures/prelim/bsmparam.png Graphic file (type png)
 <use ~/research/figures/prelim/bsmparam.png>
 Package pdftex.def Info: ~/research/figures/prelim/bsmparam.png  used on input 
-line 368.
+line 388.
 (pdftex.def)             Requested size: 70.23795pt x 77.69084pt.
 [10
 
@@ -1480,28 +1489,36 @@ im/majoranamass.png> </home/joey/research/figures/prelim/bsmparam.png>]
 File: ~/research/figures/prelim/lobster.png Graphic file (type png)
 <use ~/research/figures/prelim/lobster.png>
 Package pdftex.def Info: ~/research/figures/prelim/lobster.png  used on input l
-ine 381.
+ine 401.
 (pdftex.def)             Requested size: 256.0748pt x 150.05345pt.
 
 [11
 
  </home/joey/research/figures/prelim/lobster.png (PNG copy)>]
-Overfull \vbox (5.74509pt too high) detected at line 400
+<~/research/figures/prelim/mB_sigma.png, id=300, 998.22937pt x 630.85687pt>
+File: ~/research/figures/prelim/mB_sigma.png Graphic file (type png)
+<use ~/research/figures/prelim/mB_sigma.png>
+Package pdftex.def Info: ~/research/figures/prelim/mB_sigma.png  used on input 
+line 421.
+(pdftex.def)             Requested size: 199.16928pt x 125.87073pt.
+
+Overfull \hbox (22.76207pt too wide) in paragraph at lines 421--421
+[]| [] 
  []
 
 [12
 
-] [13
+ </home/joey/research/figures/prelim/mB_sigma.png (PNG copy)>] [13
 
 ]
-Overfull \hbox (17.59619pt too wide) in alignment at lines 451--451
+Overfull \hbox (17.59619pt too wide) in alignment at lines 472--472
  [][][] []
  []
 
 [14
 
 ]
-Overfull \hbox (17.59619pt too wide) in alignment at lines 474--474
+Overfull \hbox (17.59619pt too wide) in alignment at lines 495--495
  [][][] []
  []
 
@@ -1525,39 +1542,40 @@ Package logreq Info: Writing requests to 'prelim2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31191 strings out of 478994
- 600102 string characters out of 5864752
+ 31199 strings out of 478994
+ 600344 string characters out of 5864752
  1321251 words of memory out of 5000000
- 48008 multiletter control sequences out of 15000+600000
- 433011 words of font info for 116 fonts, out of 8000000 for 9000
+ 48014 multiletter control sequences out of 15000+600000
+ 433368 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,21n,132p,740b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-
-dist/fonts/type1/public/cm-super/sfso1000.pfb>
-Output written on prelim2.pdf (15 pages, 1042395 bytes).
+/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfso1000.pfb>
+Output written on prelim2.pdf (15 pages, 1121342 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
+ 474 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
  32 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
