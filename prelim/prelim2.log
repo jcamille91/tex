@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  19 NOV 2021 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  22 NOV 2021 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1433,116 +1433,130 @@ ed on input line 293.
  [7
 
  </home/joey/research/figures/prelim/survival_probability.png (PNG copy)>]
-<~/research/figures/prelim/mass_scale.png, id=231, 645.91313pt x 240.9pt>
+<~/research/figures/prelim/mainz_kurie.png, id=231, 833.36343pt x 642.90187pt>
+File: ~/research/figures/prelim/mainz_kurie.png Graphic file (type png)
+<use ~/research/figures/prelim/mainz_kurie.png>
+Package pdftex.def Info: ~/research/figures/prelim/mainz_kurie.png  used on inp
+ut line 314.
+(pdftex.def)             Requested size: 153.64493pt x 118.52296pt.
+ [8
+
+ </home/joey/research/figures/prelim/mainz_kurie.png (PNG copy)>]
+<~/research/figures/prelim/mass_scale.png, id=254, 645.91313pt x 240.9pt>
 File: ~/research/figures/prelim/mass_scale.png Graphic file (type png)
 <use ~/research/figures/prelim/mass_scale.png>
 Package pdftex.def Info: ~/research/figures/prelim/mass_scale.png  used on inpu
-t line 315.
+t line 336.
 (pdftex.def)             Requested size: 153.64493pt x 57.30255pt.
- [8
+ [9
 
  </home/joey/research/figures/prelim/mass_scale.png (PNG copy)>]
-Overfull \hbox (23.90565pt too wide) detected at line 358
+Overfull \hbox (23.90565pt too wide) detected at line 379
 []
- []
-
-[9
-
-]
-<~/research/figures/prelim/hierarchy.png, id=274, 792.71156pt x 630.10406pt>
-File: ~/research/figures/prelim/hierarchy.png Graphic file (type png)
-<use ~/research/figures/prelim/hierarchy.png>
-Package pdftex.def Info: ~/research/figures/prelim/hierarchy.png  used on input
- line 374.
-(pdftex.def)             Requested size: 170.71652pt x 135.69086pt.
-
-Overfull \hbox (17.0716pt too wide) in paragraph at lines 374--374
-[][]  
  []
 
 [10
 
+]
+<~/research/figures/prelim/hierarchy.png, id=298, 792.71156pt x 630.10406pt>
+File: ~/research/figures/prelim/hierarchy.png Graphic file (type png)
+<use ~/research/figures/prelim/hierarchy.png>
+Package pdftex.def Info: ~/research/figures/prelim/hierarchy.png  used on input
+ line 395.
+(pdftex.def)             Requested size: 170.71652pt x 135.69086pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 395--395
+[][]  
+ []
+
+[11
+
  </home/joey/research/figures/prelim/hierarchy.png (PNG copy)>]
-<~/research/figures/prelim/mBB.png, id=297, 538.26094pt x 339.51843pt>
+<~/research/figures/prelim/mBB.png, id=320, 538.26094pt x 339.51843pt>
 File: ~/research/figures/prelim/mBB.png Graphic file (type png)
 <use ~/research/figures/prelim/mBB.png>
 Package pdftex.def Info: ~/research/figures/prelim/mBB.png  used on input line 
-416.
+437.
 (pdftex.def)             Requested size: 170.71652pt x 107.68451pt.
 
-Overfull \hbox (32.43703pt too wide) in paragraph at lines 416--416
+Overfull \hbox (32.43703pt too wide) in paragraph at lines 437--437
  [] 
  []
 
-<~/research/figures/prelim/majoranamass.png, id=299, 426.09187pt x 147.55125pt>
+<~/research/figures/prelim/majoranamass.png, id=322, 426.09187pt x 147.55125pt>
 
 File: ~/research/figures/prelim/majoranamass.png Graphic file (type png)
 <use ~/research/figures/prelim/majoranamass.png>
 Package pdftex.def Info: ~/research/figures/prelim/majoranamass.png  used on in
-put line 416.
+put line 437.
 (pdftex.def)             Requested size: 113.81102pt x 39.41159pt.
-<~/research/figures/prelim/bsmparam.png, id=300, 234.1247pt x 258.9675pt>
+<~/research/figures/prelim/bsmparam.png, id=323, 234.1247pt x 303.38344pt>
 File: ~/research/figures/prelim/bsmparam.png Graphic file (type png)
 <use ~/research/figures/prelim/bsmparam.png>
 Package pdftex.def Info: ~/research/figures/prelim/bsmparam.png  used on input 
-line 416.
-(pdftex.def)             Requested size: 70.23795pt x 77.69084pt.
-[11
+line 437.
+(pdftex.def)             Requested size: 70.23795pt x 91.01573pt.
+[12
 
  </home/joey/research/figures/prelim/mBB.png> </home/joey/research/figures/prel
 im/majoranamass.png> </home/joey/research/figures/prelim/bsmparam.png>]
-<~/research/figures/prelim/lobster.png, id=325, 805.50937pt x 472.01344pt>
+<~/research/figures/prelim/lobster.png, id=348, 805.50937pt x 472.01344pt>
 File: ~/research/figures/prelim/lobster.png Graphic file (type png)
 <use ~/research/figures/prelim/lobster.png>
 Package pdftex.def Info: ~/research/figures/prelim/lobster.png  used on input l
-ine 429.
+ine 450.
 (pdftex.def)             Requested size: 256.0748pt x 150.05345pt.
-
-[12
-
- </home/joey/research/figures/prelim/lobster.png (PNG copy)>]
-<~/research/figures/prelim/mB_sigma.png, id=348, 998.22937pt x 630.85687pt>
-File: ~/research/figures/prelim/mB_sigma.png Graphic file (type png)
-<use ~/research/figures/prelim/mB_sigma.png>
-Package pdftex.def Info: ~/research/figures/prelim/mB_sigma.png  used on input 
-line 449.
-(pdftex.def)             Requested size: 199.16928pt x 125.87073pt.
-
-Overfull \hbox (22.76207pt too wide) in paragraph at lines 449--449
-[]| [] 
- []
 
 [13
 
- </home/joey/research/figures/prelim/mB_sigma.png (PNG copy)>]
-<~/research/figures/prelim/candidates2.png, id=373, 493.845pt x 427.5975pt>
-File: ~/research/figures/prelim/candidates2.png Graphic file (type png)
-<use ~/research/figures/prelim/candidates2.png>
-Package pdftex.def Info: ~/research/figures/prelim/candidates2.png  used on inp
-ut line 469.
-(pdftex.def)             Requested size: 170.71652pt x 147.8149pt.
+ </home/joey/research/figures/prelim/lobster.png (PNG copy)>]
+<~/research/figures/prelim/mB_sigma.png, id=372, 998.22937pt x 630.85687pt>
+File: ~/research/figures/prelim/mB_sigma.png Graphic file (type png)
+<use ~/research/figures/prelim/mB_sigma.png>
+Package pdftex.def Info: ~/research/figures/prelim/mB_sigma.png  used on input 
+line 470.
+(pdftex.def)             Requested size: 199.16928pt x 125.87073pt.
 
-Overfull \hbox (17.59619pt too wide) in alignment at lines 469--469
- [][][] []
+Overfull \hbox (22.76207pt too wide) in paragraph at lines 470--470
+[]| [] 
  []
 
 [14
 
- </home/joey/research/figures/prelim/candidates2.png>] [15
+ </home/joey/research/figures/prelim/mB_sigma.png (PNG copy)>]
+<~/research/figures/prelim/candidates2.png, id=396, 493.845pt x 427.5975pt>
+File: ~/research/figures/prelim/candidates2.png Graphic file (type png)
+<use ~/research/figures/prelim/candidates2.png>
+Package pdftex.def Info: ~/research/figures/prelim/candidates2.png  used on inp
+ut line 490.
+(pdftex.def)             Requested size: 170.71652pt x 147.8149pt.
 
-]
-Overfull \hbox (17.59619pt too wide) in alignment at lines 523--523
+Overfull \hbox (18.21066pt too wide) in paragraph at lines 490--490
+[]| [] 
+ []
+
+
+Overfull \hbox (17.59619pt too wide) in alignment at lines 490--490
  [][][] []
  []
 
-[16
+[15
+
+ </home/joey/research/figures/prelim/candidates2.png>] [16
 
 ]
-Overfull \hbox (17.59619pt too wide) in alignment at lines 546--546
+Overfull \hbox (17.59619pt too wide) in alignment at lines 544--544
  [][][] []
  []
 
 [17
+
+]
+Overfull \hbox (17.59619pt too wide) in alignment at lines 567--567
+ [][][] []
+ []
+
+[18
 
 ]
 \tf@nav=\write7
@@ -1562,10 +1576,10 @@ Package logreq Info: Writing requests to 'prelim2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31215 strings out of 478994
- 600674 string characters out of 5864751
+ 31223 strings out of 478994
+ 600932 string characters out of 5864752
  1322251 words of memory out of 5000000
- 48024 multiletter control sequences out of 15000+600000
+ 48029 multiletter control sequences out of 15000+600000
  433719 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,21n,132p,740b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1592,10 +1606,10 @@ cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfso1000.pfb>
-Output written on prelim2.pdf (17 pages, 1190521 bytes).
+Output written on prelim2.pdf (18 pages, 1249189 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
- 36 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 488 compressed objects within 5 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
