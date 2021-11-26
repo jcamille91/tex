@@ -501,7 +501,16 @@
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
 			\item Primordial radioisotopes: $^{238}U$ and $^{232}Th$ generate chain of $\beta , \gamma$ near $Q_{\beta\beta}$.
+			\item $^{222}Rn$ can exist in gaseous state produces $\beta + \gamma$ impinging on $Q_{\beta\beta}$
+			\item $^{208}Tl$ emits $\gamma$ at 2615 keV, affecting a number of candidate source isotopes.
 			\item the intrinsically irreducible background $2\nu\beta\beta$: $\Gamma_{2\nu\beta\beta}$ is negligible in some isotopes ($^{130}Te$), but not others ($^{100}Mo$)
+			\item muons enter the backgrounds in a number of ways: prompt signal + long-lived isotope activation + neutron production
+%			 The activation of long-lived isotopes and the production of
+%secondary neutrons are the main worries. Muons can induce these backgrounds via different mech-
+%anisms: mu− capture in nuclei (136–138), muon–nucleon quasi-elastic scattering, electromagnetic
+%showers, and photo-neutron production through virtual photon exchange. High-energy neutrons
+%produced in inelastic neutron scattering (n, n', gamma ) are also a source of background in 0vbb-decay
+%experiments (139, 140).
 			\end{itemize}			 
 			
 		
@@ -511,8 +520,146 @@
 		\end{columns}
 	\end{frame}
 	
-	
-%		
+	\begin{frame}
+		\frametitle{2$\nu\beta\beta$ events and muons}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}				
+				\item The rate of $2\nu\beta\beta$ events is not negligible\footnotemark \ in the CUPID array
+				\item Minimizing the distance cut helps avoid mis-labelling random $2\nu\beta\beta$ coincidences as multiplicity 2.
+				\item Assuming a simple muon veto geometry, increasing the distance cut rejects more muon events.
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\begin{eqnarray*}
+			T_{1/2}^{2\nu\beta\beta} = 7.1* 10^{18} yr \\ 
+			\rightarrow \text{single crystal rate} \sim 3mHz
+			\end{eqnarray*}			
+			
+			\begin{figure}
+			\includegraphics[width=\linewidth]{~/research/figures/DNP2021/muon_veto.png}
+			%\caption{gnarly}
+			\end{figure}
+			
+		\end{columns}
+		\footcitetext{arxiv.org/abs/1912.07272}
+	\end{frame}
+
+
+	%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{Integration time in the CUPID array}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{eqnarray*}
+			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb \ ...
+			\end{eqnarray*}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item 100,000 Uranium-238 events (full chain)
+				\item $T_{1/2} \ ^{214}$Po $\sim$ 160$\mu$s
+				\item $T_{1/2} \ ^{214}$Bi $\sim$ 20 minutes
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+%			\begin{figure}
+			\hspace*{0.3cm}\includegraphics[width=5cm, scale=0.20]{~/research/figures/DNP2021/u238.jpg}
+			\medskip\medskip
+			\hspace*{0.3cm}\includegraphics[width=5cm, scale=0.20]{~/research/figures/DNP2021/u238_2.jpg}
+%			\caption{gnarly}
+%			\end{figure}
+			
+		\end{columns}
+	\end{frame}
+
+	%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{2$\nu\beta\beta$ tagging simulation}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item 40 million events generated in crystal volume.
+				\item expect $\sim$ 90$\%$ efficiency for 2$\nu\beta\beta$ tagging, when using approximate CUORE parameters
+				\item larger distance cut causes more random coincidences and more variation with integration time
+				\item bremsstrahlung, escape, random coincidences are primary contributors
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+%			\begin{figure}
+			\hspace*{0.5cm}\includegraphics[width=5cm, scale=0.5]{~/research/figures/DNP2021/2vbb_3.jpg}
+			\medskip
+			\hspace*{0.5cm}\includegraphics[width=5.5cm, scale=1]{~/research/figures/DNP2021/2vbb_2.jpg}
+%			\caption{gnarly}
+%			\end{figure}
+			
+		\end{columns}
+	\end{frame}
+
+	%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{implementation of muon background}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item incorporating scintillating muon veto geometry into monte-carlo simulations
+				\item muon flux at LNGS is $3\cdot 10^{-8} \ \text{muons} \ / \left(s\cdot cm^2\right)$
+				\item muon suppression versus distance cut optimization.
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[scale=0.2]{~/research/figures/DNP2021/cupid_w_veto.jpeg}
+			{\footnotesize preliminary muon veto geometry}
+
+			
+		\end{columns}
+	\end{frame}
+
+	%------------------------------------------------
+
+	\begin{frame}
+		\frametitle{spallation in $^{100}Mo$}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{equation*}
+			\resizebox{5cm}{!}{$
+			\begin{split}
+			& \sigma = \sigma_0 f(A)f(E)e^{-P\Delta A} \\
+			& \times exp\left(-R|Z| -SA +TA^2 + UA^3|^{\nu} \Omega\eta\xi\right)
+			\end{split}$}
+			\end{equation*}
+			
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item semi-empirical cross section formula
+				\item at LANL, a beam bombarding protons on a tungsten target mimicks the cosmic ray spectrum.
+				\item $3\cdot 10^8 $ scaling in flux $\implies$ 2 days of beam time equates to 1 million years of sea-level exposure.
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[scale=0.2]{~/research/figures/prelim/lansc.png}
+
+			
+		\end{columns}
+	\end{frame}
+
+
+
 %	\begin{frame}
 %		\frametitle{CUORE}
 %		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
