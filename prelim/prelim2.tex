@@ -443,7 +443,7 @@
 		{\footnotesize 
 		\begin{eqnarray*}
 		T_{1/2}^{0\nu\beta\beta} &=\left(G|\mathcal{M}|^2 \langle m_{\beta\beta}\rangle\right)^{-1} \\
-		\langle m_{\beta\beta}\rangle = \Sigma |U_{ej}^2 m_j|
+		& \langle m_{\beta\beta}\rangle = \Sigma |U_{ej}^2 m_j|
 		\end{eqnarray*}}
 		\includegraphics[width=9cm]{~/research/figures/prelim/lobster.png}			
 			
@@ -536,27 +536,54 @@
 			\begin{itemize}
 			\item Array of 988 $TeO_2$ bolometers instrumented with NTD sensors.
 			\item CUORE	cryostat maintains about 200kg of $^{130}Te$ around 10mK.
-			\item $^{208}Tl$ emits $\gamma$ at 2615 keV, affecting a number of candidate source isotopes.
-			\item the intrinsically irreducible background $2\nu\beta\beta$: $\Gamma_{2\nu\beta\beta}$ is negligible in some isotopes ($^{130}Te$), but not others ($^{100}Mo$)
-			\item muons enter the backgrounds in a number of ways: prompt signal + long-lived isotope activation + neutron production
-%			 The activation of long-lived isotopes and the production of
-%secondary neutrons are the main worries. Muons can induce these backgrounds via different mech-
-%anisms: mu− capture in nuclei (136–138), muon–nucleon quasi-elastic scattering, electromagnetic
-%showers, and photo-neutron production through virtual photon exchange. High-energy neutrons
-%produced in inelastic neutron scattering (n, n', gamma ) are also a source of background in 0vbb-decay
-%experiments (139, 140).
+			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
 			\end{itemize}			 
 			
 		
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=5.7cm]{~/research/figures/prelim/0vbb_spectrum.png}
-			{\footnotesize \textit{Next Generation $0\nu\beta\beta$ experiments} \\
-			\textbf{goal}: probe $0\nu\beta\beta$ to a half life of ~ $10^{28} years$ \\
-			\textbf{requirement}: $B.I. = 0.1 \ counts\ / \left( FWHM\cdot tonne \cdot year \right)$ \\
-			\textbf{CUPID conservative goal}: $B.I. = 0.5 \ counts\ / \left( FWHM\cdot tonne \cdot year \right)$}
+			\includegraphics[scale=0.3]{~/research/figures/prelim/cuorecryostat.png}
+			{\footnotesize Cuore cryostat is a dilution refrigerator that cools ~750kg of mass to 10mK }
 			
 		\end{columns}
 	\end{frame}
+	
+	\begin{frame}
+		\frametitle{CUORE backgrounds}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			\begin{itemize}
+			\item irreducible $2\nu\beta\beta$ rate is negligible relative to
+			\item CUORE	cryostat maintains about 200kg of $^{130}Te$ around 10mK.
+			\item current background index is $10^{-2} \ counts/\left(keV\cdot kg\cdot yr\right)$
+			\end{itemize}			 
+			
+		
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[scale=0.3]{~/research/figures/prelim/cuorecryostat.png}
+			{\footnotesize Cuore cryostat is a dilution refrigerator that cools ~750kg of mass to 10mK }
+			
+		\end{columns}
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{CUPID experiment}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			\begin{itemize}
+			\item Proposed array of 1596 $Li_2Mo_4$ with a cons
+			\item CUORE	cryostat maintains about 200kg of $^{130}Te$ around 10mK.
+			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\end{itemize}			 
+			
+		
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[scale=0.3]{~/research/figures/prelim/cuorecryostat.png}
+			{\footnotesize Cuore cryostat is a dilution refrigerator that cools ~750kg of mass to 10mK }
+			
+		\end{columns}
+	\end{frame}	
 	
 	\begin{frame}
 		\frametitle{2$\nu\beta\beta$ events and muons}
@@ -596,7 +623,7 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{eqnarray*}
-			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb \ ...
+			^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \boldsymbol{^{222}Rn} \xrightarrow \ ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb \ ...
 			\end{eqnarray*}
 			\begin{itemize}
 				\setlength\itemsep{2em}
@@ -690,8 +717,25 @@
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[scale=0.2]{~/research/figures/prelim/lansc.png}
-
+			\hspace*{-0.4cm}\includegraphics[scale=0.2]{~/research/figures/prelim/lansc.png}
+			\begin{center}
+			\resizebox{5.5cm}{!}{					
+			\begin{tabular}{||c c c c c||} 
+			 \hline
+			 product & Q(MeV) & $T_{1/2}$ & $A_{initial}$ (Bq) & $A_{1yr}$ (Bq)\\ [0.5ex] 
+			 \hline\hline
+			 $^{56}Co$ & 4.5 & 77 \ d & $5.1\cdot 10^{-8}$ & $2.1\cdot 10^{-9}$ \\ 
+			 \hline
+			 $^{88}Y$ & 3.6 & 106 \ d & $2.2\cdot 10^{-5}$ & $2\cdot 10^{-6}$ \\
+			 \hline
+			 $^{26}Al$ & 4 & $7\cdot 10^5 yr$ & $2.1\cdot 10^{-8}$ & $2.1\cdot 10^{-8}$ \\
+			 \hline
+			 $^{48}V$ & 4 & 16 \ d & $4.1\cdot 10^{-8}$ & $5.4\cdot 10^{-15}$ \\
+			 \hline
+			 $^{96}Nb$ & 3.2 & 1 \ d & $4.7\cdot 10^{-3}$ & $\approx 0$ \\ [1ex] 
+			 \hline
+			\end{tabular}}
+			\end{center}
 			
 		\end{columns}
 	\end{frame}

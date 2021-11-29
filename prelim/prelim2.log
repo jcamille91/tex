@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.1)  27 NOV 2021 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.17)  28 NOV 2021 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1351,7 +1351,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 181.
 
-<~/research/figures/prelim/dirac1928.png, id=105, 778.40813pt x 406.51875pt>
+<~/research/figures/prelim/dirac1928.png, id=108, 778.40813pt x 406.51875pt>
 File: ~/research/figures/prelim/dirac1928.png Graphic file (type png)
 <use ~/research/figures/prelim/dirac1928.png>
 Package pdftex.def Info: ~/research/figures/prelim/dirac1928.png  used on input
@@ -1374,14 +1374,14 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 251.
 
-<~/research/figures/prelim/2vbb_feynman.png, id=208, 488.57532pt x 335.00156pt>
+<~/research/figures/prelim/2vbb_feynman.png, id=214, 488.57532pt x 335.00156pt>
 
 File: ~/research/figures/prelim/2vbb_feynman.png Graphic file (type png)
 <use ~/research/figures/prelim/2vbb_feynman.png>
 Package pdftex.def Info: ~/research/figures/prelim/2vbb_feynman.png  used on in
 put line 251.
 (pdftex.def)             Requested size: 138.2795pt x 94.8119pt.
-<~/research/figures/prelim/0vbb_feynman.png, id=209, 509.65407pt x 335.75438pt>
+<~/research/figures/prelim/0vbb_feynman.png, id=215, 509.65407pt x 335.75438pt>
 
 File: ~/research/figures/prelim/0vbb_feynman.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_feynman.png>
@@ -1396,13 +1396,13 @@ Overfull \vbox (6.62103pt too high) detected at line 251
 
  </home/joey/research/figures/prelim/2vbb_feynman.png (PNG copy)> </home/joey/r
 esearch/figures/prelim/0vbb_feynman.png (PNG copy)>]
-<~/research/figures/prelim/0vbb_spectrum.png, id=243, 782.925pt x 542.025pt>
+<~/research/figures/prelim/0vbb_spectrum.png, id=250, 782.925pt x 542.025pt>
 File: ~/research/figures/prelim/0vbb_spectrum.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_spectrum.png>
 Package pdftex.def Info: ~/research/figures/prelim/0vbb_spectrum.png  used on i
 nput line 272.
 (pdftex.def)             Requested size: 162.18062pt x 112.27373pt.
-<~/research/figures/prelim/0vbb_tracks.png, id=244, 412.54124pt x 367.3725pt>
+<~/research/figures/prelim/0vbb_tracks.png, id=251, 412.54124pt x 367.3725pt>
 File: ~/research/figures/prelim/0vbb_tracks.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_tracks.png>
 Package pdftex.def Info: ~/research/figures/prelim/0vbb_tracks.png  used on inp
@@ -1421,7 +1421,7 @@ Overfull \vbox (11.81284pt too high) detected at line 272
 
  </home/joey/research/figures/prelim/0vbb_spectrum.png (PNG copy)> </home/joey/
 research/figures/prelim/0vbb_tracks.png (PNG copy)>]
-<~/research/figures/prelim/survival_probability.png, id=274, 485.56406pt x 352.
+<~/research/figures/prelim/survival_probability.png, id=282, 485.56406pt x 352.
 31625pt>
 File: ~/research/figures/prelim/survival_probability.png Graphic file (type png
 )
@@ -1432,7 +1432,7 @@ ed on input line 293.
  [7
 
  </home/joey/research/figures/prelim/survival_probability.png (PNG copy)>]
-<~/research/figures/prelim/mainz_kurie.png, id=307, 833.36343pt x 642.90187pt>
+<~/research/figures/prelim/mainz_kurie.png, id=316, 833.36343pt x 642.90187pt>
 File: ~/research/figures/prelim/mainz_kurie.png Graphic file (type png)
 <use ~/research/figures/prelim/mainz_kurie.png>
 Package pdftex.def Info: ~/research/figures/prelim/mainz_kurie.png  used on inp
@@ -1441,7 +1441,7 @@ ut line 314.
  [8
 
  </home/joey/research/figures/prelim/mainz_kurie.png (PNG copy)>]
-<~/research/figures/prelim/mass_scale.png, id=338, 645.91313pt x 240.9pt>
+<~/research/figures/prelim/mass_scale.png, id=348, 645.91313pt x 240.9pt>
 File: ~/research/figures/prelim/mass_scale.png Graphic file (type png)
 <use ~/research/figures/prelim/mass_scale.png>
 Package pdftex.def Info: ~/research/figures/prelim/mass_scale.png  used on inpu
@@ -1457,7 +1457,7 @@ Overfull \hbox (23.90565pt too wide) detected at line 379
 [10
 
 ]
-<~/research/figures/prelim/hierarchy.png, id=397, 792.71156pt x 630.10406pt>
+<~/research/figures/prelim/hierarchy.png, id=410, 792.71156pt x 630.10406pt>
 File: ~/research/figures/prelim/hierarchy.png Graphic file (type png)
 <use ~/research/figures/prelim/hierarchy.png>
 Package pdftex.def Info: ~/research/figures/prelim/hierarchy.png  used on input
@@ -1471,7 +1471,7 @@ Overfull \hbox (17.0716pt too wide) in paragraph at lines 395--395
 [11
 
  </home/joey/research/figures/prelim/hierarchy.png (PNG copy)>]
-<~/research/figures/prelim/mBB.png, id=428, 538.26094pt x 339.51843pt>
+<~/research/figures/prelim/mBB.png, id=441, 538.26094pt x 339.51843pt>
 File: ~/research/figures/prelim/mBB.png Graphic file (type png)
 <use ~/research/figures/prelim/mBB.png>
 Package pdftex.def Info: ~/research/figures/prelim/mBB.png  used on input line 
@@ -1482,14 +1482,14 @@ Overfull \hbox (32.43703pt too wide) in paragraph at lines 437--437
  [] 
  []
 
-<~/research/figures/prelim/majoranamass.png, id=430, 426.09187pt x 147.55125pt>
+<~/research/figures/prelim/majoranamass.png, id=443, 426.09187pt x 147.55125pt>
 
 File: ~/research/figures/prelim/majoranamass.png Graphic file (type png)
 <use ~/research/figures/prelim/majoranamass.png>
 Package pdftex.def Info: ~/research/figures/prelim/majoranamass.png  used on in
 put line 437.
 (pdftex.def)             Requested size: 113.81102pt x 39.41159pt.
-<~/research/figures/prelim/bsmparam.png, id=431, 234.1247pt x 303.38344pt>
+<~/research/figures/prelim/bsmparam.png, id=444, 234.1247pt x 303.38344pt>
 File: ~/research/figures/prelim/bsmparam.png Graphic file (type png)
 <use ~/research/figures/prelim/bsmparam.png>
 Package pdftex.def Info: ~/research/figures/prelim/bsmparam.png  used on input 
@@ -1499,7 +1499,7 @@ line 437.
 
  </home/joey/research/figures/prelim/mBB.png> </home/joey/research/figures/prel
 im/majoranamass.png> </home/joey/research/figures/prelim/bsmparam.png>]
-<~/research/figures/prelim/lobster.png, id=464, 805.50937pt x 472.01344pt>
+<~/research/figures/prelim/lobster.png, id=478, 805.50937pt x 472.01344pt>
 File: ~/research/figures/prelim/lobster.png Graphic file (type png)
 <use ~/research/figures/prelim/lobster.png>
 Package pdftex.def Info: ~/research/figures/prelim/lobster.png  used on input l
@@ -1509,7 +1509,7 @@ ine 450.
 [13
 
  </home/joey/research/figures/prelim/lobster.png (PNG copy)>]
-<~/research/figures/prelim/mB_sigma.png, id=496, 998.22937pt x 630.85687pt>
+<~/research/figures/prelim/mB_sigma.png, id=511, 998.22937pt x 630.85687pt>
 File: ~/research/figures/prelim/mB_sigma.png Graphic file (type png)
 <use ~/research/figures/prelim/mB_sigma.png>
 Package pdftex.def Info: ~/research/figures/prelim/mB_sigma.png  used on input 
@@ -1543,7 +1543,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 473.
 
-<~/research/figures/prelim/candidates2.png, id=529, 493.845pt x 427.5975pt>
+<~/research/figures/prelim/candidates2.png, id=545, 493.845pt x 427.5975pt>
 File: ~/research/figures/prelim/candidates2.png Graphic file (type png)
 <use ~/research/figures/prelim/candidates2.png>
 Package pdftex.def Info: ~/research/figures/prelim/candidates2.png  used on inp
@@ -1575,122 +1575,141 @@ Overfull \hbox (8.53569pt too wide) in paragraph at lines 529--529
 [16
 
 ]
-File: ~/research/figures/prelim/0vbb_spectrum.png Graphic file (type png)
-<use ~/research/figures/prelim/0vbb_spectrum.png>
-Package pdftex.def Info: ~/research/figures/prelim/0vbb_spectrum.png  used on i
-nput line 559.
-(pdftex.def)             Requested size: 162.18062pt x 112.27373pt.
+<~/research/figures/prelim/cuorecryostat.png, id=607, 344.03531pt x 471.26062pt
+>
+File: ~/research/figures/prelim/cuorecryostat.png Graphic file (type png)
+<use ~/research/figures/prelim/cuorecryostat.png>
+Package pdftex.def Info: ~/research/figures/prelim/cuorecryostat.png  used on i
+nput line 548.
+(pdftex.def)             Requested size: 103.21138pt x 141.37927pt.
+ [17
 
-Overfull \hbox (8.53569pt too wide) in paragraph at lines 559--559
-[][] 
- []
-
-[17
-
-]
-Overfull \hbox (2.83495pt too wide) in alignment at lines 587--587
- [][][] []
- []
-
-<~/research/figures/DNP2021/muon_veto.png, id=619, 754.31813pt x 469.755pt>
-File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
-<use ~/research/figures/DNP2021/muon_veto.png>
-Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 587.
-(pdftex.def)             Requested size: 153.64493pt x 95.67679pt.
-
-LaTeX Warning: Citation 'arxiv.org/abs/1912.07272' on page 18 undefined on inpu
-t line 587.
+ </home/joey/research/figures/prelim/cuorecryostat.png (PNG copy)>]
+File: ~/research/figures/prelim/cuorecryostat.png Graphic file (type png)
+<use ~/research/figures/prelim/cuorecryostat.png>
+Package pdftex.def Info: ~/research/figures/prelim/cuorecryostat.png  used on i
+nput line 567.
+(pdftex.def)             Requested size: 103.21138pt x 141.37927pt.
 
 [18
 
- </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
-Overfull \hbox (14.43367pt too wide) in alignment at lines 617--617
+]
+File: ~/research/figures/prelim/cuorecryostat.png Graphic file (type png)
+<use ~/research/figures/prelim/cuorecryostat.png>
+Package pdftex.def Info: ~/research/figures/prelim/cuorecryostat.png  used on i
+nput line 586.
+(pdftex.def)             Requested size: 103.21138pt x 141.37927pt.
+ [19
+
+]
+Overfull \hbox (2.83495pt too wide) in alignment at lines 614--614
  [][][] []
  []
 
-<~/research/figures/DNP2021/u238.jpg, id=649, 1275.76625pt x 979.66pt>
+<~/research/figures/DNP2021/muon_veto.png, id=700, 754.31813pt x 469.755pt>
+File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
+<use ~/research/figures/DNP2021/muon_veto.png>
+Package pdftex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
+t line 614.
+(pdftex.def)             Requested size: 153.64493pt x 95.67679pt.
+
+LaTeX Warning: Citation 'arxiv.org/abs/1912.07272' on page 20 undefined on inpu
+t line 614.
+
+[20
+
+ </home/joey/research/figures/DNP2021/muon_veto.png (PNG copy)>]
+Overfull \hbox (32.10478pt too wide) in alignment at lines 644--644
+ [][][] []
+ []
+
+<~/research/figures/DNP2021/u238.jpg, id=732, 1275.76625pt x 979.66pt>
 File: ~/research/figures/DNP2021/u238.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/u238.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/u238.jpg  used on input lin
-e 617.
+e 644.
 (pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
-<~/research/figures/DNP2021/u238_2.jpg, id=650, 1275.76625pt x 979.66pt>
+<~/research/figures/DNP2021/u238_2.jpg, id=733, 1275.76625pt x 979.66pt>
 File: ~/research/figures/DNP2021/u238_2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/u238_2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/u238_2.jpg  used on input l
-ine 617.
+ine 644.
 (pdftex.def)             Requested size: 255.14873pt x 195.92853pt.
 
-Overfull \vbox (28.6833pt too high) detected at line 617
+Overfull \vbox (28.6833pt too high) detected at line 644
  []
 
-[19
+[21
 
  </home/joey/research/figures/DNP2021/u238.jpg> </home/joey/research/figures/DN
 P2021/u238_2.jpg>]
-<~/research/figures/DNP2021/2vbb_3.jpg, id=681, 1471.4975pt x 979.66pt>
+<~/research/figures/DNP2021/2vbb_3.jpg, id=764, 1471.4975pt x 979.66pt>
 File: ~/research/figures/DNP2021/2vbb_3.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/2vbb_3.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_3.jpg  used on input l
-ine 644.
+ine 671.
 (pdftex.def)             Requested size: 735.74696pt x 489.82881pt.
-<~/research/figures/DNP2021/2vbb_2.jpg, id=682, 1421.31pt x 979.66pt>
+<~/research/figures/DNP2021/2vbb_2.jpg, id=765, 1421.31pt x 979.66pt>
 File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/2vbb_2.jpg>
 Package pdftex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
-ine 644.
+ine 671.
 (pdftex.def)             Requested size: 1421.30655pt x 979.65762pt.
 
-Overfull \hbox (2.845pt too wide) in paragraph at lines 644--644
+Overfull \hbox (2.845pt too wide) in paragraph at lines 671--671
 []| [] 
  []
 
 
-Overfull \hbox (17.05614pt too wide) in paragraph at lines 644--644
+Overfull \hbox (17.05614pt too wide) in paragraph at lines 671--671
 | []  
  []
 
 
-Overfull \vbox (6.75464pt too high) detected at line 644
- []
-
-[20
-
- </home/joey/research/figures/DNP2021/2vbb_3.jpg> </home/joey/research/figures/
-DNP2021/2vbb_2.jpg>]
-<~/research/figures/DNP2021/cupid_w_veto.jpeg, id=712, 656.4525pt x 794.97pt>
-File: ~/research/figures/DNP2021/cupid_w_veto.jpeg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/cupid_w_veto.jpeg>
-Package pdftex.def Info: ~/research/figures/DNP2021/cupid_w_veto.jpeg  used on 
-input line 667.
-(pdftex.def)             Requested size: 131.28816pt x 158.99118pt.
- [21
-
- </home/joey/research/figures/DNP2021/cupid_w_veto.jpeg>]
-
-Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 697.
-
-
-Overfull \hbox (3.98915pt too wide) detected at line 697
-[]
- []
-
-<~/research/figures/prelim/lansc.png, id=743, 916.92563pt x 517.935pt>
-File: ~/research/figures/prelim/lansc.png Graphic file (type png)
-<use ~/research/figures/prelim/lansc.png>
-Package pdftex.def Info: ~/research/figures/prelim/lansc.png  used on input lin
-e 697.
-(pdftex.def)             Requested size: 183.38188pt x 103.58516pt.
-
-Overfull \hbox (29.73695pt too wide) in paragraph at lines 697--697
-[][]  
+Overfull \vbox (6.75464pt too high) detected at line 671
  []
 
 [22
 
- </home/joey/research/figures/prelim/lansc.png (PNG copy)>] [23
+ </home/joey/research/figures/DNP2021/2vbb_3.jpg> </home/joey/research/figures/
+DNP2021/2vbb_2.jpg>]
+<~/research/figures/DNP2021/cupid_w_veto.jpeg, id=796, 656.4525pt x 794.97pt>
+File: ~/research/figures/DNP2021/cupid_w_veto.jpeg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/cupid_w_veto.jpeg>
+Package pdftex.def Info: ~/research/figures/DNP2021/cupid_w_veto.jpeg  used on 
+input line 694.
+(pdftex.def)             Requested size: 131.28816pt x 158.99118pt.
+ [23
+
+ </home/joey/research/figures/DNP2021/cupid_w_veto.jpeg>]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 741.
+
+
+Overfull \hbox (3.98915pt too wide) detected at line 741
+[]
+ []
+
+<~/research/figures/prelim/lansc.png, id=827, 916.92563pt x 517.935pt>
+File: ~/research/figures/prelim/lansc.png Graphic file (type png)
+<use ~/research/figures/prelim/lansc.png>
+Package pdftex.def Info: ~/research/figures/prelim/lansc.png  used on input lin
+e 741.
+(pdftex.def)             Requested size: 183.38188pt x 103.58516pt.
+
+Overfull \hbox (18.35603pt too wide) in paragraph at lines 741--741
+[]| []  
+ []
+
+
+Overfull \hbox (2.84825pt too wide) in paragraph at lines 741--741
+ [] 
+ []
+
+[24
+
+ </home/joey/research/figures/prelim/lansc.png (PNG copy)>] [25
 
 ]
 \tf@nav=\write7
@@ -1719,44 +1738,41 @@ Package logreq Info: Writing requests to 'prelim2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31501 strings out of 478994
- 606884 string characters out of 5864752
- 1326305 words of memory out of 5000000
- 48285 multiletter control sequences out of 15000+600000
+ 31512 strings out of 478994
+ 607177 string characters out of 5864751
+ 1330305 words of memory out of 5000000
+ 48292 multiletter control sequences out of 15000+600000
  433719 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,21n,132p,740b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation24} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/public/c
-m-super/sfso1000.pfb>
-Output written on prelim2.pdf (23 pages, 1689608 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/public
+/cm-super/sfso1000.pfb>
+Output written on prelim2.pdf (25 pages, 2016205 bytes).
 PDF statistics:
- 905 PDF objects out of 1000 (max. 8388607)
- 788 compressed objects within 8 object streams
- 50 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 993 PDF objects out of 1000 (max. 8388607)
+ 871 compressed objects within 9 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
