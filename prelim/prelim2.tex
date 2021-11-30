@@ -192,8 +192,9 @@
 			\item implies these fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
 			\end{itemize}
 			\begin{eqnarray*}
-			\hat{\psi}(x^{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s \\
-			\hat{b}(\overline{k},s)u(\overline{k},s)e^{-ik_{\mu}x^{\mu}}
+			\hat{\psi}(x_{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s \\
+			\bigg[\ \hat{b}(\overline{k},s)u(\overline{k},s)e^{-ik^{\mu}x_{\mu}} \\
+			 + \ \hat{b}^{\dagger}(\overline{k},s)v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg]
 			\end{eqnarray*}
 			
 			\column{.5\textwidth} % Right column and width
@@ -210,32 +211,57 @@
 		\end{columns}
 	\end{frame}	
 	
-	\begin{frame}
-		\frametitle{why is it still unknown if neutrinos are Dirac or Majorana fermions?}
+%	\begin{frame}
+%		\frametitle{why is Dirac/Majorana nature still unknown?}
+%		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+%			
+%			\column{.45\textwidth} % Left column and width
+%			%\textbf{Heading}					
+%			\begin{itemize}
+%			\item Both types of fermions are compatible with observed features of neutrinos, \textit{including} neutrino oscillations. majorana neutrinos and their anti-matter partners are only distinguishable by their chirality.
+%			\item In the ultra-relativistic limit, helicity and chirality (lepton number). we can never boost into a frame where the neutrino has right handed helicity. (does the goldhaber experiment measure helicity or chirality? chirality is the sign of the phase of the wavefunction for the dirac fermion. it describes which path it takes in the complex plane.
+%			\item expand the fermionic propagator in the limit p>>m, and the second order term does not contribute
+%			\item implies these fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
+%			\end{itemize}
+%			
+%			\column{.5\textwidth} % Right column and width
+%			{\footnotesize The left and right handed components of the spinor are no longer independent}
+%			\begin{eqnarray*}
+%			\Psi_{majorana} = \psi_L + \psi_R \\
+%			\end{eqnarray*}
+%			{\footnotesize \textbf{mass terms:}}
+%			\begin{eqnarray*}
+%			\left( \overline{\hat{\psi^C}}_L \hat{\psi}_L + \overline{\hat{\psi}}_L \hat{\psi}^C_L \right)_{Majorana} \\
+%			 \left(\overline{\hat{\psi}}_L \hat{\psi}_R + \overline{\hat{\psi}}_R \hat{\psi}_L\right)_{Dirac}
+%			\end{eqnarray*}
+%			
+%		\end{columns}
+%	\end{frame}	
+	
+		\begin{frame}
+		\frametitle{why is Dirac/Majorana nature still unknown?}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}					
 			\begin{itemize}
 			\item Both types of fermions are compatible with observed features of neutrinos, \textit{including} neutrino oscillations. majorana neutrinos and their anti-matter partners are only distinguishable by their chirality.
-			\item In the ultra-relativistic limit, helicity and chirality (lepton number). we can never boost into a frame where the neutrino has right handed helicity. (does the goldhaber experiment measure helicity or chirality? chirality is the sign of the phase of the wavefunction for the dirac fermion. it describes which path it takes in the complex plane.
-			\item expand the fermionic propagator in the limit p>>m, and the second order term does not contribute
-			\item implies these fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
+			\item In the ultra-relativistic limit, helicity and chirality are equivalent e.g. we can never boost into a frame where a neutrino has right handed helicity.
+			\item V-A interaction has left-handed projection operator, so we only observe $\beta$-decay that is also consistent with Dirac neutrinos that respect lepton number conservation (an accidental symmetry).
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			{\footnotesize The left and right handed components of the spinor are no longer independent}
 			\begin{eqnarray*}
-			\Psi_{majorana} = \psi_L + \psi_R \\
+			\mathcal{L}_{cc} = -\frac{g}{\sqrt{2}}\bigg[\overline{e}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)\nu W^{-}_{\mu} \\
+			+ \overline{\nu}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)e W^{+}_{\mu}\bigg]
 			\end{eqnarray*}
-			{\footnotesize \textbf{mass terms:}}
 			\begin{eqnarray*}
-			\left( \overline{\hat{\psi^C}}_L \hat{\psi}_L + \overline{\hat{\psi}}_L \hat{\psi}^C_L \right)_{Majorana} \\
-			 \left(\overline{\hat{\psi}}_L \hat{\psi}_R + \overline{\hat{\psi}}_R \hat{\psi}_L\right)_{Dirac}
+			\hat{\nu} = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s \\
+			\bigg[\ \hat{b}(\overline{k},s)u(\overline{k},s)e^{-ikx} \\
+			 + \ \hat{b}^{\dagger}(\overline{k},s)v(\overline{k},s)e^{+ikx} \bigg]
 			\end{eqnarray*}
-			
 		\end{columns}
-	\end{frame}		
+	\end{frame}	
 	
 	\begin{frame}
 		\frametitle{SM and BSM double-beta decay}
@@ -290,8 +316,8 @@
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=\linewidth]{~/research/figures/prelim/survival_probability.png}
-		
+			\includegraphics[width=5cm]{~/research/figures/prelim/survival_probability.png}
+			\includegraphics[width=5cm]{~/research/figures/prelim/SNO.png}
 			
 		\end{columns}
 	\end{frame}
@@ -312,7 +338,7 @@
 			
 			\column{.5\textwidth} % Right column and width
 			\includegraphics[width=\linewidth]{~/research/figures/prelim/mainz_kurie.png}
-		
+			\includegraphics[width=5cm]{~/research/figures/prelim/katrin.jpg}
 			
 		\end{columns}
 	\end{frame}
@@ -483,7 +509,6 @@
 			
 			\column{.45\textwidth} % Left column and width
 			\hspace*{-0.5cm}\includegraphics[width = 6cm]{~/research/figures/prelim/candidates2.png}
-			$Rate \left( \mathcal{O}_{majorana} \right) \propto \frac{m_{\nu}^2}{Q_{\beta\beta}}$
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{equation*}
@@ -496,7 +521,7 @@
 %			
 %			\end{eqnarray*}
 			\begin{eqnarray*}
-			F_{0\nu} = \tau_{1/2}^{bkg. fluct.} = \text{ln}(2)N_{\beta\beta}\epsilon \frac{t}{n_{bkg}} \\
+			F_{0\nu} =  \text{ln}(2)N_{\beta\beta}\epsilon \frac{t}{n_{bkg}} \\
 			F_{0\nu} = ln(2) \times \frac{N_A}{W} \left[ a\epsilon \sqrt{\frac{Mt}{\textcolor{red}{b}\Delta}}\right]
 			\end{eqnarray*}
 		\end{columns}
@@ -576,9 +601,10 @@
 			
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
-			\item Proposed array of 1596 $Li_2Mo_4$ with a cons
-			\item CUORE	cryostat maintains about 200kg of $^{130}Te$ around 10mK.
-			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\item Proposed array of 1596 $Li_2Mo_4$ to be deployed in the CUORE cryostat
+			\item aims to address dominant background of $\alpha$-particles in CUORE.
+			\item capitalize on processes (CR6) and technology (cryostat and calibration) developed for CUORE
+			\item current research is to address new backgrounds introduced with new source material to improve BI $\sim 10^{-4} counts/(keV\cdot  kg\cdot year)$
 			\end{itemize}			 
 			
 		
@@ -588,6 +614,26 @@
 			
 		\end{columns}
 	\end{frame}	
+	
+		\begin{frame}
+		\frametitle{Lithium molybdate}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\vspace{-2cm}\begin{itemize}
+				\setlength\itemsep{2em}
+				\item Li$_2$MoO$_4$ crystals allow for discrimination of $\alpha$ backgrounds from $\beta\beta$ events (Q=3034keV) via thermal + scintillation signals.
+				\item relatively high isotopic abundance of $^{100}$Mo (10\%)
+				\item enrichment above 95\% already demonstrated in CUPID-Mo\footnotemark .
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=4.5cm]{~/research/figures/DNP2021/scintillation.png}
+			\includegraphics[width=4.5cm]{~/research/figures/DNP2021/lightyield.jpg}
+		\end{columns}
+		\vspace{-2cm}\footcitetext{arxiv.org/abs/1909.02994}
+	\end{frame}
 	
 	\begin{frame}
 		\frametitle{2$\nu\beta\beta$ events and muons}
@@ -604,8 +650,9 @@
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{eqnarray*}
-			T_{1/2}^{2\nu\beta\beta} = 7.1* 10^{18} yr \\ 
-			\rightarrow \text{single crystal rate} \sim 3mHz
+			T_{1/2}^{2\nu\beta\beta}(^{100}Mo) = 7.1* 10^{18} yr \\ 
+			\rightarrow \text{single crystal rate} \sim 3mHz \\
+			T_{1/2}^{2\nu\beta\beta} \sim 10^{19}-10^{24} yr
 			\end{eqnarray*}			
 			
 			\begin{figure}
@@ -674,31 +721,6 @@
 		\end{columns}
 	\end{frame}
 
-	%------------------------------------------------
-
-	\begin{frame}
-		\frametitle{implementation of muon background}
-		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-			
-			\column{.45\textwidth} % Left column and width
-			%\textbf{Heading}
-			\begin{itemize}
-				\setlength\itemsep{2em}
-				\item incorporating scintillating muon veto geometry into monte-carlo simulations
-				\item muon flux at LNGS is $3\cdot 10^{-8} \ \text{muons} \ / \left(s\cdot cm^2\right)$
-				\item muon suppression versus distance cut optimization.
-			\end{itemize}
-			
-			\column{.5\textwidth} % Right column and width
-			\includegraphics[scale=0.2]{~/research/figures/DNP2021/cupid_w_veto.jpeg}
-			{\footnotesize preliminary muon veto geometry}
-
-			
-		\end{columns}
-	\end{frame}
-
-	%------------------------------------------------
-
 	\begin{frame}
 		\frametitle{spallation in $^{100}Mo$}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
@@ -716,10 +738,11 @@
 			\begin{itemize}
 				\setlength\itemsep{2em}
 				\item semi-empirical cross section formula
-				\item at LANL, a beam bombarding protons on a tungsten target mimicks the cosmic ray spectrum.
+				\item at LANL, a beam bombarding protons on a tungsten target mimics the cosmic ray spectrum.
 				\item $3\cdot 10^8 $ scaling in flux $\implies$ 2 days of beam time equates to 1 million years of sea-level exposure.
 			\end{itemize}
 			
+			{\tiny $\implies$ currently implementing spectrum for parasitic neutron simulation and are proposing to perform a measurement at LANL neutron beam.}
 			\column{.5\textwidth} % Right column and width
 			\hspace*{-0.4cm}\includegraphics[scale=0.2]{~/research/figures/prelim/lansc.png}
 			\begin{center}
@@ -763,35 +786,67 @@
 %	\end{frame}	
 	
 	\begin{frame}
-		\frametitle{far reaching consequences of observing $0\nu\beta\beta$}
+		\frametitle{transition edge sensors}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{itemize}
 				\setlength\itemsep{2em}
-				\item baryogenesis through leptogenesis
-				\item charge parity violating process in the standard model
-				\item lepton number conservation (accidental symmetry of the standard model)
+				\item Motivation is two-fold: good energy resolution improves efficiency in the region of interest + higher bandwidth operation enables $2\nu\beta\beta$ suppression
+				\item superconducting films biased in transition region have exceptional sensitivity $\frac{\alpha_{TES}}{\alpha_{semi}} \sim 100$ and bandwidth $\omega \sim G/C$				
+				\item voltage biased, electrothermal-feedback TES solve bias and thermal-runaway, but also requires the implementation of SQUID's as readout devices.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{gather*}
-			m_{\nu} = U 
-			\begin{pmatrix} m_1 & 0 & 0 \\
-							0 & m_2 & 0 \\
-							0 & 0 & m_3
-			\end{pmatrix}
-			U^{T}
-			\end{gather*} 
-			\begin{equation*}
-			\langle m_{\beta\beta}\rangle = |U_{ij}^2 m_j|
-			\end{equation*}
+			\includegraphics[scale=0.25]{~/research/figures/prelim/rusty.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/electrothermal_ckt.png}
+			
+			
+		\end{columns}
+	\end{frame}		
+	
+	\begin{frame}
+		\frametitle{challenges applying to $0\nu\beta\beta$}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item Require good coverage for light detector application
+				\item sensor-absorber bandwidth mismatch is limiting factor in energy resolution
+				\item low-$T_c$ devices are also necessary because of operating temperature of the detector itself.
+				\item TES dynamic range is limited by the width of the transition $\mathcal{O}(mK)$. $Q_{\beta\beta} \sim MeV$
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=4cm]{~/research/figures/prelim/tc.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/mismatch.png}
 			
 		\end{columns}
 	\end{frame}	
 	
-	
+	\begin{frame}
+		\frametitle{Robeson 1 low-temperature laboratory}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			%\textbf{Heading}
+			\begin{itemize}
+				\setlength\itemsep{2em}
+				\item Require good coverage for light detector application
+				\item sensor-absorber bandwidth mismatch is limiting factor in energy resolution
+				\item low-$T_c$ devices are also necessary because of operating temperature of the detector itself.
+				\item TES dynamic range is limited by the width of the transition $\mathcal{O}(mK)$. $Q_{\beta\beta} \sim MeV$
+			\end{itemize}
+			
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=4cm]{~/research/figures/prelim/sirebonder.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/mismatch.png}
+			
+		\end{columns}
+	\end{frame}	
 	
 	
 	
