@@ -153,8 +153,8 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}
 			\begin{eqnarray*}
-			\mathcal{L} = \frac{i}{2} \big[ \ \overline{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right) \\
-			- \left(\partial_{\mu}\overline{\psi}\right)\gamma^{\mu}\psi\big] - \mathcircled{ m\overline{\psi}\psi}
+			\mathcal{L} = \frac{i}{2} \big[ \ \overline{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right)
+			- \left(\partial_{\mu}\overline{\psi}\right)\gamma^{\mu}\psi\big] \\ - \mathcircled{ m\overline{\psi}\psi}
 			\end{eqnarray*}						
 			
 				\begin{eqnarray*}
@@ -200,7 +200,13 @@
 			\column{.5\textwidth} % Right column and width
 			{\footnotesize The left and right handed components of the spinor are no longer independent}
 			\begin{eqnarray*}
-			\Psi_{majorana} = \psi_L + \psi_R \\
+			\hat{\psi} = \begin{pmatrix}
+			\hat{\varphi} \\
+			-i\sigma_2(\varphi^{\dagger})^T
+			\end{pmatrix} =  \begin{pmatrix}
+			\hat{\psi}_L \\
+			\hat{\psi}_R
+			\end{pmatrix}
 			\end{eqnarray*}
 			{\footnotesize \textbf{mass terms:}}
 			\begin{eqnarray*}
@@ -832,18 +838,12 @@
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
-			%\textbf{Heading}
-			\begin{itemize}
-				\setlength\itemsep{2em}
-				\item Require good coverage for light detector application
-				\item sensor-absorber bandwidth mismatch is limiting factor in energy resolution
-				\item low-$T_c$ devices are also necessary because of operating temperature of the detector itself.
-				\item TES dynamic range is limited by the width of the transition $\mathcal{O}(mK)$. $Q_{\beta\beta} \sim MeV$
-			\end{itemize}
+			\includegraphics[width=5cm]{~/research/figures/prelim/fridge.png}
+			
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=4cm]{~/research/figures/prelim/sirebonder.png}
-			\includegraphics[width=4cm]{~/research/figures/prelim/mismatch.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/wirebonder.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/pcb.png}
 			
 		\end{columns}
 	\end{frame}	
