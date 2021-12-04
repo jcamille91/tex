@@ -185,18 +185,20 @@
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
-			%\textbf{Heading}					
-			\begin{itemize}
-			\item Majorana fermions can be seen as solutions to the Dirac equation with an extra constraint
-			\item $\psi = \psi^C$
-			\item implies these fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
-			\end{itemize}
-			\begin{eqnarray*}
-			\hat{\psi}(x_{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s \\
-			\bigg[\ \hat{b}(\overline{k},s)u(\overline{k},s)e^{-ik^{\mu}x_{\mu}} \\
-			 + \ \hat{b}^{\dagger}(\overline{k},s)v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg]
-			\end{eqnarray*}
+			%\textbf{Heading}	
+			Majorana fermions can be seen as solutions to the Dirac equation with an extra constraint:
+			$\psi = \psi^C$				
 			
+			
+			{\tiny
+			\begin{eqnarray*}
+			\hat{\psi}(x_{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s & \\
+			\bigg[\ \boldsymbol{\hat{b}(\overline{k},s)}u(\overline{k},s)e^{-ik^{\mu}x_{\mu}}
+			 + \ \boldsymbol{\hat{b}^{\dagger}(\overline{k},s)}v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg] & \\
+			 Q = \int d^3k \  \left(b(k)b^{\dagger}(k) - b(k)b^{\dagger}(k)\right)
+			\end{eqnarray*}
+			}
+			$\implies$ Majorana fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
 			\column{.5\textwidth} % Right column and width
 			{\footnotesize The left and right handed components of the spinor are no longer independent}
 			\begin{eqnarray*}
