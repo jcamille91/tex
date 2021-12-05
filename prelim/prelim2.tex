@@ -253,21 +253,28 @@
 			\column{.45\textwidth} % Left column and width
 			%\textbf{Heading}					
 			\begin{itemize}
-			\item Both types of fermions are compatible with observed features of neutrinos, \textit{including} neutrino oscillations. majorana neutrinos and their anti-matter partners are only distinguishable by their chirality.
-			\item In the ultra-relativistic limit, helicity and chirality are equivalent e.g. we can never boost into a frame where a neutrino has right handed helicity.
-			\item V-A interaction has left-handed projection operator, so we only observe $\beta$-decay that is also consistent with Dirac neutrinos that respect lepton number conservation (an accidental symmetry).
+			\setlength\itemsep{2em}
+			\item Both types of fermions are compatible with experiment, \textit{including} neutrino oscillations.
+			\item As $\beta \rightarrow 1$ helicity and chirality align for spin-$1/2$ particles.
+			\item V-A interaction is \textit{chirally} left-handed $P_L=(1-\gamma_5)/2$, so we only observe $\beta$-decay consistent with lepton number conservation (an accidental symmetry).
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\begin{eqnarray*}
-			\mathcal{L}_{cc} = -\frac{g}{\sqrt{2}}\bigg[\overline{e}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)\nu W^{-}_{\mu} \\
-			+ \overline{\nu}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)e W^{+}_{\mu}\bigg]
-			\end{eqnarray*}
+			\includegraphics[scale=0.2]{~/research/figures/prelim/w+decay.png}			
+			{\tiny
 			\begin{eqnarray*}
 			\hat{\nu} = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s \\
-			\bigg[\ \hat{b}(\overline{k},s)u(\overline{k},s)e^{-ikx} \\
-			 + \ \hat{b}^{\dagger}(\overline{k},s)v(\overline{k},s)e^{+ikx} \bigg]
+			\bigg[\ \textcolor{blue}{\hat{b}(\overline{k},s)}u(\overline{k},s)e^{-ikx}
+			 + \ \textcolor{red}{\hat{b}^{\dagger}(\overline{k},s)}v(\overline{k},s)e^{+ikx} \bigg]
 			\end{eqnarray*}
+			
+			\begin{eqnarray*}
+			\mathcal{L}_{cc} = -\frac{g}{\sqrt{2}}\bigg[\textcolor{blue}{\overline{e}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)\nu W^{-}_{\mu}} 
+			+ \textcolor{red}{\overline{\nu}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)e W^{+}_{\mu}}\bigg]
+			\end{eqnarray*}
+			
+			\textcolor{blue} {obeys lepton number conservation} \\ \textcolor{red} {allowed for majorana fermions, but relativistically-suppressed}
+			}
 		\end{columns}
 	\end{frame}	
 	
@@ -283,7 +290,7 @@
 			\column{.5\textwidth} % Right column and width
 			{\footnotesize $\boldsymbol{0\nu\beta\beta}$: the neutrinos are Majorana fermions and are absorbed as virtual particles}
 			\includegraphics[width=\textwidth]{~/research/figures/prelim/0vbb_feynman.png}
-			{\footnotesize Never before observed in any experiment:  $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$  (Lepton number violation)}
+			{\footnotesize Never before observed in any experiment:  $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$  (Lepton number violation) \\ $\mathcal{O}_{Majorana} \sim m_{\nu}^2/Q_{\beta\beta}$}
 			
 		\end{columns}
 	\end{frame}		
@@ -297,13 +304,13 @@
 			\begin{itemize}
 				\setlength\itemsep{2em}
 				\item mono-energetic peak with 2 electrons leaving the reaction.
-				\item tomography of electron tracks can help reduced backgrounds, except for the $2\nu\beta\beta$ irreducible background
+				\item tomography of electron tracks can help reduce backgrounds, except for the $2\nu\beta\beta$ irreducible background
 				\item experimental goal is to measure $T_{1/2}^{0\nu\beta\beta}$ to constrain the effective neutrino mass $m_{\beta\beta}$.
 				\item this measurement complements measurements of $\Sigma$ and $m_{\beta}$ from cosmology and kinematic experiments, respectively.
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=5.7cm]{~/research/figures/prelim/0vbb_spectrum.png}
+			\includegraphics[width=5.7cm]{~/research/figures/prelim/bbspectrum.png}
 			\includegraphics[width=4cm]{~/research/figures/prelim/0vbb_tracks.png}
 			
 		\end{columns}
@@ -324,8 +331,9 @@
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=5cm]{~/research/figures/prelim/survival_probability.png}
+			
 			\includegraphics[width=5cm]{~/research/figures/prelim/SNO.png}
+			\includegraphics[width=5cm]{~/research/figures/prelim/survival_probability.png}
 			
 		\end{columns}
 	\end{frame}
@@ -572,7 +580,8 @@
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
 			\item Array of 988 $TeO_2$ bolometers instrumented with NTD sensors.
-			\item CUORE	cryostat maintains about 200kg of $^{130}Te$ around 10mK.
+			\item CUORE	cryostat maintains about750kg (200kg) of detector material ($^{130}Te$) around 10mK.
+			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
 			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
 			\end{itemize}			 
 			
