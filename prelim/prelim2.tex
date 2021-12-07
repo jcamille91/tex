@@ -140,7 +140,13 @@
 %		\frametitle{Table of contents} % Table of contents slide, comment this block out to remove it
 %		%\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 %	\end{frame}
-	
+	\begin{frame}
+	\begin{enumerate}
+	\item Majorana neutrinos and $0\nu\beta\beta$
+	\item modern experiments studying BSM physics via massive neutrinos
+	\item current (CUORE) and next-gen (CUPID) $0\nu\beta\beta$ searches
+	\end{enumerate}
+	\end{frame}
 	
 	%------------------------------------------------
 \section{Motivation and Background}
@@ -184,22 +190,26 @@
 		\frametitle{Majorana fermions and neutrinos}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
-			\column{.45\textwidth} % Left column and width
+			\begin{column}{.45\textwidth} % Left column and width
 			%\textbf{Heading}	
-			Majorana fermions can be seen as solutions to the Dirac equation with an extra constraint:
+			{\footnotesize Majorana fermions can be seen as solutions to the Dirac equation with an extra constraint:
 			$\psi = \psi^C$				
-			
+			}
 			
 			{\tiny
 			\begin{eqnarray*}
 			\hat{\psi}(x_{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s & \\
 			\bigg[\ \boldsymbol{\hat{b}(\overline{k},s)}u(\overline{k},s)e^{-ik^{\mu}x_{\mu}}
 			 + \ \boldsymbol{\hat{b}^{\dagger}(\overline{k},s)}v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg] & \\
-			 Q = \int d^3k \  \left(b(k)b^{\dagger}(k) - b(k)b^{\dagger}(k)\right)
+			 Q = \int d^3k \  \left(b(k)b^{\dagger}(k) - b(k)b^{\dagger}(k)\right) = 0
 			\end{eqnarray*}
 			}
-			$\implies$ Majorana fermions are \textbf{chargeless}, and their \textbf{own anti-particles}
-			\column{.5\textwidth} % Right column and width
+			{\footnotesize $\implies$ Majorana fermions are \textbf{chargeless}, and their \textbf{own anti-particles}}
+			\end{column}
+			\hspace{25pt}
+			\vrule{}
+			\hspace{15pt}
+			\begin{column}{.5\textwidth} % Right column and width
 			{\footnotesize The left and right handed components of the spinor are no longer independent}
 			\begin{eqnarray*}
 			\hat{\psi} = \begin{pmatrix}
@@ -212,10 +222,10 @@
 			\end{eqnarray*}
 			{\footnotesize \textbf{mass terms:}}
 			\begin{eqnarray*}
-			\left( \overline{\hat{\psi^C}}_L \hat{\psi}_L + \overline{\hat{\psi}}_L \hat{\psi}^C_L \right)_{Majorana} \\
+			\left( \overline{\hat{\psi}^C_L} \hat{\psi}_L + \overline{\hat{\psi}}_L \hat{\psi}^C_L \right)_{Majorana} \\
 			 \left(\overline{\hat{\psi}}_L \hat{\psi}_R + \overline{\hat{\psi}}_R \hat{\psi}_L\right)_{Dirac}
 			\end{eqnarray*}
-			
+			\end{column}
 		\end{columns}
 	\end{frame}	
 	
@@ -254,6 +264,7 @@
 			%\textbf{Heading}					
 			\begin{itemize}
 			\setlength\itemsep{2em}
+			\item Interacting GWS electroweak theory:  mass terms via Yukawa coupling $\phi\overline{\psi}\psi$. Higgs doublet couples left-handed fermions to right handed fermions.
 			\item Both types of fermions are compatible with experiment, \textit{including} neutrino oscillations.
 			\item As $\beta \rightarrow 1$ helicity and chirality align for spin-$1/2$ particles.
 			\item V-A interaction is \textit{chirally} left-handed $P_L=(1-\gamma_5)/2$, so we only observe $\beta$-decay consistent with lepton number conservation (an accidental symmetry).
@@ -293,6 +304,7 @@
 			{\footnotesize Never before observed in any experiment:  $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$  (Lepton number violation) \\ $\mathcal{O}_{Majorana} \sim m_{\nu}^2/Q_{\beta\beta}$}
 			
 		\end{columns}
+		\medskip{\tiny $\beta\beta$ figures from Annual Reviews: \textbf{"Two-Neutrino Double Beta Decay" R. Saakyan}}
 	\end{frame}		
 	
 	\begin{frame}
@@ -310,8 +322,11 @@
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[width=5.7cm]{~/research/figures/prelim/bbspectrum.png}
+			\includegraphics[width=4cm]{~/research/figures/prelim/bbspectrum.png}
+			\\ {\fontsize{4}{12} \selectfont PhD. Thesis: \textbf{"The search for $0\nu\beta\beta$ in $^{130}Te$ with CUORE-0"} J. Oullet}
 			\includegraphics[width=4cm]{~/research/figures/prelim/0vbb_tracks.png}
+			\\
+			{\fontsize{4}{12} \selectfont \textbf{"NEXT-100 TDR"} NEXT Collaboration.}
 			
 		\end{columns}
 	\end{frame}			
@@ -414,11 +429,12 @@
 			\begin{equation*}
 			\resizebox{2cm}{!}{$
 			\times 
+			\textcolor{red}{
 			\begin{pmatrix}
 			e^{i\alpha_1 /2} & 0 & 0 \\
 			0 & e^{i\alpha_2 /2} & 0 \\
 			0 & 0 & 1
-			\end{pmatrix}$}
+			\end{pmatrix}}$}
 			\end{equation*}
 			
 			\end{columns}
