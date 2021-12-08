@@ -156,33 +156,40 @@
 		\frametitle{Dirac equation and charge conjugation}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
-			\column{.45\textwidth} % Left column and width
+			\begin{column}{.45\textwidth} % Left column and width
 			%\textbf{Heading}
+			{\footnotesize
 			\begin{eqnarray*}
-			\mathcal{L} = \frac{i}{2} \big[ \ \overline{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right)
-			- \left(\partial_{\mu}\overline{\psi}\right)\gamma^{\mu}\psi\big] \\ - \mathcircled{ m\overline{\psi}\psi}
-			\end{eqnarray*}						
-			
-				\begin{eqnarray*}
-				\boldsymbol{e^- \Longleftrightarrow \ e^+} \\
-				\hat{\psi} \rightarrow \hat{\psi}^C = C\gamma ^0 \hat{\psi}^*\\
-				C \ = \ 
-				\begin{pmatrix}
-				i\sigma_2 & 0 \\
-				0 & -i\sigma_2				
-				\end{pmatrix}
-				\end{eqnarray*} 
-			
-			\column{.5\textwidth} % Right column and width
-			\begin{eqnarray*}
-			\left(i\cancel{\partial} - m\right)\psi = 0 \\
-			\psi = \begin{pmatrix}
+			\mathcal{L} &= \frac{i}{2} \big[ \ \overline{\psi}\gamma^{\mu}\left(\partial_{\mu}\psi\right)
+			- \left(\partial_{\mu}\overline{\psi}\right)\gamma^{\mu}\psi\big] - \mathcircled{ m\overline{\psi}\psi} \\
+			& \left(i\cancel{\partial} - m\right)\psi = 0 \\
+			& \psi = \begin{pmatrix}
 			 \varphi \\ 
 			 \chi 
 			 \end{pmatrix}
+			\end{eqnarray*}						
+			}
+			\hrule{}
+			\begin{eqnarray*}
+			&\psi \rightarrow e^{i\theta}\psi \\
+			&J^{\mu} = \overline{\psi}\gamma^{\mu}\psi \\
+			&Q = \int d^3 r \ J^{o} = \int d^3 r \ \psi^{\dagger}\psi
 			\end{eqnarray*}
+			\end{column}
+			\hspace{30pt}
+			\vrule{}
+			\begin{column}{.5\textwidth} % Right column and width
+			\begin{eqnarray*}
+			\boldsymbol{e^- \Longleftrightarrow \ e^+} \\
+			\hat{\psi} \rightarrow \hat{\psi}^C = C\gamma ^0 \hat{\psi}^*\\
+			C \ = \ 
+			\begin{pmatrix}
+			i\sigma_2 & 0 \\
+			0 & -i\sigma_2				
+			\end{pmatrix}
+			\end{eqnarray*} 
 			\includegraphics[width=\textwidth]{~/research/figures/prelim/dirac1928.png}
-			
+			\end{column}
 		\end{columns}
 	\end{frame}
 	
@@ -201,7 +208,7 @@
 			\hat{\psi}(x_{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s & \\
 			\bigg[\ \boldsymbol{\hat{b}(\overline{k},s)}u(\overline{k},s)e^{-ik^{\mu}x_{\mu}}
 			 + \ \boldsymbol{\hat{b}^{\dagger}(\overline{k},s)}v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg] & \\
-			 Q = \int d^3k \  \left(b(k)b^{\dagger}(k) - b(k)b^{\dagger}(k)\right) = 0
+			 Q = \int d^3k \  \left(b^{\dagger}(k)b(k) - b^{\dagger}(k)b(k)\right) = 0
 			\end{eqnarray*}
 			}
 			{\footnotesize $\implies$ Majorana fermions are \textbf{chargeless}, and their \textbf{own anti-particles}}
@@ -301,7 +308,8 @@
 			\column{.5\textwidth} % Right column and width
 			{\footnotesize $\boldsymbol{0\nu\beta\beta}$: the neutrinos are Majorana fermions and are absorbed as virtual particles}
 			\includegraphics[width=\textwidth]{~/research/figures/prelim/0vbb_feynman.png}
-			{\footnotesize Never before observed in any experiment:  $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$  (Lepton number violation) \\ $\mathcal{O}_{Majorana} \sim m_{\nu}^2/Q_{\beta\beta}$}
+			{\footnotesize Never before observed in any experiment:  $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$  (Lepton number violation)}
+%			$\mathcal{O}_{Majorana} \sim m_{\nu}^2/Q_{\beta\beta}$
 			
 		\end{columns}
 		\medskip{\tiny $\beta\beta$ figures from Annual Reviews: \textbf{"Two-Neutrino Double Beta Decay" R. Saakyan}}
@@ -426,8 +434,8 @@ KATRIN Experiment}
 			{\tiny
 			\begin{itemize}
 			 \item mass mixing angles $\theta_{12},\theta_{13},\theta_{23}$ and neutrino mass $m_1, m_2, m_3$
-			 \item Charge-Parity violation $\textcolor{blue}{\delta_{CP}}$ 
-			 \item Majorana Phases $\textcolor{red}{\alpha_1, \alpha_2}$,
+			 \item Charge-Parity violation $\textcolor{blue}{\delta_{CP}}$ $\nu_{\alpha}\rightarrow\nu_{\beta}$, $\overline{\nu}_{\alpha}\rightarrow\overline{\nu}_{\beta}$
+			 \item Majorana Phases $\textcolor{red}{\alpha_1, \alpha_2}$ ???
 			\end{itemize}
 			}
 			\column{.45\textwidth}			
@@ -499,13 +507,14 @@ KATRIN Experiment}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
+			\hspace*{30pt}\includegraphics[width=4cm]{~/research/figures/prelim/majoranamass.png}
 			\begin{center}
 			\includegraphics[width=6cm]{~/research/figures/prelim/mBB.png}
 			\end{center}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{center}
-			\includegraphics[width=4cm]{~/research/figures/prelim/majoranamass.png}			
+						
 			\begin{equation*}
 			\mathcircled{m_{\beta\beta}}\bar{\psi}\psi
 			\end{equation*}
@@ -572,6 +581,8 @@ KATRIN Experiment}
 			F_{0\nu} =  \text{ln}(2)N_{\beta\beta}\epsilon \frac{t}{\sqrt{n_{bkg}}} \\
 			F_{0\nu} = ln(2) \times \frac{N_A}{W} \left[ a\epsilon \sqrt{\frac{Mt}{\textcolor{red}{b}\Delta}}\right]
 			\end{eqnarray*}
+			
+			{\tiny \textbf{*different isotopes have different background rejection capabilities*}}
 		\end{columns}
 	\end{frame}
 	
@@ -613,18 +624,61 @@ KATRIN Experiment}
 			\begin{itemize}
 			\item Array of 988 $TeO_2$ bolometers instrumented with NTD sensors.
 			\item CUORE	cryostat maintains about750kg (200kg) of detector material ($^{130}Te$) around 10mK.
+			\item Sole tonne-scale calorimetric experiment in any field, validating large volume cryostat feasibility over several years of data taking.		
 			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
 			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
 			\end{itemize}			 
 			
 		
 			\column{.5\textwidth} % Right column and width
-			\includegraphics[scale=0.3]{~/research/figures/prelim/cuorecryostat.png}
-			{\footnotesize Cuore cryostat is a dilution refrigerator that cools ~750kg of mass to 10mK }
+			\includegraphics[width=5cm]{~/research/figures/prelim/cryostat.jpg}
+			\vspace{-10pt}
+			\includegraphics[scale=0.25]{~/research/figures/prelim/bolometer.png}
 			
 		\end{columns}
 	\end{frame}
 	
+	\begin{frame}
+		\frametitle{passive background suppression}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			\begin{itemize}
+			\item suppress cosmic rays by six orders of magnitude
+			\item Roman-lead shielding + neutron moderation surrounding the cryostat
+			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
+			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\end{itemize}			 
+			
+		
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=5cm]{~/research/figures/prelim/gransasso.jpg}
+			\vspace{-10pt}
+			\includegraphics[scale=0.25]{~/research/figures/prelim/det_shielding.png}
+			
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{tonne-year of data}
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+			
+			\column{.45\textwidth} % Left column and width
+			\begin{itemize}
+			\item suppress cosmic muons by six orders of magnitude ($phi_{mu} = 3\cdot 10^{-8} / (s\cdot m^2)$
+			\item Roman-lead shielding + neutron moderation surrounding the cryostat
+			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
+			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\end{itemize}			 
+			
+		
+			\column{.5\textwidth} % Right column and width
+			\includegraphics[width=4.5cm]{~/research/figures/prelim/tonnespectrum.png}
+			\vspace{-10pt}
+			\includegraphics[width=4.5cm]{~/research/figures/prelim/tonneposterior.png}
+			
+		\end{columns}
+	\end{frame}
 %	\begin{frame}
 %		\frametitle{CUORE backgrounds}
 %		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
