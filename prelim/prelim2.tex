@@ -167,7 +167,26 @@
 			 \varphi \\ 
 			 \chi 
 			 \end{pmatrix}
-			\end{eqnarray*}						
+			\end{eqnarray*}	
+			\begin{equation*}
+			{\tiny
+			\gamma^0 = 
+			\begin{pmatrix}
+			0 & 1 \\
+			1 & 0 
+			\end{pmatrix},
+			\gamma^{i} = 
+			\begin{pmatrix}
+			0 & \sigma^i \\
+			-\sigma^i & 0 
+			\end{pmatrix}, 
+			\gamma^{5} = 
+			\begin{pmatrix}
+			-1 & 0 \\
+			0 & 1
+			\end{pmatrix}
+			}
+			\end{equation*}								
 			}
 			\hrule{}
 			\begin{eqnarray*}
@@ -206,8 +225,8 @@
 			{\tiny
 			\begin{eqnarray*}
 			\hat{\psi}(x_{\mu}) = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s & \\
-			\bigg[\ \boldsymbol{\hat{b}(\overline{k},s)}u(\overline{k},s)e^{-ik^{\mu}x_{\mu}}
-			 + \ \boldsymbol{\hat{b}^{\dagger}(\overline{k},s)}v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg] & \\
+			\bigg[\ \stackrel{\textcolor{gray}{\hat{b}}}{\boldsymbol{\hat{b}(\overline{k},s)}}u(\overline{k},s)e^{-ik^{\mu}x_{\mu}}
+			 + \ \stackrel{\textcolor{gray}{\hat{d}^{\dagger}}}{\boldsymbol{\hat{b}^{\dagger}(\overline{k},s)}}v(\overline{k},s)e^{+ik^{\mu}x_{\mu}} \bigg] & \\
 			 Q = \int d^3k \  \left(b^{\dagger}(k)b(k) - b^{\dagger}(k)b(k)\right) = 0
 			\end{eqnarray*}
 			}
@@ -331,7 +350,7 @@
 			
 			\column{.5\textwidth} % Right column and width
 			\includegraphics[width=4cm]{~/research/figures/prelim/bbspectrum.png}
-			\\ {\fontsize{4}{12} \selectfont PhD. Thesis: \textbf{"The search for $0\nu\beta\beta$ in $^{130}Te$ with CUORE-0"} J. Oullet}
+			\\ {\fontsize{4}{12} \selectfont PhD. Thesis: \textbf{"The search for $0\nu\beta\beta$ in $^{130}Te$ with CUORE-0"} J. Ouellet}
 			\includegraphics[width=4cm]{~/research/figures/prelim/0vbb_tracks.png}
 			\\
 			{\fontsize{4}{12} \selectfont \textbf{"NEXT-100 TDR"} NEXT Collaboration.}
@@ -349,13 +368,13 @@
 				\setlength\itemsep{2em}
 				\item Homestake Mine and the solar neutrino anomaly $^{37}Cl+\nu_e \rightarrow \ ^{37}Ar + e^-$ observes factor of 3 discrepancy in $\nu_e$ flux.
 				\item Sudbury Neutrino Observatory (SNO) measures total neutrino flux: $\nu_{\mu}, \nu_{\tau}$ account for $\nu_e$ deficit.
-				\item KAMLAND, a reactor neutrino experiment shows survival probability of electron neutrinos $P = 1 - sin^2 (2\theta)sin^2(\Delta m^2 L \slash 4E)$
+				\item KAMLAND, a reactor neutrino experiment shows survival probability of electron neutrinos {\tiny$P = 1 - sin^2 (2\theta_{12})sin^2(\Delta m^2_{12} L \slash 4E)$}
 				
 			\end{itemize}
 			
 			\column{.5\textwidth} % Right column and width
 			
-			\includegraphics[width=5cm]{~/research/figures/prelim/SNO.png}
+			\includegraphics[width=5cm]{~/research/figures/prelim/sno2.png}
 			\includegraphics[width=5cm]{~/research/figures/prelim/survival_probability.png}
 			
 		\end{columns}
@@ -468,8 +487,8 @@ KATRIN Experiment}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
-			Neutrino oscillation experiments are sensitive to $\Delta m_{ij}^2 = m_i^2 - m_j^2$ 
-			\\ + very small mass scale causes ambiguity in mass-ordering. \\
+			Neutrino oscillation experiments are sensitive to $sin^2\left(\Delta m_{ij}^2\right)$
+			\\ + tiny mass scale causes ambiguity in mass-ordering. \\
 			\medskip
 			\textbf{normal ordering} $\implies m_3^2 > m_2^2 > m_1^2$ \\
 			\textbf{inverted ordering} $\implies m_2^2 > m_1^2 > m_3^2$
@@ -503,7 +522,7 @@ KATRIN Experiment}
 %	\end{frame}		
 	
 	\begin{frame}
-		\frametitle{effective Majorana neutrino mass}
+		\frametitle{effective Majorana neutrino mass $\mathcircled{m_{\beta\beta}}\bar{\psi}\psi$}
 		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 			
 			\column{.45\textwidth} % Left column and width
@@ -514,10 +533,8 @@ KATRIN Experiment}
 			
 			\column{.5\textwidth} % Right column and width
 			\begin{center}
-						
-			\begin{equation*}
-			\mathcircled{m_{\beta\beta}}\bar{\psi}\psi
-			\end{equation*}
+			\includegraphics[width=4cm]{~/research/figures/prelim/0vbb_feynman.png}	
+			\medskip\medskip		 \\
 			\includegraphics[scale = 0.3]{~/research/figures/prelim/bsmparam.png}
 			\end{center}
 		\end{columns}
@@ -530,7 +547,7 @@ KATRIN Experiment}
 		{\footnotesize 
 		\begin{eqnarray*}
 		T_{1/2}^{0\nu\beta\beta} &=\left(G|\mathcal{M}|^2 \langle m_{\beta\beta}\rangle\right)^{-1} \\
-		& \langle m_{\beta\beta}\rangle = \Sigma |U_{ej}^2 m_j|
+		& \langle m_{\beta\beta}\rangle =  |\Sigma U_{ej}^2 m_j|
 		\end{eqnarray*}}
 		\includegraphics[width=9cm]{~/research/figures/prelim/lobster.png}			
 			
@@ -592,10 +609,8 @@ KATRIN Experiment}
 			
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
-			\item Primordial radioisotopes: $^{238}U$ and $^{232}Th$ generate chain of $\beta , \gamma$ near $Q_{\beta\beta}$.
-			\item $^{222}Rn$ can exist in gaseous state produces $\beta + \gamma$ impinging on $Q_{\beta\beta}$
-			\item $^{208}Tl$ emits $\gamma$ at 2615 keV, affecting a number of candidate source isotopes.
-			\item the intrinsically irreducible background $2\nu\beta\beta$: $\Gamma_{2\nu\beta\beta}$ is negligible in some isotopes ($^{130}Te$), but not others ($^{100}Mo$)
+			\item Primordial radioisotopes: $^{238}U$ and $^{232}Th$ generate chain of $\beta , \gamma$ near $Q_{\beta\beta}$. $^{222}Rn$ and $^{208}Tl$ are particularly problematic daughters in ROI.
+			\item the intrinsically irreducible background $2\nu\beta\beta$: $\Gamma_{2\nu\beta\beta}$ is a leading background in some isotopes ($^{100}Mo$)
 			\item muons enter the backgrounds in a number of ways: prompt signal + long-lived isotope activation + neutron production
 %			 The activation of long-lived isotopes and the production of
 %secondary neutrons are the main worries. Muons can induce these backgrounds via different mech-
@@ -623,13 +638,11 @@ KATRIN Experiment}
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
 			\item Array of 988 $TeO_2$ bolometers instrumented with NTD sensors.
-			\item CUORE	cryostat maintains about750kg (200kg) of detector material ($^{130}Te$) around 10mK.
-			\item Sole tonne-scale calorimetric experiment in any field, validating large volume cryostat feasibility over several years of data taking.		
-			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
-			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\item cryostat maintains about 750kg (200kg) of detector material ($^{130}Te$) at  ~10mK.
+			\item Sole tonne-scale calorimetric experiment , validating large volume cryostat feasibility over several years of data taking.		
 			\end{itemize}			 
-			
-		
+			\includegraphics[width=5cm]{~/research/figures/prelim/towers.png}
+			\includegraphics[width=5cm]{~/research/figures/prelim/baselines.png}
 			\column{.5\textwidth} % Right column and width
 			\includegraphics[width=5cm]{~/research/figures/prelim/cryostat.jpg}
 			\vspace{-10pt}
@@ -644,12 +657,12 @@ KATRIN Experiment}
 			
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
-			\item suppress cosmic rays by six orders of magnitude
-			\item Roman-lead shielding + neutron moderation surrounding the cryostat
-			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
-			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\item suppress cosmic rays by six orders of magnitude by going under underground
+			\item Roman-lead shielding + neutron moderation surround the cryostat
+			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ 
+%			\item the remaining dominant background $\mathcal{O} 10^{-2} counts/(keV\cdot kg \cdot yr)$ are $\alpha$ particles. Require active background suppression. (detecting cherenkov radiation in TeO2 shown to be not feasible).
 			\end{itemize}			 
-			
+			\includegraphics[width=5cm]{~/research/figures/prelim/cuorebkg.png}
 		
 			\column{.5\textwidth} % Right column and width
 			\includegraphics[width=5cm]{~/research/figures/prelim/gransasso.jpg}
@@ -665,10 +678,9 @@ KATRIN Experiment}
 			
 			\column{.45\textwidth} % Left column and width
 			\begin{itemize}
-			\item suppress cosmic muons by six orders of magnitude ($phi_{mu} = 3\cdot 10^{-8} / (s\cdot m^2)$
-			\item Roman-lead shielding + neutron moderation surrounding the cryostat
-			\item CUORE achieves a background index of $~ 10^{-2} \  counts/(keV\cdot kg \cdot yr)$ primarily through radio-pure materials and passive shielding
-			\item current limit on $0\nu\beta\beta$ in $^{130}Te$: $T_{1/2}^{0\nu} > 3.2\cdot 10^{25}yr$ 
+			\item Data is stabilized to slow changes in temperature and calibrated to reconstruct energies from voltage signals.
+			\item Efficiencies associated with identifying candidate events: PSD + AC + Pulse Reconstruction + containment efficiency
+			\item $T_{0\nu\beta\beta}^{1/2}$ $> 2.2 \cdot 10^{25} yr \ 90\% CI$
 			\end{itemize}			 
 			
 		
@@ -845,7 +857,7 @@ KATRIN Experiment}
 				\item $3\cdot 10^8 $ scaling in flux $\implies$ 2 days of beam time equates to 1 million years of sea-level exposure.
 			\end{itemize}
 			
-			{\tiny $\implies$ currently implementing spectrum for parasitic neutron simulation and are proposing to perform a measurement at LANL neutron beam.}
+			{\tiny $\implies$ currently implementing spectrum for parasitic neutron simulation and are proposing to perform a measurement at LANL, neutron beam low energy neutron irradiation TUNL}
 			\column{.5\textwidth} % Right column and width
 			\hspace*{-0.4cm}\includegraphics[scale=0.2]{~/research/figures/prelim/lansc.png}
 			\begin{center}
