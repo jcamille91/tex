@@ -9,7 +9,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[size=custom,width=121,height=88,scale=1.0]{beamerposter} 
+\usepackage[size=custom,width=88,height=121,scale=1.0]{beamerposter} 
 % these dimensions are centimeters (checked PDF properties)
 % we want to make a 4'x3' (121cmx91cm) poster with 1/2" margins on the height
 %  then use a 121cmx88cm widthxheight poster
@@ -74,52 +74,92 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Monte Carlo Simulation of CUPID array}
+  \begin{block}{Neutrinoless Double Beta Decay}
+    
+      \begin{eqnarray*}
+      \hat{\nu} = \int \frac{d^3 \overline{k}}{(2\pi)^3 2 \omega_k} \sum_s
+      \bigg[\ \textcolor{blue}{\hat{b}(\overline{k},s)}u(\overline{k},s)e^{-ikx}
+       + \ \textcolor{red}{\hat{b}^{\dagger}(\overline{k},s)}v(\overline{k},s)e^{+ikx} \bigg]
+      \end{eqnarray*}
+      
+      \begin{eqnarray*}
+      \mathcal{L}_{cc} = -\frac{g}{\sqrt{2}}\bigg[\textcolor{blue}{\overline{e}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)\nu W^{-}_{\mu}} 
+      + \textcolor{red}{\overline{\nu}\gamma^{\mu}\left(\frac{1-\gamma_5}{2}\right)e W^{+}_{\mu}}\bigg]
+      \end{eqnarray*}
+      
+      \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+        
+        \column{.5\linewidth} % Left column and width
+        \textcolor{blue} {obeys lepton number conservation} 
+        
+        \column{.5\linewidth} % Right column and width
+        \textcolor{red} {allowed for majorana fermions, but relativistically-suppressed}
+        
+      \end{columns}
+      
+      \vspace{1cm}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+        
+        \column{.35\linewidth} % Left column and width
+        \includegraphics[width=\linewidth]{~/research/figures/prelim/2vbb_feynman.png}
+        {\footnotesize Two-neutrino double beta decay}
+        
+        \column{.35\linewidth} % Right column and width
+        \includegraphics[width=\linewidth]{~/research/figures/prelim/0vbb_feynman.png}
+        {\footnotesize Neutrino-less double beta decay}
+        
+    \end{columns}
+  \end{block}
+  \begin{block}{CUPID experiment}
     \vspace{2cm}
     \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
       
-      \column{.35\linewidth} % Left column and width
+      \column{.4\linewidth} % Left column and width
       \includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
-      {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+      % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
       
-      \column{.35\linewidth} % Right column and width
+      \column{.4\linewidth} % Right column and width
       \includegraphics[width=\linewidth]{~/research/figures/DNP2021/scintillation.png}
-      {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
-      
-    \end{columns}
-\vspace{2cm}
-    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-      
-      \column{.35\linewidth} % Left column and width
-      \includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
-      {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
-      
-      \column{.35\linewidth} % Right column and width
-      \includegraphics[width=\linewidth]{~/research/figures/DNP2021/scintillation.png}
-      {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+      % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
       
     \end{columns}
 
-    % \begin{figure}
-    %   \centering
-    %   \includegraphics[width=25cm]{~/research/figures/DNP2021/cupid_array.png}
-    %   \caption{Rendering of the CUPID array}
-    % \end{figure}
+    \begin{itemize}
+      % \setlength\itemsep{2em}
+      \item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat\footnotemark .
+      \item Aims to eliminate dominant background of alpha particles present in CUORE via thermal + scintillation signals.
+      \item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
+    \end{itemize}
+    \begin{eqnarray*}
+    F_{0\nu} \propto  \left[ a\epsilon \sqrt{\frac{Mt}{\textcolor{red}{b}\Delta}}\right]
+    \end{eqnarray*}
 
-   
-      \begin{itemize}
-        \setlength\itemsep{2em}
-        \item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat\footnotemark .
-        \item Aims to eliminate dominant background of alpha particles present in CUORE.
-        \item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
-      \end{itemize}
+    \begin{center}
+    \resizebox{10cm}{!}{         
+    \begin{tabular}{||c c||} 
+     \hline
+     M & source mass (kg)\\  
+     \hline
+     b & \textcolor{red}{bkg index} $counts/(kg\cdot yr\cdot keV)$ \\ 
+     \hline
+     a & isotopic abundance ($\%$) \\
+     \hline
+     t & exposure (yr)  \\
+     \hline
+     $\Delta$ & energy resolution (keV)\\
+     \hline
+     $\epsilon$ & detection efficiency \\
+     \hline
+    \end{tabular}}
+    \end{center}
 
   \end{block}
 
-  \begin{block}{A block containing a list}
+  \begin{block}{Monte-Carlo simulation of $2\nu\beta\beta$}
 
-    Nam vulputate nunc felis, non condimentum lacus porta ultrices. Nullam sed
-    sagittis metus. Etiam consectetur gravida urna quis suscipit.
+    Irreducible background has non-negligible rate in the CUPID array
+
+    \includegraphics[width=\linewidth]{~/research/figures/DNP2021/2vbb_2.jpg}
 
     \begin{itemize}
       \item \textbf{Mauris tempor} risus nulla, sed ornare
@@ -162,15 +202,13 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{A block containing an enumerated list}
-
-    Vivamus congue volutpat elit non semper. Praesent molestie nec erat ac
-    interdum. In quis suscipit erat. \textbf{Phasellus mauris felis, molestie
-    ac pharetra quis}, tempus nec ante. Donec finibus ante vel purus mollis
-    fermentum. Sed felis mi, pharetra eget nibh a, feugiat eleifend dolor. Nam
-    mollis condimentum purus quis sodales. Nullam eu felis eu nulla eleifend
-    bibendum nec eu lorem. Vivamus felis velit, volutpat ut facilisis ac,
-    commodo in metus.
+  \begin{block}{Neutron activation at DUKE: TUNL TANDEM beam}
+    \includegraphics[width=\linewidth]{~/research/figures/CNPday_poster/8MeV_TOF.png}
+      {\footnotesize Time of flight spectrum of events from TANDEM accelerator detected in HPGe}
+   \includegraphics[width=\linewidth]{~/research/figures/CNPday_poster/nmontof.png}
+      {\footnotesize PSD vs TOF to validate our TOF cut performed on data}
+    \includegraphics[width=\linewidth]{~/research/figures/CNPday_poster/twoplus.png}
+      {\footnotesize Neutron spectrum and first excited state of $^{100}Mo$}
 
     \begin{enumerate}
       \item \textbf{Morbi mauris purus}, egestas at vehicula et, convallis

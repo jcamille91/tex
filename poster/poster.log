@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.4.16)  21 APR 2022 19:45
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.4.16)  3 MAY 2022 01:32
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -821,14 +821,14 @@ Package beamerposter Info: checking size input, please wait. on input line 130.
 Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on inp
 ut line 130.
 Package beamerposter Info: finished size input check. on input line 130.
-Package beamerposter Info: custom poster width=121 on input line 130.
-Package beamerposter Info: custom poster height=88 on input line 130.
+Package beamerposter Info: custom poster width=88 on input line 130.
+Package beamerposter Info: custom poster height=121 on input line 130.
 Package beamerposter Info: myfontscale=1.0 on input line 130.
  ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-SUB ) ) ( FP-UPN ( FP-SUB ) )
-Package beamerposter Info: paperwidth=3442.78346pt, paperheight=2503.84251pt on
+Package beamerposter Info: paperwidth=2503.84251pt, paperheight=3442.78346pt on
  input line 173.
-Package beamerposter Info: textwidth=3414.3307pt, textheight=2475.38976pt on in
+Package beamerposter Info: textwidth=2475.38976pt, textheight=3414.3307pt on in
 put line 174.
 Package beamerposter Info: fontscale=1.0, myfontscale=1.00 on input line 175.
  ( FP-UPN ( FP-MUL )
@@ -1257,12 +1257,12 @@ LaTeX Font Info:    ... okay on input line 69.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 3385.87798pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 2503.84251pt, 0.0pt)
-* \paperwidth=3442.78346pt
-* \paperheight=2503.84251pt
-* \textwidth=3385.87798pt
-* \textheight=2475.38979pt
+* h-part:(L,W,R)=(28.45274pt, 2446.93703pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 3442.78346pt, 0.0pt)
+* \paperwidth=2503.84251pt
+* \paperheight=3442.78346pt
+* \textwidth=2446.93703pt
+* \textheight=3414.33073pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -1321,6 +1321,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 69.
 LaTeX Info: Redefining \pageref on input line 69.
 LaTeX Info: Redefining \nameref on input line 69.
+
+(./poster.out) (./poster.out)
 \@outlinefile=\write5
 
 \openout5 = poster.out
@@ -1372,33 +1374,86 @@ File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <6> on input line 69.
-<~/research/figures/DNP2021/cupid_array.png, id=15, 863.47594pt x 557.83406pt>
+<~/research/figures/prelim/2vbb_feynman.png, id=15, 488.57532pt x 335.00156pt>
+File: ~/research/figures/prelim/2vbb_feynman.png Graphic file (type png)
+<use ~/research/figures/prelim/2vbb_feynman.png>
+Package luatex.def Info: ~/research/figures/prelim/2vbb_feynman.png  used on in
+put line 371.
+(luatex.def)             Requested size: 262.9107pt x 180.2694pt.
+<~/research/figures/prelim/0vbb_feynman.png, id=16, 509.65407pt x 335.75438pt>
+File: ~/research/figures/prelim/0vbb_feynman.png Graphic file (type png)
+<use ~/research/figures/prelim/0vbb_feynman.png>
+Package luatex.def Info: ~/research/figures/prelim/0vbb_feynman.png  used on in
+put line 371.
+(luatex.def)             Requested size: 262.9107pt x 173.21pt.
+<~/research/figures/DNP2021/cupid_array.png, id=17, 863.47594pt x 557.83406pt>
 File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
 <use ~/research/figures/DNP2021/cupid_array.png>
 Package luatex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 333.
-(luatex.def)             Requested size: 361.50223pt x 233.53966pt.
-<~/research/figures/DNP2021/scintillation.png, id=16, 359.09157pt x 257.46187pt
+put line 371.
+(luatex.def)             Requested size: 300.45956pt x 194.10425pt.
+<~/research/figures/DNP2021/scintillation.png, id=18, 359.09157pt x 257.46187pt
 >
 File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
 <use ~/research/figures/DNP2021/scintillation.png>
 Package luatex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 333.
-(luatex.def)             Requested size: 361.50223pt x 259.20943pt.
-File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
-<use ~/research/figures/DNP2021/cupid_array.png>
-Package luatex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 333.
-(luatex.def)             Requested size: 361.50223pt x 233.53966pt.
-File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
-<use ~/research/figures/DNP2021/scintillation.png>
-Package luatex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 333.
-(luatex.def)             Requested size: 361.50223pt x 259.20943pt.
- (./poster.bbl) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+input line 371.
+(luatex.def)             Requested size: 300.45956pt x 215.43756pt.
+LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 371.
 
-</home/joey/research/figures/DNP2021/cupid_array.png></home/joey/research/figure
-s/DNP2021/scintillation.png>]
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.86> not available
+(Font)              size <24.88> substituted on input line 371.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <14.93> not available
+(Font)              size <14.4> substituted on input line 371.
+
+<~/research/figures/DNP2021/2vbb_2.jpg, id=19, 1421.31pt x 979.66pt>
+File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb_2.jpg>
+Package luatex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
+ine 371.
+(luatex.def)             Requested size: 751.16039pt x 517.76735pt.
+<~/research/figures/CNPday_poster/8MeV_TOF.png, id=20, 984.67876pt x 547.04375p
+t>
+File: ~/research/figures/CNPday_poster/8MeV_TOF.png Graphic file (type png)
+<use ~/research/figures/CNPday_poster/8MeV_TOF.png>
+Package luatex.def Info: ~/research/figures/CNPday_poster/8MeV_TOF.png  used on
+ input line 371.
+(luatex.def)             Requested size: 751.16039pt x 417.32684pt.
+<~/research/figures/CNPday_poster/nmontof.png, id=21, 1203.49625pt x 668.4975pt
+>
+File: ~/research/figures/CNPday_poster/nmontof.png Graphic file (type png)
+<use ~/research/figures/CNPday_poster/nmontof.png>
+Package luatex.def Info: ~/research/figures/CNPday_poster/nmontof.png  used on 
+input line 371.
+(luatex.def)             Requested size: 751.16039pt x 417.25908pt.
+<~/research/figures/CNPday_poster/twoplus.png, id=22, 1084.05pt x 602.25pt>
+File: ~/research/figures/CNPday_poster/twoplus.png Graphic file (type png)
+<use ~/research/figures/CNPday_poster/twoplus.png>
+Package luatex.def Info: ~/research/figures/CNPday_poster/twoplus.png  used on 
+input line 371.
+(luatex.def)             Requested size: 751.16039pt x 417.32654pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+\TU/Lato(1)/m/n/17.28 Time of flight spec-trum of events from TAN-DEM ac-cel-er-
+a-tor de-tected in HPGe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+\TU/Lato(1)/m/n/17.28 PSD vs TOF to val-i-date our TOF cut per-formed on data
+ []
+
+(./poster.bbl) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+</home/joey/research/figures/prelim/2vbb_feynman.png></home/joey/research/figure
+s/prelim/0vbb_feynman.png></home/joey/research/figures/DNP2021/cupid_array.png><
+/home/joey/research/figures/DNP2021/scintillation.png></home/joey/research/figur
+es/DNP2021/2vbb_2.jpg></home/joey/research/figures/CNPday_poster/8MeV_TOF.png></
+home/joey/research/figures/CNPday_poster/nmontof.png></home/joey/research/figure
+s/CNPday_poster/twoplus.png>]
 \tf@nav=\write6
 
 \openout6 = poster.nav
@@ -1408,37 +1463,34 @@ s/DNP2021/scintillation.png>]
 \tf@snm=\write8
 
 \openout8 = poster.snm
+ (./poster.aux)
 
-(./poster.aux)
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.98pt have occurred.
 
-Package rerunfilecheck Warning: File `poster.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `poster.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `poster.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40800 strings out of 477800
- 381533,1648299 words of node,token memory allocated
- 87379 words of node memory still in use:
-   540 hlist, 52 vlist, 68 rule, 571 disc, 95 local_par, 58 math, 2077 glue, 995
- kern, 249 penalty, 6289 glyph, 1608 attribute, 83 glue_spec, 1608 attribute_lis
-t, 4 write, 483 pdf_literal, 1 pdf_dest, 370 pdf_colorstack, 4 pdf_setmatrix, 4 
-pdf_save, 4 pdf_restore nodes
-   avail lists: 1:2,2:427,3:2266,4:1281,5:3105,6:296,7:25935,8:20,9:2130,10:26,1
-1:1741
- 59718 multiletter control sequences out of 65536+600000
- 108 fonts using 18248767 bytes
+ 40890 strings out of 477800
+ 381559,1648299 words of node,token memory allocated
+ 93423 words of node memory still in use:
+   748 hlist, 82 vlist, 127 rule, 551 disc, 105 local_par, 86 math, 2373 glue, 1
+046 kern, 277 penalty, 6226 glyph, 1872 attribute, 83 glue_spec, 1872 attribute_
+list, 4 write, 515 pdf_literal, 1 pdf_dest, 412 pdf_colorstack, 9 pdf_setmatrix,
+ 9 pdf_save, 9 pdf_restore nodes
+   avail lists: 1:2,2:427,3:2491,4:1407,5:3258,6:326,7:26718,8:59,9:3021,10:19,1
+1:1681
+ 59774 multiletter control sequences out of 65536+600000
+ 124 fonts using 19305343 bytes
  128i,18n,115p,726b,2798s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fonts
-/truetype/typoland/lato/Lato-Bold.ttf>{/usr/share/texmf-dist/fonts/enc/dvips/lm/
-lm-mathsy.enc}</usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItal
-ic.ttf></usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf>{/us
-r/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf-dist/fonts
-/truetype/typoland/lato/Lato-Light.ttf></usr/share/texmf-dist/fonts/opentype/imp
+/truetype/typoland/lato/Lato-Bold.ttf></usr/share/texmf-dist/fonts/truetype/typo
+land/lato/Lato-LightItalic.ttf></usr/share/texmf-dist/fonts/truetype/typoland/la
+to/Lato-Regular.ttf></usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-Lig
+ht.ttf>{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf
+-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf-dist/fonts/opentype/imp
 allari/raleway/Raleway-Regular.otf></usr/share/texmf-dist/fonts/opentype/impalla
 ri/raleway/Raleway-Bold.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share
@@ -1446,9 +1498,9 @@ m/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share
 public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr
 /share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on poster.pdf (1 page, 336119 bytes).
+Output written on poster.pdf (1 page, 636683 bytes).
 
-PDF statistics: 104 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 113 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
