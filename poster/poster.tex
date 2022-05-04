@@ -9,7 +9,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[size=custom,width=88,height=121,scale=1.0]{beamerposter} 
+\usepackage[size=custom,width=88,height=91,scale=1.0]{beamerposter} 
 % these dimensions are centimeters (checked PDF properties)
 % we want to make a 4'x3' (121cmx91cm) poster with 1/2" margins on the height
 %  then use a 121cmx88cm widthxheight poster
@@ -49,7 +49,7 @@
 % ====================
 
 \footercontent{
-  \href{https://www.example.com}{https://www.example.com} \hfill
+  % \href{https://www.example.com}{https://www.example.com} \hfill
   Center for Neutrino Phyiscs Research Day 2022, Blacksburg, VA  \hfill
   \href{mailto:jcamilleri@vt.edu}{jcamilleri@vt.edu}}
 % (can be left out to remove footer)
@@ -59,8 +59,8 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
-% \logoright{\includegraphics[height=7cm]{logo1.pdf}}
-% \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
+\logoright{\includegraphics[height=7cm]{~/research/figures/CNPday_poster/vtlogo.png}}
+\logoleft{\includegraphics[height=7cm]{~/research/figures/CNPday_poster/logo_cupid.png}}
 
 % ====================
 % Body
@@ -89,10 +89,10 @@
       
       \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
         
-        \column{.5\linewidth} % Left column and width
+        \column{.4\colwidth} % Left column and width
         \textcolor{blue} {obeys lepton number conservation} 
         
-        \column{.5\linewidth} % Right column and width
+        \column{.4\colwidth} % Right column and width
         \textcolor{red} {allowed for majorana fermions, but relativistically-suppressed}
         
       \end{columns}
@@ -100,26 +100,27 @@
       \vspace{1cm}
     \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
         
-        \column{.35\linewidth} % Left column and width
-        \includegraphics[width=\linewidth]{~/research/figures/prelim/2vbb_feynman.png}
-        {\footnotesize Two-neutrino double beta decay}
+        \column{.35\colwidth} % Left column and width
+        \includegraphics[width=.35\colwidth]{~/research/figures/prelim/2vbb_feynman.png}
+        {\footnotesize Two-neutrino double beta decay $T_{1/2}^{2\nu\beta\beta} \sim 10^{19}-10^{24} yr$}
         
-        \column{.35\linewidth} % Right column and width
-        \includegraphics[width=\linewidth]{~/research/figures/prelim/0vbb_feynman.png}
-        {\footnotesize Neutrino-less double beta decay}
+        \column{.35\colwidth} % Right column and width
+        \includegraphics[width=.35\colwidth]{~/research/figures/prelim/0vbb_feynman.png}
+        {\footnotesize Neutrino-less double beta decay $T_{1/2}^{0\nu\beta\beta} > 10^{26} yr$}
         
     \end{columns}
   \end{block}
+
   \begin{block}{CUPID experiment}
     \vspace{2cm}
     \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
       
-      \column{.4\linewidth} % Left column and width
-      \includegraphics[width=\linewidth]{~/research/figures/DNP2021/cupid_array.png}
+      \column{.4\colwidth} % Left column and width
+      \includegraphics[width=.4\colwidth]{~/research/figures/CNPday_poster/cryostat.png}
       % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
       
-      \column{.4\linewidth} % Right column and width
-      \includegraphics[width=\linewidth]{~/research/figures/DNP2021/scintillation.png}
+      \column{.5\colwidth} % Right column and width
+      \includegraphics[width=.5\colwidth]{~/research/figures/DNP2021/scintillation.png}
       % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
       
     \end{columns}
@@ -130,232 +131,113 @@
       \item Aims to eliminate dominant background of alpha particles present in CUORE via thermal + scintillation signals.
       \item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
     \end{itemize}
-    \begin{eqnarray*}
-    F_{0\nu} \propto  \left[ a\epsilon \sqrt{\frac{Mt}{\textcolor{red}{b}\Delta}}\right]
-    \end{eqnarray*}
 
-    \begin{center}
-    \resizebox{10cm}{!}{         
-    \begin{tabular}{||c c||} 
-     \hline
-     M & source mass (kg)\\  
-     \hline
-     b & \textcolor{red}{bkg index} $counts/(kg\cdot yr\cdot keV)$ \\ 
-     \hline
-     a & isotopic abundance ($\%$) \\
-     \hline
-     t & exposure (yr)  \\
-     \hline
-     $\Delta$ & energy resolution (keV)\\
-     \hline
-     $\epsilon$ & detection efficiency \\
-     \hline
-    \end{tabular}}
-    \end{center}
 
-  \end{block}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+      
+      \column{.4\colwidth} % Left column and width
+        \begin{eqnarray*}
+        F_{0\nu\beta\beta} \propto  \left[ a\epsilon \sqrt{\frac{Mt}{\textcolor{red}{b}\Delta}}\right]
+        \end{eqnarray*}      
+      
+      \column{.4\colwidth} % Right column and width
+        \begin{center}
+        \resizebox{10cm}{!}{         
+        \begin{tabular}{||c c||} 
+         \hline
+         M & source mass (kg)\\  
+         \hline
+         b & \textcolor{red}{bkg index} $counts/(kg\cdot yr\cdot keV)$ \\ 
+         \hline
+         a & isotopic abundance ($\%$) \\
+         \hline
+         t & exposure (yr)  \\
+         \hline
+         $\Delta$ & energy resolution (keV)\\
+         \hline
+         $\epsilon$ & detection efficiency \\
+         \hline
+        \end{tabular}}
+        \end{center}
+      
+    \end{columns}
 
-  \begin{block}{Monte-Carlo simulation of $2\nu\beta\beta$}
-
-    Irreducible background has non-negligible rate in the CUPID array
-
-    \includegraphics[width=\linewidth]{~/research/figures/DNP2021/2vbb_2.jpg}
-
-    \begin{itemize}
-      \item \textbf{Mauris tempor} risus nulla, sed ornare
-      \item \textbf{Libero tincidunt} a duis congue vitae
-      \item \textbf{Dui ac pretium} morbi justo neque, ullamcorper
-    \end{itemize}
-
-    Eget augue porta, bibendum venenatis tortor.
 
   \end{block}
 
-  \begin{alertblock}{A highlighted block}
+  \begin{block}{Monte-Carlo simulations of CUPID array}
 
-    This block catches your eye, so \textbf{important stuff} should probably go
-    here.
+    CUPID's irreducible background is $2\nu\beta\beta$. This is an observed, but extrememly rare process like $0\nu\beta\beta$
+    \vspace{2cm}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+      
+      \column{.5\colwidth} % Left column and width
+      \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/gamma2.jpg}
+      \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/cupid_array.png}
+      % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+      
+      \column{.5\colwidth} % Right column and width
+      \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/u238.jpg}
+      % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+      
+    \end{columns}
 
-    Curabitur eu libero vehicula, cursus est fringilla, luctus est. Morbi
-    consectetur mauris quam, at finibus elit auctor ac. Aliquam erat volutpat.
-    Aenean at nisl ut ex ullamcorper eleifend et eu augue. Aenean quis velit
-    tristique odio convallis ultrices a ac odio.
 
-    \begin{itemize}
-      \item \textbf{Fusce dapibus tellus} vel tellus semper finibus. In
-        consequat, nibh sed mattis luctus, augue diam fermentum lectus.
-      \item \textbf{In euismod erat metus} non ex. Vestibulum luctus augue in
-        mi condimentum, at sollicitudin lorem viverra.
-      \item \textbf{Suspendisse vulputate} mauris vel placerat consectetur.
-        Mauris semper, purus ac hendrerit molestie, elit mi dignissim odio, in
-        suscipit felis sapien vel ex.
-    \end{itemize}
+  \end{block}
 
-    Aenean tincidunt risus eros, at gravida lorem sagittis vel. Vestibulum ante
-    ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
-
-  \end{alertblock}
+  
 
 \end{column}
 
 \separatorcolumn
 
 \begin{column}{\colwidth}
-
+      
+      \begin{eqnarray*}
+      ^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb \ ...
+      \end{eqnarray*}
+      $T_{1/2} \ ^{214}$Po $\sim$ 160$\mu$s \ \ $T_{1/2} \ ^{214}$Bi $\sim$ 20 minutes
+    \includegraphics[width=0.8\colwidth]{~/research/figures/DNP2021/2vbb_2.jpg}
+  
   \begin{block}{Neutron activation at DUKE: TUNL TANDEM beam}
-    \includegraphics[width=\linewidth]{~/research/figures/CNPday_poster/8MeV_TOF.png}
-      {\footnotesize Time of flight spectrum of events from TANDEM accelerator detected in HPGe}
-   \includegraphics[width=\linewidth]{~/research/figures/CNPday_poster/nmontof.png}
+
+  \vspace{2cm}
+  \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+      
+      \column{.4\colwidth} % Left column and width
+      \includegraphics[width=.4\colwidth]{~/research/figures/CNPday_poster/TUNL.png}
+      {\footnotesize TUNL's neutron beam apparatus}    
+      
+      \column{.5\colwidth} % Right column and width
+      \includegraphics[width=.5\colwidth]{~/research/figures/CNPday_poster/8MeV_TOF.png}
+      {\footnotesize Time of flight spectrum of events from TANDEM accelerator detected in HPGe} 
+  \end{columns}
+
+
+   \includegraphics[width=0.8\colwidth]{~/research/figures/CNPday_poster/nmontof.png}
       {\footnotesize PSD vs TOF to validate our TOF cut performed on data}
-    \includegraphics[width=\linewidth]{~/research/figures/CNPday_poster/twoplus.png}
+
+
+ 
+  \end{block}
+
+  
+
+  
+
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+      \vspace{5cm}
+      \includegraphics[height=20cm]{~/research/figures/CNPday_poster/tunlphoto.jpg}
+      {\footnotesize From left to right: Daniel Mayer (MIT), Werner Tornow(Duke), Erin Hansen(Berkeley), Joe Camilleri (VT), Sean Finch (Duke)}
+      \includegraphics[width=0.9\colwidth]{~/research/figures/CNPday_poster/twoplus.png}
       {\footnotesize Neutron spectrum and first excited state of $^{100}Mo$}
 
-    \begin{enumerate}
-      \item \textbf{Morbi mauris purus}, egestas at vehicula et, convallis
-        accumsan orci. Orci varius natoque penatibus et magnis dis parturient
-        montes, nascetur ridiculus mus.
-      \item \textbf{Cras vehicula blandit urna ut maximus}. Aliquam blandit nec
-        massa ac sollicitudin. Curabitur cursus, metus nec imperdiet bibendum,
-        velit lectus faucibus dolor, quis gravida metus mauris gravida turpis.
-      \item \textbf{Vestibulum et massa diam}. Phasellus fermentum augue non
-        nulla accumsan, non rhoncus lectus condimentum.
-    \end{enumerate}
 
-  \end{block}
-
-  \begin{block}{Fusce aliquam magna velit}
-
-    Et rutrum ex euismod vel. Pellentesque ultricies, velit in fermentum
-    vestibulum, lectus nisi pretium nibh, sit amet aliquam lectus augue vel
-    velit. Suspendisse rhoncus massa porttitor augue feugiat molestie. Sed
-    molestie ut orci nec malesuada. Sed ultricies feugiat est fringilla
-    posuere.
-
-    \begin{figure}
-      \centering
-      \begin{tikzpicture}
-        \begin{axis}[
-            scale only axis,
-            no markers,
-            domain=0:2*pi,
-            samples=100,
-            axis lines=center,
-            axis line style={-},
-            ticks=none]
-          \addplot[red] {sin(deg(x))};
-          \addplot[blue] {cos(deg(x))};
-        \end{axis}
-      \end{tikzpicture}
-      \caption{Another figure caption.}
-    \end{figure}
-
-  \end{block}
-
-  \begin{block}{Nam cursus consequat egestas}
-
-    Nulla eget sem quam. Ut aliquam volutpat nisi vestibulum convallis. Nunc a
-    lectus et eros facilisis hendrerit eu non urna. Interdum et malesuada fames
-    ac ante \textit{ipsum primis} in faucibus. Etiam sit amet velit eget sem
-    euismod tristique. Praesent enim erat, porta vel mattis sed, pharetra sed
-    ipsum. Morbi commodo condimentum massa, \textit{tempus venenatis} massa
-    hendrerit quis. Maecenas sed porta est. Praesent mollis interdum lectus,
-    sit amet sollicitudin risus tincidunt non.
-
-    Etiam sit amet tempus lorem, aliquet condimentum velit. Donec et nibh
-    consequat, sagittis ex eget, dictum orci. Etiam quis semper ante. Ut eu
-    mauris purus. Proin nec consectetur ligula. Mauris pretium molestie
-    ullamcorper. Integer nisi neque, aliquet et odio non, sagittis porta justo.
-
-    \begin{itemize}
-      \item \textbf{Sed consequat} id ante vel efficitur. Praesent congue massa
-        sed est scelerisque, elementum mollis augue iaculis.
-        \begin{itemize}
-          \item In sed est finibus, vulputate
-            nunc gravida, pulvinar lorem. In maximus nunc dolor, sed auctor eros
-            porttitor quis.
-          \item Fusce ornare dignissim nisi. Nam sit amet risus vel lacus
-            tempor tincidunt eu a arcu.
-          \item Donec rhoncus vestibulum erat, quis aliquam leo
-            gravida egestas.
-        \end{itemize}
-      \item \textbf{Sed luctus, elit sit amet} dictum maximus, diam dolor
-        faucibus purus, sed lobortis justo erat id turpis.
-      \item \textbf{Pellentesque facilisis dolor in leo} bibendum congue.
-        Maecenas congue finibus justo, vitae eleifend urna facilisis at.
-    \end{itemize}
-
-  \end{block}
-
-\end{column}
-
-\separatorcolumn
-
-\begin{column}{\colwidth}
-
-  \begin{exampleblock}{A highlighted block containing some math}
-
-    A different kind of highlighted block.
-
-    $$
-    \int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-    $$
-
-    Interdum et malesuada fames $\{1, 4, 9, \ldots\}$ ac ante ipsum primis in
-    faucibus. Cras eleifend dolor eu nulla suscipit suscipit. Sed lobortis non
-    felis id vulputate.
-
-    \heading{A heading inside a block}
-
-    Praesent consectetur mi $x^2 + y^2$ metus, nec vestibulum justo viverra
-    nec. Proin eget nulla pretium, egestas magna aliquam, mollis neque. Vivamus
-    dictum $\mathbf{u}^\intercal\mathbf{v}$ sagittis odio, vel porta erat
-    congue sed. Maecenas ut dolor quis arcu auctor porttitor.
-
-    \heading{Another heading inside a block}
-
-    Sed augue erat, scelerisque a purus ultricies, placerat porttitor neque.
-    Donec $P(y \mid x)$ fermentum consectetur $\nabla_x P(y \mid x)$ sapien
-    sagittis egestas. Duis eget leo euismod nunc viverra imperdiet nec id
-    justo.
-
-  \end{exampleblock}
-
-  \begin{block}{Nullam vel erat at velit convallis laoreet}
-
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-    inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
-    scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
-
-    \begin{table}
-      \centering
-      \begin{tabular}{l r r c}
-        \toprule
-        \textbf{First column} & \textbf{Second column} & \textbf{Third column} & \textbf{Fourth} \\
-        \midrule
-        Foo & 13.37 & 384,394 & $\alpha$ \\
-        Bar & 2.17 & 1,392 & $\beta$ \\
-        Baz & 3.14 & 83,742 & $\delta$ \\
-        Qux & 7.59 & 974 & $\gamma$ \\
-        \bottomrule
-      \end{tabular}
-      \caption{A table caption.}
-    \end{table}
-
-    Donec quis posuere ligula. Nunc feugiat elit a mi malesuada consequat. Sed
-    imperdiet augue ac nibh aliquet tristique. Aenean eu tortor vulputate,
-    eleifend lorem in, dictum urna. Proin auctor ante in augue tincidunt
-    tempor. Proin pellentesque vulputate odio, ac gravida nulla posuere
-    efficitur. Aenean at velit vel dolor blandit molestie. Mauris laoreet
-    commodo quam, non luctus nibh ullamcorper in. Class aptent taciti sociosqu
-    ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-    Nulla varius finibus volutpat. Mauris molestie lorem tincidunt, iaculis
-    libero at, gravida ante. Phasellus at felis eu neque suscipit suscipit.
-    Integer ullamcorper, dui nec pretium ornare, urna dolor consequat libero,
-    in feugiat elit lorem euismod lacus. Pellentesque sit amet dolor mollis,
-    auctor urna non, tempus sem.
-
-  \end{block}
+  
 
   \begin{block}{References}
 
