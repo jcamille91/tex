@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651714565 "poster.tex" "poster.pdf" "poster" 1651714566
+["pdflatex"] 1651714879 "poster.tex" "poster.pdf" "poster" 1651714881
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-bold.luc" 1650568254 1525249 e0a830a564f2a485d03766ef813ad09e ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-bolditalic.luc" 1650568252 1554204 9848c02efc5b3a8d3a5ea5da12c2c1c2 ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-italic.luc" 1650568255 1580273 04522c4d05f7616da29b4184413e1e8c ""
@@ -24,7 +24,7 @@
   "/home/joey/research/figures/CNPday_poster/tunlphoto.jpg" 1651629092 3519241 8d2854a08bd05905447f032cf792057c ""
   "/home/joey/research/figures/CNPday_poster/twoplus.png" 1651556141 97454 805cdb908d696333421e2cc6cebebac6 ""
   "/home/joey/research/figures/CNPday_poster/vtlogo.png" 1651690331 30991 0a590b999029d51de9a4c6ccf8c2f1cf ""
-  "/home/joey/research/figures/DNP2021/2vbb_2.jpg" 1634321148 61179 edfccf21954db14cf4bfd1a21975f5e9 ""
+  "/home/joey/research/figures/DNP2021/2vbb.jpg" 1634321148 75692 02088ab010a08a0eda148cba09ffa9c4 ""
   "/home/joey/research/figures/DNP2021/cupid_array.png" 1634321148 74295 8d00a32f77814cd52b9f8ff3a6009e26 ""
   "/home/joey/research/figures/DNP2021/gamma2.jpg" 1634321148 56821 2d57498f5aac812ba1038dc610af8da6 ""
   "/home/joey/research/figures/DNP2021/muon_veto.png" 1634321148 49432 1110916ec7185ccbfadfbe3060dfb774 ""
@@ -372,10 +372,10 @@
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1650137445 4560030 5b1ecc3f49262f0c06b976d7808fe5e4 ""
   "beamercolorthemegemini.sty" 1650583721 1945 6e2e0a9e074c94530a8af22c58850896 ""
   "beamerthemegemini.sty" 1650583721 6726 3b1744dffda098b55e3ae32b8d66ec7a ""
-  "poster.aux" 1651714566 1119 1002c80bff2d4a480d225ebed1a05287 "pdflatex"
-  "poster.nav" 1651714566 307 9e520c26371a1250ff9fc1fe87f9c655 "pdflatex"
+  "poster.aux" 1651714881 1119 1002c80bff2d4a480d225ebed1a05287 "pdflatex"
+  "poster.nav" 1651714881 307 9e520c26371a1250ff9fc1fe87f9c655 "pdflatex"
   "poster.out" 0 -1 0 "pdflatex"
-  "poster.tex" 1651714561 12869 18212c0b982f7bbdabcbb452149c16b9 ""
+  "poster.tex" 1651714877 12874 1df2e5eaf8d6709bd15ea57cf2683dbe ""
   (generated)
   "poster.aux"
   "poster.log"

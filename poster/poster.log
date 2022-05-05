@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.4.16)  4 MAY 2022 21:36
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.4.16)  4 MAY 2022 21:41
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -1402,86 +1402,86 @@ nput line 69.
 File: ~/research/figures/prelim/2vbb_feynman.png Graphic file (type png)
 <use ~/research/figures/prelim/2vbb_feynman.png>
 Package luatex.def Info: ~/research/figures/prelim/2vbb_feynman.png  used on in
-put line 292.
+put line 293.
 (luatex.def)             Requested size: 262.9107pt x 180.2694pt.
 <~/research/figures/prelim/0vbb_feynman.png, id=17, 509.65407pt x 335.75438pt>
 File: ~/research/figures/prelim/0vbb_feynman.png Graphic file (type png)
 <use ~/research/figures/prelim/0vbb_feynman.png>
 Package luatex.def Info: ~/research/figures/prelim/0vbb_feynman.png  used on in
-put line 292.
+put line 293.
 (luatex.def)             Requested size: 262.9107pt x 173.21pt.
 <~/research/figures/CNPday_poster/cryostat.png, id=18, 451.6875pt x 556.32843pt
 >
 File: ~/research/figures/CNPday_poster/cryostat.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/cryostat.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/cryostat.png  used on
- input line 292.
+ input line 293.
 (luatex.def)             Requested size: 300.45956pt x 370.08958pt.
 <~/research/figures/DNP2021/scintillation.png, id=19, 359.09157pt x 257.46187pt
 >
 File: ~/research/figures/DNP2021/scintillation.png Graphic file (type png)
 <use ~/research/figures/DNP2021/scintillation.png>
 Package luatex.def Info: ~/research/figures/DNP2021/scintillation.png  used on 
-input line 292.
+input line 293.
 (luatex.def)             Requested size: 375.58018pt x 269.30186pt.
 <~/research/figures/DNP2021/cupid_array.png, id=20, 863.47594pt x 557.83406pt>
 File: ~/research/figures/DNP2021/cupid_array.png Graphic file (type png)
 <use ~/research/figures/DNP2021/cupid_array.png>
 Package luatex.def Info: ~/research/figures/DNP2021/cupid_array.png  used on in
-put line 292.
+put line 293.
 (luatex.def)             Requested size: 338.01987pt x 218.37154pt.
 <~/research/figures/DNP2021/muon_veto.png, id=21, 754.31813pt x 469.755pt>
 File: ~/research/figures/DNP2021/muon_veto.png Graphic file (type png)
 <use ~/research/figures/DNP2021/muon_veto.png>
 Package luatex.def Info: ~/research/figures/DNP2021/muon_veto.png  used on inpu
-t line 292.
+t line 293.
 (luatex.def)             Requested size: 338.01987pt x 210.49898pt.
 <~/research/figures/DNP2021/gamma2.jpg, id=22, 1322.9425pt x 979.66pt>
 File: ~/research/figures/DNP2021/gamma2.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/gamma2.jpg>
 Package luatex.def Info: ~/research/figures/DNP2021/gamma2.jpg  used on input l
-ine 292.
+ine 293.
 (luatex.def)             Requested size: 375.58018pt x 278.11478pt.
 <~/research/figures/DNP2021/u238.jpg, id=23, 1275.76625pt x 979.66pt>
 File: ~/research/figures/DNP2021/u238.jpg Graphic file (type jpg)
 <use ~/research/figures/DNP2021/u238.jpg>
 Package luatex.def Info: ~/research/figures/DNP2021/u238.jpg  used on input lin
-e 292.
+e 293.
 (luatex.def)             Requested size: 375.58018pt x 288.39926pt.
-<~/research/figures/DNP2021/2vbb_2.jpg, id=24, 1421.31pt x 979.66pt>
-File: ~/research/figures/DNP2021/2vbb_2.jpg Graphic file (type jpg)
-<use ~/research/figures/DNP2021/2vbb_2.jpg>
-Package luatex.def Info: ~/research/figures/DNP2021/2vbb_2.jpg  used on input l
-ine 292.
-(luatex.def)             Requested size: 600.93059pt x 414.20491pt.
+<~/research/figures/DNP2021/2vbb.jpg, id=24, 1645.14626pt x 979.66pt>
+File: ~/research/figures/DNP2021/2vbb.jpg Graphic file (type jpg)
+<use ~/research/figures/DNP2021/2vbb.jpg>
+Package luatex.def Info: ~/research/figures/DNP2021/2vbb.jpg  used on input lin
+e 293.
+(luatex.def)             Requested size: 600.93059pt x 357.83453pt.
 <~/research/figures/CNPday_poster/TUNL.png, id=25, 515.67656pt x 508.90125pt>
 File: ~/research/figures/CNPday_poster/TUNL.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/TUNL.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/TUNL.png  used on inp
-ut line 292.
+ut line 293.
 (luatex.def)             Requested size: 375.58018pt x 370.65619pt.
 <~/research/figures/CNPday_poster/8MeV_TOF.png, id=26, 984.67876pt x 547.04375p
 t>
 File: ~/research/figures/CNPday_poster/8MeV_TOF.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/8MeV_TOF.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/8MeV_TOF.png  used on
- input line 292.
+ input line 293.
 (luatex.def)             Requested size: 375.58018pt x 208.65506pt.
 <~/research/figures/CNPday_poster/tunlphoto.jpg, id=27, 4095.3pt x 3083.52pt>
 File: ~/research/figures/CNPday_poster/tunlphoto.jpg Graphic file (type jpg)
 <use ~/research/figures/CNPday_poster/tunlphoto.jpg>
 Package luatex.def Info: ~/research/figures/CNPday_poster/tunlphoto.jpg  used o
-n input line 292.
+n input line 293.
 (luatex.def)             Requested size: 755.74399pt x 569.05511pt.
 <~/research/figures/CNPday_poster/nmontof.png, id=28, 692.5875pt x 441.14813pt>
 
 File: ~/research/figures/CNPday_poster/nmontof.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/nmontof.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/nmontof.png  used on 
-input line 292.
+input line 293.
 (luatex.def)             Requested size: 751.16039pt x 478.47249pt.
 
-Overfull \hbox (4.5836pt too wide) in paragraph at lines 292--292
+Overfull \hbox (4.5836pt too wide) in paragraph at lines 293--293
 [][] 
  []
 
@@ -1489,21 +1489,17 @@ Overfull \hbox (4.5836pt too wide) in paragraph at lines 292--292
 File: ~/research/figures/CNPday_poster/twoplus.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/twoplus.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/twoplus.png  used on 
-input line 292.
+input line 293.
 (luatex.def)             Requested size: 751.16039pt x 417.32654pt.
-
-Overfull \vbox (4.77628pt too high) detected at line 292
- []
-
 File: ~/research/figures/CNPday_poster/logo_cupid.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/logo_cupid.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/logo_cupid.png  used 
-on input line 292.
+on input line 293.
 (luatex.def)             Requested size: 231.03569pt x 199.16928pt.
 File: ~/research/figures/CNPday_poster/vtlogo.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/vtlogo.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/vtlogo.png  used on i
-nput line 292.
+nput line 293.
 (luatex.def)             Requested size: 487.55426pt x 113.81102pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1514,10 +1510,10 @@ igures/CNPday_poster/cryostat.png></home/joey/research/figures/DNP2021/scintilla
 tion.png></home/joey/research/figures/DNP2021/cupid_array.png></home/joey/resear
 ch/figures/DNP2021/muon_veto.png></home/joey/research/figures/DNP2021/gamma2.jpg
 ></home/joey/research/figures/DNP2021/u238.jpg></home/joey/research/figures/DNP2
-021/2vbb_2.jpg></home/joey/research/figures/CNPday_poster/TUNL.png></home/joey/r
-esearch/figures/CNPday_poster/8MeV_TOF.png></home/joey/research/figures/CNPday_p
-oster/tunlphoto.jpg></home/joey/research/figures/CNPday_poster/nmontof.png></hom
-e/joey/research/figures/CNPday_poster/twoplus.png>]
+021/2vbb.jpg></home/joey/research/figures/CNPday_poster/TUNL.png></home/joey/res
+earch/figures/CNPday_poster/8MeV_TOF.png></home/joey/research/figures/CNPday_pos
+ter/tunlphoto.jpg></home/joey/research/figures/CNPday_poster/nmontof.png></home/
+joey/research/figures/CNPday_poster/twoplus.png>]
 \tf@nav=\write6
 
 \openout6 = poster.nav
@@ -1534,14 +1530,14 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  40458 strings out of 477800
- 305229,1648299 words of node,token memory allocated
- 64526 words of node memory still in use:
-   663 hlist, 76 vlist, 102 rule, 374 disc, 69 local_par, 152 math, 1542 glue, 8
-76 kern, 191 penalty, 4028 glyph, 1258 attribute, 83 glue_spec, 1258 attribute_l
+ 305239,1648299 words of node,token memory allocated
+ 64584 words of node memory still in use:
+   664 hlist, 76 vlist, 102 rule, 374 disc, 70 local_par, 152 math, 1546 glue, 8
+76 kern, 192 penalty, 4028 glyph, 1261 attribute, 83 glue_spec, 1261 attribute_l
 ist, 4 write, 296 pdf_literal, 214 pdf_colorstack, 17 pdf_setmatrix, 17 pdf_save
 , 17 pdf_restore nodes
-   avail lists: 1:1,2:473,3:1644,4:813,5:2709,6:217,7:17654,8:60,9:2673,10:18,11
-:1138
+   avail lists: 2:473,3:1647,4:813,5:2709,6:220,7:17666,8:61,9:2676,10:18,11:113
+8
  59278 multiletter control sequences out of 65536+600000
  99 fonts using 16296759 bytes
  128i,20n,115p,726b,1262s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1555,7 +1551,7 @@ pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/l
 mmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
 mf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 4998577 bytes).
+Output written on poster.pdf (1 page, 5013091 bytes).
 
 PDF statistics: 95 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
