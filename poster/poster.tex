@@ -38,7 +38,7 @@
 % Title
 % ====================
 
-\title{Addressing Backgrounds for CUPID on Three Fronts}
+\title{Addressing Backgrounds for CUPID}
 
 \author{Joseph Camilleri} %\inst{1} \and Ben Bitdiddle \inst{2} \and Lem E. Tweakit \inst{2}}
 
@@ -50,7 +50,7 @@
 
 \footercontent{
   % \href{https://www.example.com}{https://www.example.com} \hfill
-  Center for Neutrino Phyiscs Research Day 2022, Blacksburg, VA  \hfill
+  Center for Neutrino Physics Research Day 2022, Blacksburg, VA  \hfill
   \href{mailto:jcamilleri@vt.edu}{jcamilleri@vt.edu}}
 % (can be left out to remove footer)
 
@@ -59,7 +59,7 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
-\logoright{\includegraphics[height=7cm]{~/research/figures/CNPday_poster/vtlogo.png}}
+\logoright{\includegraphics[height=4cm]{~/research/figures/CNPday_poster/vtlogo.png}}
 \logoleft{\includegraphics[height=7cm]{~/research/figures/CNPday_poster/logo_cupid.png}}
 
 % ====================
@@ -127,7 +127,7 @@
 
     \begin{itemize}
       % \setlength\itemsep{2em}
-      \item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat\footnotemark .
+      \item Proposed $0\nu\beta\beta$ search using bolometric array of 1596 Li$_2$MoO$_4$ crystals, to be deployed in the CUORE \ cryostat.
       \item Aims to eliminate dominant background of alpha particles present in CUORE via thermal + scintillation signals.
       \item \textbf{Are new backgrounds introduced with using a new isotope for the bolometers?}
     \end{itemize}
@@ -166,18 +166,23 @@
   \end{block}
 
   \begin{block}{Monte-Carlo simulations of CUPID array}
-
-    CUPID's irreducible background is $2\nu\beta\beta$. This is an observed, but extrememly rare process like $0\nu\beta\beta$
-    \vspace{2cm}
+    \begin{itemize}
+    \item In CUPID, there is a competing optimization between rejecting muon events and mislabelling independent $2\nu\beta\beta$ decays as multiplicity 2 events. 
+    \item Using simple considerations of potential muon veto geometry, increasing distance cut will help reject muons, but contributes to mislabelling $2\nu\beta\beta$.
+    \item This conflict is present in CUPID and not CUORE because the $2\nu\beta\beta$ half-life in $T_{1/2}^{2\nu\beta\beta} = 7.1* 10^{18} yr$ is several orders of magnitude lower.
+    \end{itemize}
+    % \vspace{2cm}
     \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
       
       \column{.5\colwidth} % Left column and width
-      \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/gamma2.jpg}
+      % \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/gamma2.jpg}
       \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/cupid_array.png}
       % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
       
       \column{.5\colwidth} % Right column and width
-      \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/u238.jpg}
+      \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/muon_veto.png}
+
+      % \includegraphics[width=.45\colwidth]{~/research/figures/DNP2021/u238.jpg}
       % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
       
     \end{columns}
@@ -193,19 +198,46 @@
 
 \begin{column}{\colwidth}
       
+
+      \begin{itemize}
+      \item To validate detector geometry implementation, we studied how certain physics processes were affected by changing high level analysis cuts.
+      \begin{itemize}
+      \item[\textcolor{blue}{\textbullet}] Integration Time: amount of time after a trigger to sum amplitude contribution.
+      \item[\textcolor{blue}{\textbullet}] Distance Cut: distance that specifies  n-events occuring inside this radius simultaneously as having n-multiplicity.
+      \end{itemize}
+      \item 2.6MeV $\gamma$ rays should have multiple scatters in detector, uranium-238 has consecutive decays that are easy to disentangle from other time scales in the chain.
+      \end{itemize}
       \begin{eqnarray*}
-      ^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \\ ^{214}Bi \xrightarrow{\beta} \  ^{214}Po \xrightarrow{\alpha} \ ^{210}Pb \ ...
+        ^{238}U \xrightarrow{\alpha} \  ^{234}Th \xrightarrow \  ... \ \textcolor{green}{^{214}Bi} \xrightarrow{\textcolor{blue}{\beta}} \  \textcolor{green}{^{214}Po} \xrightarrow{\textcolor{red}{\alpha}} \ ^{210}Pb \ ...
       \end{eqnarray*}
-      $T_{1/2} \ ^{214}$Po $\sim$ 160$\mu$s \ \ $T_{1/2} \ ^{214}$Bi $\sim$ 20 minutes
+      $T_{1/2} \ ^{214}$Po $\sim$ 160$\mu$s \hspace{2cm} $T_{1/2} \ ^{214}$Bi $\sim$ 20 minutes
+    
+      \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+      
+        \column{.5\colwidth} % Left column and width
+        \includegraphics[width=.5\colwidth]{~/research/figures/DNP2021/gamma2.jpg}
+        % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+        
+        \column{.5\colwidth} % Right column and width
+        \includegraphics[width=.5\colwidth]{~/research/figures/DNP2021/u238.jpg}
+        % {\footnotesize Rendering of proposed CUPID array of Li$_2$MoO$_4$ crystals}
+      
+      \end{columns}
+      \vspace{1cm}
+
+    We simulate 1 million $2\nu\beta\beta$ decays occuring in the detector with different combinations of distance cut and integration time. We recover some efficiencies similar to CUORE. We also see a threshold where tagging efficiency starts to become sensitive to the integration time; this is where future simultaneous optimizations will occur with other time-sensitive backgrounds. We aim to implement the full muon veto geometry and now compare with this result to do a preliminary optimization of the distance cut.
     \includegraphics[width=0.8\colwidth]{~/research/figures/DNP2021/2vbb_2.jpg}
   
   \begin{block}{Neutron activation at DUKE: TUNL TANDEM beam}
 
-  \vspace{2cm}
+  \vspace{1cm}
+  An additional background source (also related to muons) is the presence of dexcitation gammas of any isotopes present in the bolometers. The detector is operated near 10mK so in principle these lines are not a problem. However, muons are known to interact with the detector assembly and the experimental hall itself and generate fast neutrons, which can excite isotopes in the detector. 
+
+
   \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
       
-      \column{.4\colwidth} % Left column and width
-      \includegraphics[width=.4\colwidth]{~/research/figures/CNPday_poster/TUNL.png}
+      \column{.5\colwidth} % Left column and width
+      \includegraphics[width=.5\colwidth]{~/research/figures/CNPday_poster/TUNL.png}
       {\footnotesize TUNL's neutron beam apparatus}    
       
       \column{.5\colwidth} % Right column and width
@@ -213,9 +245,8 @@
       {\footnotesize Time of flight spectrum of events from TANDEM accelerator detected in HPGe} 
   \end{columns}
 
+  At TUNL's TANDEM neutron beamline, a $^2 H(d,n)^3 He$ reaction is used to produce energetic neutrons. In particular, for our runs, we took data at 4.3, 5.9, and 8 MeV. Gamma rays are captured by an array of 4 HPGe detectors. The quality of the beam is monitored by a separate neutron monitor (liquid scintillator with dedicated HPGe).
 
-   \includegraphics[width=0.8\colwidth]{~/research/figures/CNPday_poster/nmontof.png}
-      {\footnotesize PSD vs TOF to validate our TOF cut performed on data}
 
 
  
@@ -231,20 +262,28 @@
 
 \begin{column}{\colwidth}
       \vspace{5cm}
+      
       \includegraphics[height=20cm]{~/research/figures/CNPday_poster/tunlphoto.jpg}
-      {\footnotesize From left to right: Daniel Mayer (MIT), Werner Tornow(Duke), Erin Hansen(Berkeley), Joe Camilleri (VT), Sean Finch (Duke)}
-      \includegraphics[width=0.9\colwidth]{~/research/figures/CNPday_poster/twoplus.png}
-      {\footnotesize Neutron spectrum and first excited state of $^{100}Mo$}
-
+      {\footnotesize From left to right: Daniel Mayer (MIT), Werner Tornow (Duke), Erin Hansen (Berkeley), Joe Camilleri (VT), Sean Finch (Duke)}
+      \includegraphics[width=\colwidth]{~/research/figures/CNPday_poster/nmontof.png}
+      % {\footnotesize PSD vs TOF to validate our TOF cut performed on data}
+     \\
+      For our analysis, we use a plot of a pulse-shape metric vs the time of flight to determine if prompt events are neutron correlated. $\gamma$'s are produced when the deutron beam impacts the pressurized deuterium chamber, which is the lower left cluster. The larger cluster with a more positive PSD is consistent with neutron events. This cluster is in agreement with our time of flight peak we see in the data.
+      \includegraphics[width=\colwidth]{~/research/figures/CNPday_poster/twoplus.png}
+      \begin{itemize}
+      \item Analysis of the spectrum is currently in progress, with plans to do relative measurement $\sigma_{Mo} \ =  n_{Mo} / n_{Fe} \cdot\sigma_{Fe}$
+      \item We can see a strong peak around 536keV that only appears in our enriched molybdate data ($^{100} Mo$). This is very likely the \textbf{$2+\rightarrow 0+$} dexcitation.
+      \item In particular, we are searching for higher order $^{100}Mo$ dexcitations and lower order contributions from $^{16}0$ which occur between 6-8MeV.
+      \end{itemize}
 
   
 
-  \begin{block}{References}
+  % \begin{block}{References}
 
-    \nocite{*}
-    \footnotesize{\bibliographystyle{plain}\bibliography{poster}}
+  %   \nocite{*}
+  %   \footnotesize{\bibliographystyle{plain}\bibliography{poster}}
 
-  \end{block}
+  % \end{block}
 
 \end{column}
 

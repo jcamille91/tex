@@ -1,12 +1,5 @@
 # Fdb version 3
-["bibtex poster"] 1651630287 "poster.aux" "poster.bbl" "poster" 1651632082
-  "/usr/share/texmf-dist/bibtex/bst/base/plain.bst" 1647844622 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "poster.aux" 1651632081 1252 6794f2d2d46c254b8b9567fdb7d88785 "pdflatex"
-  "poster.bib" 1650583721 235 6d9f7970dd54b7263028c7c9348909f0 ""
-  (generated)
-  "poster.bbl"
-  "poster.blg"
-["pdflatex"] 1651632080 "poster.tex" "poster.pdf" "poster" 1651632082
+["pdflatex"] 1651714565 "poster.tex" "poster.pdf" "poster" 1651714566
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-bold.luc" 1650568254 1525249 e0a830a564f2a485d03766ef813ad09e ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-bolditalic.luc" 1650568252 1554204 9848c02efc5b3a8d3a5ea5da12c2c1c2 ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-italic.luc" 1650568255 1580273 04522c4d05f7616da29b4184413e1e8c ""
@@ -21,7 +14,7 @@
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/raleway-bold.luc" 1650568250 251348 3655ae1ac731de5e977430c8b7b55309 ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/raleway-regular-italic.luc" 1650568250 220899 2db83226ba2f50e6473f4f2ff318a8c8 ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/raleway-regular.luc" 1650568250 250411 3fc50cdc711073e3eeed04cb7fdc475e ""
-  "/home/joey/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1650568257 4128 115a0bb281cdbe2caa42f71393eb5057 ""
+  "/home/joey/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1651701566 4217 56ba726bb3d9df34175f8e18432284db ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1650568249 360535 8d3886d76ef0cd4ad38ea0d834f16d35 ""
   "/home/joey/research/figures/CNPday_poster/8MeV_TOF.png" 1651463681 52601 a469ed3274dc81fd9b51f8382ea6f100 ""
   "/home/joey/research/figures/CNPday_poster/TUNL.png" 1651624336 89258 de0b866f19f146941c8d4ce12a6b1960 ""
@@ -30,10 +23,11 @@
   "/home/joey/research/figures/CNPday_poster/nmontof.png" 1651618534 154861 c3098938df159d8b7382f8b8072421ce ""
   "/home/joey/research/figures/CNPday_poster/tunlphoto.jpg" 1651629092 3519241 8d2854a08bd05905447f032cf792057c ""
   "/home/joey/research/figures/CNPday_poster/twoplus.png" 1651556141 97454 805cdb908d696333421e2cc6cebebac6 ""
-  "/home/joey/research/figures/CNPday_poster/vtlogo.png" 1651628343 5779 d834d9d9648a99faee10d978febcf1f4 ""
+  "/home/joey/research/figures/CNPday_poster/vtlogo.png" 1651690331 30991 0a590b999029d51de9a4c6ccf8c2f1cf ""
   "/home/joey/research/figures/DNP2021/2vbb_2.jpg" 1634321148 61179 edfccf21954db14cf4bfd1a21975f5e9 ""
   "/home/joey/research/figures/DNP2021/cupid_array.png" 1634321148 74295 8d00a32f77814cd52b9f8ff3a6009e26 ""
   "/home/joey/research/figures/DNP2021/gamma2.jpg" 1634321148 56821 2d57498f5aac812ba1038dc610af8da6 ""
+  "/home/joey/research/figures/DNP2021/muon_veto.png" 1634321148 49432 1110916ec7185ccbfadfbe3060dfb774 ""
   "/home/joey/research/figures/DNP2021/scintillation.png" 1634321148 98457 344d84776e3e605e072a478ae8496f59 ""
   "/home/joey/research/figures/DNP2021/u238.jpg" 1634321148 52926 7b599caf9a79f4e81e1bf94020aa4c17 ""
   "/home/joey/research/figures/prelim/0vbb_feynman.png" 1636065194 19491 d922ca41b5f1ace0036b2019ab97a9c8 ""
@@ -63,7 +57,6 @@
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm" 1647844622 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm" 1647844622 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
   "/usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf" 1647808283 644556 90e1d3559ac52f7f0f77a86e1bfd632d ""
-  "/usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf" 1647808283 658212 7e9668b13f86893fb0a4a6e35965c107 ""
   "/usr/share/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf" 1647808283 657212 3b9b99039cc0a98dd50c3cbfac57ccb2 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1647844622 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1647844622 30696 2654571912f9cd384da9f7cb8a60c568 ""
@@ -379,11 +372,10 @@
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1650137445 4560030 5b1ecc3f49262f0c06b976d7808fe5e4 ""
   "beamercolorthemegemini.sty" 1650583721 1945 6e2e0a9e074c94530a8af22c58850896 ""
   "beamerthemegemini.sty" 1650583721 6726 3b1744dffda098b55e3ae32b8d66ec7a ""
-  "poster.aux" 1651632081 1252 6794f2d2d46c254b8b9567fdb7d88785 "pdflatex"
-  "poster.bbl" 1651630287 224 0c88876528be380fa87e30a1f810603c "bibtex poster"
-  "poster.nav" 1651632081 307 9e520c26371a1250ff9fc1fe87f9c655 "pdflatex"
+  "poster.aux" 1651714566 1119 1002c80bff2d4a480d225ebed1a05287 "pdflatex"
+  "poster.nav" 1651714566 307 9e520c26371a1250ff9fc1fe87f9c655 "pdflatex"
   "poster.out" 0 -1 0 "pdflatex"
-  "poster.tex" 1651632077 8809 b20a5dea8bd736db933513a41245f7b6 ""
+  "poster.tex" 1651714561 12869 18212c0b982f7bbdabcbb452149c16b9 ""
   (generated)
   "poster.aux"
   "poster.log"
