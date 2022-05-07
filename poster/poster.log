@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.4.16)  4 MAY 2022 21:41
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.4.16)  5 MAY 2022 14:43
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -1460,26 +1460,25 @@ File: ~/research/figures/CNPday_poster/TUNL.png Graphic file (type png)
 Package luatex.def Info: ~/research/figures/CNPday_poster/TUNL.png  used on inp
 ut line 293.
 (luatex.def)             Requested size: 375.58018pt x 370.65619pt.
-<~/research/figures/CNPday_poster/8MeV_TOF.png, id=26, 984.67876pt x 547.04375p
-t>
+<~/research/figures/CNPday_poster/8MeV_TOF.png, id=26, 1084.05pt x 602.25pt>
 File: ~/research/figures/CNPday_poster/8MeV_TOF.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/8MeV_TOF.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/8MeV_TOF.png  used on
  input line 293.
-(luatex.def)             Requested size: 375.58018pt x 208.65506pt.
+(luatex.def)             Requested size: 375.58018pt x 208.65866pt.
 <~/research/figures/CNPday_poster/tunlphoto.jpg, id=27, 4095.3pt x 3083.52pt>
 File: ~/research/figures/CNPday_poster/tunlphoto.jpg Graphic file (type jpg)
 <use ~/research/figures/CNPday_poster/tunlphoto.jpg>
 Package luatex.def Info: ~/research/figures/CNPday_poster/tunlphoto.jpg  used o
 n input line 293.
 (luatex.def)             Requested size: 755.74399pt x 569.05511pt.
-<~/research/figures/CNPday_poster/nmontof.png, id=28, 692.5875pt x 441.14813pt>
-
+<~/research/figures/CNPday_poster/nmontof.png, id=28, 700.11563pt x 437.38406pt
+>
 File: ~/research/figures/CNPday_poster/nmontof.png Graphic file (type png)
 <use ~/research/figures/CNPday_poster/nmontof.png>
 Package luatex.def Info: ~/research/figures/CNPday_poster/nmontof.png  used on 
 input line 293.
-(luatex.def)             Requested size: 751.16039pt x 478.47249pt.
+(luatex.def)             Requested size: 751.16039pt x 469.3044pt.
 
 Overfull \hbox (4.5836pt too wide) in paragraph at lines 293--293
 [][] 
@@ -1530,14 +1529,14 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  40458 strings out of 477800
- 305239,1648299 words of node,token memory allocated
- 64584 words of node memory still in use:
-   664 hlist, 76 vlist, 102 rule, 374 disc, 70 local_par, 152 math, 1546 glue, 8
-76 kern, 192 penalty, 4028 glyph, 1261 attribute, 83 glue_spec, 1261 attribute_l
+ 305223,1648299 words of node,token memory allocated
+ 64557 words of node memory still in use:
+   663 hlist, 76 vlist, 102 rule, 376 disc, 70 local_par, 154 math, 1548 glue, 8
+68 kern, 195 penalty, 4021 glyph, 1264 attribute, 83 glue_spec, 1264 attribute_l
 ist, 4 write, 296 pdf_literal, 214 pdf_colorstack, 17 pdf_setmatrix, 17 pdf_save
 , 17 pdf_restore nodes
-   avail lists: 2:473,3:1647,4:813,5:2709,6:220,7:17666,8:61,9:2676,10:18,11:113
-8
+   avail lists: 1:1,2:473,3:1656,4:813,5:2685,6:220,7:17657,8:60,9:2673,10:18,11
+:1144
  59278 multiletter control sequences out of 65536+600000
  99 fonts using 16296759 bytes
  128i,20n,115p,726b,1262s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1551,7 +1550,7 @@ pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/l
 mmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
 mf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 5013091 bytes).
+Output written on poster.pdf (1 page, 5019687 bytes).
 
 PDF statistics: 95 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

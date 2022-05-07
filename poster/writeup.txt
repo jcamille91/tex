@@ -1,0 +1,23 @@
+BLOCK 1 --------------------
+the past 100 years of study of beta decay are currently consistent with both majorana or dirac neutrinos. because of the neutrino's vanishingly small mass, the only neutrinos observed or created in the lab are ultra-relativistic. from experiment we have observed that most if not all neutrinos from decay of W bosons enter left handed (and anti neutrinos enter right handed). in the ultra relativistic case that we have to live with for the forseeable future, the helicity and chirality align, so we can take our neutrinos to be chirally left handed as well.
+
+in the majorana case (charge conjugation invariance), neutrinos get a majorana mass where the  coupling of right handed to left handed neutrinos is no longer an issue. the creation and annihilation operators in the neutrino field are now identical, so in principle, the second term allows an absorption of an anti neutrino, which scatters off a W boson and creates a positron.
+
+unfortunately, an  absorption of an anti neutrino, or the second term in the charged current lagrangian, is forbidden because of the projection operator.
+
+Then we are therefore unable to tell if neutrinos are majorana or dirac with our current ability to observe neutrino energy scales. (mention PTOLEMY maybe)
+
+
+BLOCK 2 -----------------------
+
+because the half lives of both 2νββ and 0νββ are so incredibly long, we require a large sum of isotopic mass to have any chance of measureing such a process. This is measured by the sensitivity to 0νββ which depends on the target mass, isotopic abundance, . for CUPID we propose building a massive array of lithium molybdate crystals and cool them to cryogenic temperatures. in principle, this new detection scheme is an upgrade to CUORE (reject alpha particle backgrounds), but we need to thoroughly check that there are no new backgrounds introduced that offset our gains due to dealing with the alpha particles.
+
+So first, we did a monte carlo study of the irreducible background in the experiment, 2νββ events. for CUPID, molybdenum 100 is the target isotope and has essentially the fastest rate of occuring.
+
+cupid and cuore have a limitation in the coverage of their muon veto because of the feedthroughs for the dilution refrigerator. this implies that muons that bypass the muon veto will likely be far apart in the crystals that they deposit energy into. The there is a competing optimizatio between the rejection of muons and the incorrect labelling of 2νββ events.
+
+to study this optimization, we started by verifying our detector geometry in a montecarlo simulation. our two high level analysis cuts are the integration time and the distance cut. we used millions of simulated 2.6 Mev gamma rays to observe trends in multiplicity 1 yields when changing the distance cut. for reference, one crystal is 4cm by 4cm by 4cm???? i can't remember this exacty figure, oh well
+
+BLOCK 3 --------------------------
+
+apart from CUPID's irreducible background and direct events contributed from muon's, there is also potentially for gamma dexcitations in our detector isotopes. in particular, we are concerned about fast neutrons that are released from interactions due to muons with the experimental hall along with our detector assembly. with this in mind, in januaray we went to TUNL to measure potential

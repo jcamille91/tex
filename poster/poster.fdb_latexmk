@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651714879 "poster.tex" "poster.pdf" "poster" 1651714881
+["pdflatex"] 1651776194 "poster.tex" "poster.pdf" "poster" 1651776196
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-bold.luc" 1650568254 1525249 e0a830a564f2a485d03766ef813ad09e ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-bolditalic.luc" 1650568252 1554204 9848c02efc5b3a8d3a5ea5da12c2c1c2 ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lato-italic.luc" 1650568255 1580273 04522c4d05f7616da29b4184413e1e8c ""
@@ -16,11 +16,11 @@
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/fonts/otl/raleway-regular.luc" 1650568250 250411 3fc50cdc711073e3eeed04cb7fdc475e ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1651701566 4217 56ba726bb3d9df34175f8e18432284db ""
   "/home/joey/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1650568249 360535 8d3886d76ef0cd4ad38ea0d834f16d35 ""
-  "/home/joey/research/figures/CNPday_poster/8MeV_TOF.png" 1651463681 52601 a469ed3274dc81fd9b51f8382ea6f100 ""
+  "/home/joey/research/figures/CNPday_poster/8MeV_TOF.png" 1651776127 61498 59be3a1a7ae6da1c251e2034741298dc ""
   "/home/joey/research/figures/CNPday_poster/TUNL.png" 1651624336 89258 de0b866f19f146941c8d4ce12a6b1960 ""
   "/home/joey/research/figures/CNPday_poster/cryostat.png" 1651613663 448801 9092c3bb27a7b9551fde22dd24b5903e ""
   "/home/joey/research/figures/CNPday_poster/logo_cupid.png" 1651613512 112507 8221cdb97db103c38e31486cd44f3a68 ""
-  "/home/joey/research/figures/CNPday_poster/nmontof.png" 1651618534 154861 c3098938df159d8b7382f8b8072421ce ""
+  "/home/joey/research/figures/CNPday_poster/nmontof.png" 1651776189 156818 d6091b7f5507c11d064f89250c209426 ""
   "/home/joey/research/figures/CNPday_poster/tunlphoto.jpg" 1651629092 3519241 8d2854a08bd05905447f032cf792057c ""
   "/home/joey/research/figures/CNPday_poster/twoplus.png" 1651556141 97454 805cdb908d696333421e2cc6cebebac6 ""
   "/home/joey/research/figures/CNPday_poster/vtlogo.png" 1651690331 30991 0a590b999029d51de9a4c6ccf8c2f1cf ""
@@ -372,10 +372,10 @@
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1650137445 4560030 5b1ecc3f49262f0c06b976d7808fe5e4 ""
   "beamercolorthemegemini.sty" 1650583721 1945 6e2e0a9e074c94530a8af22c58850896 ""
   "beamerthemegemini.sty" 1650583721 6726 3b1744dffda098b55e3ae32b8d66ec7a ""
-  "poster.aux" 1651714881 1119 1002c80bff2d4a480d225ebed1a05287 "pdflatex"
-  "poster.nav" 1651714881 307 9e520c26371a1250ff9fc1fe87f9c655 "pdflatex"
+  "poster.aux" 1651776195 1119 1002c80bff2d4a480d225ebed1a05287 "pdflatex"
+  "poster.nav" 1651776195 307 9e520c26371a1250ff9fc1fe87f9c655 "pdflatex"
   "poster.out" 0 -1 0 "pdflatex"
-  "poster.tex" 1651714877 12874 1df2e5eaf8d6709bd15ea57cf2683dbe ""
+  "poster.tex" 1651775891 12878 fb4fd026e92c1407ccc1c377c78dd3d6 ""
   (generated)
   "poster.aux"
   "poster.log"
